@@ -90,19 +90,18 @@ To generate two-sample minimum junction sets, run:
 * `unexplained` (`UNEXPLAINED_2-SAMPLE_DIR`) containing unexplained subset of all two-sample junctions
 * `developmental` (`DEVELOPMENTAL_2-SAMPLE_DIR`) containing developmentally-occuring subset of all two-sample junctions
 
-——
-Data analyses:
+6. To perform additional set membership analyses using `set_membership_analysis.py`, run:
 
-Analyze set memberships
-python set_membership_analysis.py -o OUTPUT_DIRECTORY -s FULL_PIECHART_DIRECTORY
+        python3 set_membership_analysis.py -o OUTPUT_DIR -s FULL_PIECHART_DIR
 
-Note: creates directory FULL_PIECHART_DIRECTORY/true_TCGA_prevalence_files populated with non-core-normal junctions for use in Figures S1B and S1C
+`FULL_PIECHART_DIR` will now contain:
+* `unexplained` (`UNEXPLAINED_DIR`) containing unexplained subset of all single-read junctions
+* `developmental` (`DEVELOPMENTAL_DIR`) containing developmentally-occuring subset of all single-read junctions
+* `true_TCGA_prevalence_files` (`TCGA_PREVALENCE_DIR`) containing non-core-normal junctions
 
-count SRA experiments:
-python count_unique_SRA_expts.py -c SNAPTRON_CANCER_EXPTLIST_DIRECTORY -n SNAPTRON_NONCANCER_EXPTLIST_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY
+To tally SRA experiments using `count_unique_SRA_expts.py`, run:
 
-——
-
+        python3 count_unique_SRA_expts.py -c SNAPTRON_CANCER_EXPTLIST_DIR -n SNAPTRON_NONCANCER_EXPTLIST_DIR -o FIGURE_OUTPUT_DIR
 
 ### Figure generation
 
