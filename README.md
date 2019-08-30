@@ -6,7 +6,7 @@ Code here reproduces analyses and figures from "Putatively cancer-specific alter
 ### Software
 We ran Python scripts with Python 3.6.6, which we installed as part of [Anaconda](https://www.anaconda.com/) 5.2.0. We made use of the third-party modules `intervaltree` 2.1.0 and `seaborn` 0.9.0.
 
-We ran R scripts with R 3.6.1 and made use of `Data.table` 1.12.2, `ggplot2` 3.2.1, `gridExtra` 2.3, `RColorBrewer` 1.1-2, and dplyr 0.8.3.
+We ran R scripts with R 3.6.1 and made use of `Data.table` 1.12.2, `ggplot2` 3.2.1, `gridExtra` 2.3, `RColorBrewer` 1.1-2, and `dplyr` 0.8.3.
 
 ### Data
 We downloaded exon-exon junction BEDs for GTEx and TCGA and accompanying metadata from [recount2](https://jhubiostatistics.shinyapps.io/recount/):
@@ -38,7 +38,7 @@ Collect TCGA junctions
 
 2. create junction index database by running jx_indexer in “index” mode
 
-jx_indexer.py -d DB_DIRECTORY index -c GTEx_JUNCTION_COVERAGE -C TCGA_JUNCTION_COVERAGE -b GTEx_JUNCTION_BED -B TCGA_JUNCTION_BED -p GTEx_PHEN -P TCGA_PHEN -s RECOUNT_SAMPLE_ID_FILE -g GENCODE_ANNOTATION_GTF
+```jx_indexer.py -d DB_DIRECTORY index -c GTEx_JUNCTION_COVERAGE -C TCGA_JUNCTION_COVERAGE -b GTEx_JUNCTION_BED -B TCGA_JUNCTION_BED -p GTEx_PHEN -P TCGA_PHEN -s RECOUNT_SAMPLE_ID_FILE -g GENCODE_ANNOTATION_GTF```
 
 3. run “experiment” mode on junction index database to collect junction files for analysis.
 jx_indexer.py -d DB_DIRECTORY experiment -o OUTPUT_DIRECTORY
