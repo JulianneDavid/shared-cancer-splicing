@@ -12,7 +12,6 @@ We further used [Snaptron](http://snaptron.cs.jhu.edu/) via its `qs` utility. To
 ```cd UTILITIES_DIRECTORY
 git clone https://github.com/ChristopherWilks/snaptron-experiments
 ```
-.
 
 ### Data
 We downloaded exon-exon junction BEDs for GTEx and TCGA and accompanying metadata from [recount2](https://jhubiostatistics.shinyapps.io/recount/):
@@ -35,29 +34,21 @@ Note we also made use of [metaSRA](http://metasra.biostat.wisc.edu/)'s ontology 
 
 ## Execution
 
-Collect TCGA junctions
+1. Create junction index database by running jx_indexer in `index` mode:
 
-1. Specify a directory DB_DIRECTORY to hold the junction database
+        python3 jx_indexer.py -d DB_DIR index -c GTEx_JUNCTION_COVERAGE -C TCGA_JUNCTION_COVERAGE -b GTEx_JUNCTION_BED -B TCGA_JUNCTION_BED -p GTEx_PHEN -P TCGA_PHEN -s RECOUNT_SAMPLE_IDS -g GENCODE_ANNOTATION_GTF
 
-2. create junction index database by running jx_indexer in “index” mode
+2. Run `experiment` mode on junction index database to collect junction files for analysis:
 
-```jx_indexer.py -d DB_DIRECTORY index -c GTEx_JUNCTION_COVERAGE -C TCGA_JUNCTION_COVERAGE -b GTEx_JUNCTION_BED -B TCGA_JUNCTION_BED -p GTEx_PHEN -P TCGA_PHEN -s RECOUNT_SAMPLE_ID_FILE -g GENCODE_ANNOTATION_GTF```
+        python3 jx_indexer.py -d DB_DIR experiment -o OUTPUT_DIR
 
-3. run “experiment” mode on junction index database to collect junction files for analysis.
-jx_indexer.py -d DB_DIRECTORY experiment -o OUTPUT_DIRECTORY
-
-Within OUTPUT_DIRECTORY, generates:
-ALL_JX_DIRECTORY for use in set membership annotation.
-
-NON_CORE_NORMAL_DIRECTORY, and NON_TISSUE_MATCHED_NORMAL_DIRECTORY for use in set membership annotation and Figures S3A, S3B, S4A, and S4B.
-
-COUNTS_PER_SAMPLE_DIRECTORY (junctions not found in core normals) to generate Figure 1B
-
-PREVALENCE_FILE_DIRECTORY (tcga cancer junctions not found in core normals with cancer-type prevalence, per cancer type) to generate Figures 2A, 2B, 2C, and S5
-
-FILTERED_NTM_JX_PER_SAMPLE_DIRECTORY (coverage- and annotation-filtered junctions not found in GTEx or TCGA tissue-matched normal samples) and FILTERED_NCN_JX_PER_SAMPLE_DIRECTORY (coverage- and annotation-filtered junctions not found in core normals) to generate Figure S1A
-
-ALL_JXS_PER_SAMPLE_DIRECTORY containing all junctions for TCGA SKCM normal samples, TCGA SKCM tumor samples, and GTEx bulk skin normal samples to generate Figure S7.
+`OUTPUT_DIR` will now contain:
+* `all_jxs` (`ALL_JX_DIR`) for use in set membership annotation;
+* `non-core-normal_jxs_per_sample` (`NON_CORE_NORMAL_DIR`) and `non-tissue-matched_jxs_per_sample` (`NON_TISSUE_MATCHED_NORMAL_DIR`) for use in set membership annotation and Figures S3A, S3B, S4A, and S4B;
+* `non-core-normal_counts_per_sample` (`COUNTS_PER_SAMPLE_DIR`) (junctions not found in core normals) to generate Figure 1B;
+* PREVALENCE_FILE_DIRECTORY (tcga cancer junctions not found in core normals with cancer-type prevalence, per cancer type) to generate Figures 2A, 2B, 2C, and S5
+* FILTERED_NTM_JX_PER_SAMPLE_DIRECTORY (coverage- and annotation-filtered junctions not found in GTEx or TCGA tissue-matched normal samples) and FILTERED_NCN_JX_PER_SAMPLE_DIRECTORY (coverage- and annotation-filtered junctions not found in core normals) to generate Figure S1A
+* ALL_JXS_PER_SAMPLE_DIRECTORY containing all junctions for TCGA SKCM normal samples, TCGA SKCM tumor samples, and GTEx bulk skin normal samples to generate Figure S7.
 
 ——
 Collect SRA junctions
