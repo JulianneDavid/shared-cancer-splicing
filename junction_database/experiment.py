@@ -10,7 +10,7 @@ except ModuleNotFoundError:
     )
     from utilities.utilities import _TCGA_CANCER_TYPES, _PHEN_TABLE, _PER
 from utilities.utilities import _JX_SAMP_TABLE, _CANCER_TYPES_PRIMARY
-from utilities.utilities import _TISSUE_TYPES, _JX_ANN_TABLE, _MATCHED_NORMALS
+from utilities.utilities import _JX_ANN_TABLE, _MATCHED_NORMALS
 
 
 def count_total_jxs(out_path, now, db_conn):
@@ -516,75 +516,6 @@ def count_and_collect_neojxs(batch_num, out_path, now, db_conn, non_gtex=False,
     logging.info('ending count neojxs both function\n')
     return
 
-#
-# def tissue_jx_prevs(tissue, db_conn, now, out_path, can_normals=False):
-#     """
-#
-#     :param tissue:
-#     :param db_conn:
-#     :param now:
-#     :param out_path:
-#     :return:
-#     """
-#     if tissue in _CANCER_TYPES_PRIMARY or _TISSUE_TYPES:
-#         tis_col_name = 'primary_type'
-#     elif tissue in _TCGA_CANCER_TYPES:
-#         tis_col_name = 'project_type_label'
-#     else:
-#         print('unknown tissue selected, returning')
-#         return
-#
-#     if tissue in _TISSUE_TYPES or can_normals:
-#         tn_flag = '1'
-#         name_flag = 'normal'
-#     else:
-#         tn_flag = '0'
-#         name_flag = 'tumor'
-#
-#     per_col = tissue + _PER
-#     sample_count_command = (
-#         'SELECT COUNT (*) FROM {} WHERE tumor_normal == {} '
-#         'AND {} == "{}";'.format(_PHEN_TABLE, tn_flag, tis_col_name, tissue)
-#     )
-#     count = pd.read_sql_query(sample_count_command, db_conn)
-#     count = count['COUNT (*)'][0]
-#     if count == 0:
-#         print('no samples, returning')
-#         return
-#
-#     print('\ncollecting info for {}:'.format(tissue))
-#
-#     select_command = (
-#         'SELECT {ja}.jx, {ja}.annotation, COUNT (phen_recount) FROM ('
-#         '   SELECT {js}.jx_id nonnorm_jxs, phen_recount FROM ('
-#         '       SELECT recount_id phen_recount FROM {sp} '
-#         '       WHERE {sp}.{tis_col} == "{tis}" '
-#         '       AND {sp}.tumor_normal == {tn}'
-#         '       ) '
-#         '   INNER JOIN {js} ON phen_recount == {js}.recount_id'
-#         '   ) '
-#         'INNER JOIN {ja} ON {ja}.jx_id==nonnorm_jxs GROUP BY ({ja}.jx_id);'
-#         ''.format(
-#             js=_JX_SAMP_TABLE, ja=_JX_ANN_TABLE, sp=_PHEN_TABLE,
-#             tis=tissue, tis_col=tis_col_name, tn=tn_flag
-#         )
-#     )
-#
-#     query_result = pd.read_sql_query(select_command, db_conn)
-#     col_rename = {'COUNT (phen_recount)': per_col}
-#     query_result.rename(columns=col_rename, inplace=True)
-#     query_result[per_col] = query_result[per_col] / count
-#     query_result = query_result.sort_values(by=[per_col], ascending=False)
-#
-#     jx_filename = (
-#         '{}_{}_all_jxs_with_prevs_{}.csv'.format(tissue, name_flag, now)
-#     )
-#     full_path = os.path.join(out_path, jx_filename)
-#     with open(full_path, 'w') as output:
-#         query_result.to_csv(output, index=False)
-#
-#     return
-
 
 def non_normal_jxs_prevs(batch_num, out_path, now, db_conn, index_db,
                          tcga_types=False, all_types=False, ann_filter=False):
@@ -715,7 +646,7 @@ def collect_data_for_analyses(batch_num, out_path, now, conn, index_db):
     os.makedirs(ntm_dir, exist_ok=True)
     count_and_collect_neojxs(
         batch_num, ntm_dir, now, conn, non_gtex=False, cov_filter=False,
-        ann_filter=False, jx_recount_id=False
+        ann_filter=False, jx_recount_id=False, print_counts=False
     )
 
     # For use in Figures 2A, 2B, 2C, and S5
