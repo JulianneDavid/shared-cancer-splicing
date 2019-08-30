@@ -635,17 +635,13 @@ def collect_data_for_analyses(batch_num, out_path, now, conn, index_db):
     collect_all_jxs(batch_num, all_jxs_dir, now, conn)
 
     # For use in Figs S3 and S4 and set membership annotation
-    ncn_dir = os.path.join(out_path, 'non-core-normal_jxs_per_sample')
-    os.makedirs(ncn_dir, exist_ok=True)
     count_and_collect_neojxs(
-        batch_num, ncn_dir, now, conn, non_gtex=True, cov_filter=False,
+        batch_num, out_path, now, conn, non_gtex=True, cov_filter=False,
         ann_filter=False, jx_recount_id=False
     )
     # For use in set membership annotation
-    ntm_dir = os.path.join(out_path, 'non-tissue-matched_jxs_per_sample')
-    os.makedirs(ntm_dir, exist_ok=True)
     count_and_collect_neojxs(
-        batch_num, ntm_dir, now, conn, non_gtex=False, cov_filter=False,
+        batch_num, out_path, now, conn, non_gtex=False, cov_filter=False,
         ann_filter=False, jx_recount_id=False, print_counts=False
     )
 
@@ -671,13 +667,13 @@ def collect_data_for_analyses(batch_num, out_path, now, conn, index_db):
 
     # For use in Fig S1
     count_and_collect_neojxs(
-        batch_num, out_path, now, conn, non_gtex=True, cov_filter=False,
-        ann_filter=False, jx_recount_id=False, addl_flag='FigS1_',
+        batch_num, out_path, now, conn, non_gtex=True, cov_filter=True,
+        ann_filter=True, jx_recount_id=False, addl_flag='FigS1a_',
         print_jxs=False
     )
     count_and_collect_neojxs(
-        batch_num, out_path, now, conn, non_gtex=False, cov_filter=False,
-        ann_filter=False, jx_recount_id=False, addl_flag='FigS1_',
+        batch_num, out_path, now, conn, non_gtex=False, cov_filter=True,
+        ann_filter=True, jx_recount_id=False, addl_flag='FigS1a_',
         print_jxs=False
     )
 
