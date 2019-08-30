@@ -82,7 +82,7 @@ Run `jx_indexer.py` in `experiment` mode on junction index to collect junction f
 * `unexplained` (`UNEXPLAINED_DIR`) containing unexplained subset of all single-read junctions
 * `developmental` (`DEVELOPMENTAL_DIR`) containing developmentally-occuring subset of all single-read junctions
 
-To generate two-sample minimum junction sets, run:
+To generate two-sample minimum junction sets (used in Figures S8B and S8C), run:
 
         python3 set_membership_annotation.py --db-path DB_DIR --snaptron-results SNAPTRON_NONCANCER_DIR -d ALL_JX_DIR -g NON_CORE_NORMAL_DIR -p NON_TISSUE_MATCHED_NORMAL_DIR --gtf-file GENCODE_ANNOTATION_GTF --single-read-jx-json 1_READ_TCGA_JX_JSON --cancer-sra-directory SNAPTRON_CANCER_DIR --cancer-gene-census CANCER_GENE_CENSUS --oncokb-cancer-genes ONCOKB_GENES --min-overall-set-count 2 -o 2-SAMPLE_PIECHART_DIR
 
