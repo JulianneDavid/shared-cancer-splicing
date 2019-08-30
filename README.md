@@ -64,13 +64,16 @@ where `UTILITIES_DIRECTORY` is where `snaptron-experiments` was previously clone
 * `SRA_cancer_rawresults` (`SNAPTRON_CANCER_DIR`) for cancer junction results
 * `SRA_cancer_exptlists` (`SNAPTRON_CANCER_EXPTLIST_DIR`) for cancer experiment lists 
 
+Run `jx_indexer.py` in `experiment` mode on junction index to collect junction files for analysis:
 
-——
-Data preparation
-Run 1-read TCGA junction collection 
-python collect_1-read_TCGA_jxs.py -C TCGA_JUNCTION_COVERAGE -B TCGA_JUNCTION_BED -o JSON_DIRECTORY
+        python3 jx_indexer.py -d DB_DIR experiment -o OUTPUT_DIR
+        
+5. Run `collect_1-read_TCGA_jxs.py` to collect single-read TCGA junction collection:
 
-Generates file single-read-tcga-jxs_json.txt in JSON_DIRECTORY for use in set membership annotation runs below.
+        python3 collect_1-read_TCGA_jxs.py -C TCGA_JUNCTION_COVERAGE -B TCGA_JUNCTION_BED -o JSON_DIR
+
+`JSON_DIR` will now contain:
+* `single-read-tcga-jxs_json.txt` containing single-read junctions for use in set membership annotation runs below, using `set_membership_annotation.py`.
 
 Add set membership/piechart annotation to full junction files:
 For primary data and figures:
