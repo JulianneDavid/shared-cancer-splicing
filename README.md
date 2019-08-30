@@ -34,11 +34,11 @@ Note we also made use of [metaSRA](http://metasra.biostat.wisc.edu/)'s ontology 
 
 ## Execution
 
-1. Create junction index database by running jx_indexer in `index` mode:
+1. Create TCGA and GTEx junction index by running `jx_indexer.py` in `index` mode:
 
         python3 jx_indexer.py -d DB_DIR index -c GTEx_JUNCTION_COVERAGE -C TCGA_JUNCTION_COVERAGE -b GTEx_JUNCTION_BED -B TCGA_JUNCTION_BED -p GTEx_PHEN -P TCGA_PHEN -s RECOUNT_SAMPLE_IDS -g GENCODE_ANNOTATION_GTF
 
-2. Run `experiment` mode on junction index database to collect junction files for analysis:
+2. Run `jx_indexer.py` in `experiment` mode on junction index to collect junction files for analysis:
 
         python3 jx_indexer.py -d DB_DIR experiment -o OUTPUT_DIR
 
@@ -50,16 +50,13 @@ Note we also made use of [metaSRA](http://metasra.biostat.wisc.edu/)'s ontology 
 * `FigS1a_non-core-normal_counts_per_sample` (`FILTERED_NTM_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in GTEx or TCGA tissue-matched normal samples) and `FigS1a_non-tissue-matched_counts_per_sample` (`FILTERED_NCN_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in core normals) to generate Figure S1A;
 * (`all_jxs_per_sample_paired_normals`) `ALL_JXS_PER_SAMPLE_DIR` containing all junctions for TCGA SKCM normal samples, TCGA SKCM tumor samples, and GTEx bulk skin normal samples to generate Figure S7.
 
-——
-Collect SRA junctions
+3. Call [this directory](SRA_junction_download/MetaSRA_queries) `METASRA_QUERY_FILES`. Run
 
-All MetaSRA query files are in this repo under SRA_junction_download/MetaSRA_queries. These files should be downloaded to directory METASRA_QUERY_FILES
+        python3 create_snaptron_queries.py -s METASRA_QUERY_FILES -i RECOUNT_SAMPLE_IDS -o LOGGING_OUTPUT_DIR -p SRA_JUNCTION_OUTPUT_DIR -u UTILITIES_DIR
 
-python create_snaptron_queries.py -s METASRA_QUERY_FILES -i RECOUNT_SAMPLE_ID_FILE -o LOGGING_OUTPUT_DIRECTORY -p SRA_JUNCTION_OUTPUT_DIRECTORY -u UTILITIES_DIRECTORY
+where `UTILITIES_DIRECTORY` is where `snaptron-experiments` was previously cloned (see Requirements). `SRA_JUNCTION_OUTPUT_DIR` is where the results will appear.
 
-Where UTILITIES_DIRECTORY is where snaptron-experiments was previously cloned; SRA_JUNCTION_OUTPUT_DIRECTORY is where the results will be stored.
-
-Run each SAMPLE_TYPE_indiv_chrom_batch_query_script.sh to collect SRA junctions.
+4. Run each SAMPLE_TYPE_indiv_chrom_batch_query_script.sh to collect SRA junctions.
 
 Output will be as follows:
 Non-cancer junction results will be saved in 
