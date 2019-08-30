@@ -1,0 +1,277 @@
+Entry	Entry name	Status	Protein names	Gene names	Organism	Length
+Q9BZJ0	CRNL1_HUMAN	reviewed	Crooked neck-like protein 1 (Crooked neck homolog) (hCrn)	CRNKL1 CRN CGI-201 MSTP021	Homo sapiens (Human)	848
+Q92841	DDX17_HUMAN	reviewed	Probable ATP-dependent RNA helicase DDX17 (EC 3.6.4.13) (DEAD box protein 17) (DEAD box protein p72) (DEAD box protein p82) (RNA-dependent helicase p72)	DDX17	Homo sapiens (Human)	729
+O15234	CASC3_HUMAN	reviewed	Protein CASC3 (Cancer susceptibility candidate gene 3 protein) (Metastatic lymph node gene 51 protein) (MLN 51) (Protein barentsz) (Btz)	CASC3 MLN51	Homo sapiens (Human)	703
+Q86X95	CIR1_HUMAN	reviewed	Corepressor interacting with RBPJ 1 (CBF1-interacting corepressor) (Recepin)	CIR1 CIR	Homo sapiens (Human)	450
+Q9BRD0	BUD13_HUMAN	reviewed	BUD13 homolog	BUD13	Homo sapiens (Human)	619
+Q8WYA6	CTBL1_HUMAN	reviewed	Beta-catenin-like protein 1 (Nuclear-associated protein) (NAP) (Testis development protein NYD-SP19)	CTNNBL1 C20orf33 PP8304	Homo sapiens (Human)	563
+Q96MU7	YTDC1_HUMAN	reviewed	YTH domain-containing protein 1 (Splicing factor YT521) (YT521-B)	YTHDC1 KIAA1966 YT521	Homo sapiens (Human)	727
+P98175	RBM10_HUMAN	reviewed	RNA-binding protein 10 (G patch domain-containing protein 9) (RNA-binding motif protein 10) (RNA-binding protein S1-1) (S1-1)	RBM10 DXS8237E GPATC9 GPATCH9 KIAA0122	Homo sapiens (Human)	930
+Q96NB3	ZN830_HUMAN	reviewed	Zinc finger protein 830 (Coiled-coil domain-containing protein 16)	ZNF830 CCDC16	Homo sapiens (Human)	372
+Q8TAD8	SNIP1_HUMAN	reviewed	Smad nuclear-interacting protein 1 (FHA domain-containing protein SNIP1)	SNIP1	Homo sapiens (Human)	396
+Q53GS9	SNUT2_HUMAN	reviewed	U4/U6.U5 tri-snRNP-associated protein 2 (Inactive ubiquitin-specific peptidase 39) (SAD1 homolog) (U4/U6.U5 tri-snRNP-associated 65 kDa protein) (65K)	USP39 CGI-21 HSPC332 PRO2855	Homo sapiens (Human)	565
+A6NDE4	RBY1B_HUMAN	reviewed	RNA-binding motif protein, Y chromosome, family 1 member B	RBMY1B	Homo sapiens (Human)	496
+P62318	SMD3_HUMAN	reviewed	Small nuclear ribonucleoprotein Sm D3 (Sm-D3) (snRNP core protein D3)	SNRPD3	Homo sapiens (Human)	126
+P78362	SRPK2_HUMAN	reviewed	SRSF protein kinase 2 (EC 2.7.11.1) (SFRS protein kinase 2) (Serine/arginine-rich protein-specific kinase 2) (SR-protein-specific kinase 2) [Cleaved into: SRSF protein kinase 2 N-terminal; SRSF protein kinase 2 C-terminal]	SRPK2	Homo sapiens (Human)	688
+P09661	RU2A_HUMAN	reviewed	U2 small nuclear ribonucleoprotein A' (U2 snRNP A')	SNRPA1	Homo sapiens (Human)	255
+Q69YN4	VIR_HUMAN	reviewed	Protein virilizer homolog	VIRMA KIAA1429 MSTP054	Homo sapiens (Human)	1812
+P09012	SNRPA_HUMAN	reviewed	U1 small nuclear ribonucleoprotein A (U1 snRNP A) (U1-A) (U1A)	SNRPA	Homo sapiens (Human)	282
+O75312	ZPR1_HUMAN	reviewed	Zinc finger protein ZPR1 (Zinc finger protein 259)	ZPR1 ZNF259	Homo sapiens (Human)	459
+Q8NI27	THOC2_HUMAN	reviewed	THO complex subunit 2 (Tho2) (hTREX120)	THOC2 CXorf3	Homo sapiens (Human)	1593
+Q16637	SMN_HUMAN	reviewed	Survival motor neuron protein (Component of gems 1) (Gemin-1)	SMN1 SMN SMNT; SMN2 SMNC	Homo sapiens (Human)	294
+O95400	CD2B2_HUMAN	reviewed	CD2 antigen cytoplasmic tail-binding protein 2 (CD2 cytoplasmic domain-binding protein 2) (CD2 tail-binding protein 2) (U5 snRNP 52K protein) (U5-52K)	CD2BP2 KIAA1178	Homo sapiens (Human)	341
+Q07021	C1QBP_HUMAN	reviewed	Complement component 1 Q subcomponent-binding protein, mitochondrial (ASF/SF2-associated protein p32) (Glycoprotein gC1qBP) (C1qBP) (Hyaluronan-binding protein 1) (Mitochondrial matrix protein p32) (gC1q-R protein) (p33) (SF2AP32)	C1QBP GC1QBP HABP1 SF2P32	Homo sapiens (Human)	282
+Q92879	CELF1_HUMAN	reviewed	CUGBP Elav-like family member 1 (CELF-1) (50 kDa nuclear polyadenylated RNA-binding protein) (Bruno-like protein 2) (CUG triplet repeat RNA-binding protein 1) (CUG-BP1) (CUG-BP- and ETR-3-like factor 1) (Deadenylation factor CUG-BP) (Embryo deadenylation element-binding protein homolog) (EDEN-BP homolog) (RNA-binding protein BRUNOL-2)	CELF1 BRUNOL2 CUGBP CUGBP1 NAB50	Homo sapiens (Human)	486
+Q8N2M8	CLASR_HUMAN	reviewed	CLK4-associating serine/arginine rich protein (Splicing factor, arginine/serine-rich 16) (Suppressor of white-apricot homolog 2)	CLASRP SFRS16 SWAP2 UNQ2428/PRO4988	Homo sapiens (Human)	674
+P41223	BUD31_HUMAN	reviewed	Protein BUD31 homolog (Protein EDG-2) (Protein G10 homolog)	BUD31 EDG2	Homo sapiens (Human)	144
+P17844	DDX5_HUMAN	reviewed	Probable ATP-dependent RNA helicase DDX5 (EC 3.6.4.13) (DEAD box protein 5) (RNA helicase p68)	DDX5 G17P1 HELR HLR1	Homo sapiens (Human)	614
+Q8WUF8	F172A_HUMAN	reviewed	Cotranscriptional regulator FAM172A (Protein FAM172A)	FAM172A C5orf21	Homo sapiens (Human)	416
+Q99459	CDC5L_HUMAN	reviewed	Cell division cycle 5-like protein (Cdc5-like protein) (Pombe cdc5-related protein)	CDC5L KIAA0432 PCDC5RP	Homo sapiens (Human)	802
+P52298	NCBP2_HUMAN	reviewed	Nuclear cap-binding protein subunit 2 (20 kDa nuclear cap-binding protein) (Cell proliferation-inducing gene 55 protein) (NCBP 20 kDa subunit) (CBP20) (NCBP-interacting protein 1) (NIP1)	NCBP2 CBP20 PIG55	Homo sapiens (Human)	156
+O43395	PRPF3_HUMAN	reviewed	U4/U6 small nuclear ribonucleoprotein Prp3 (Pre-mRNA-splicing factor 3) (hPrp3) (U4/U6 snRNP 90 kDa protein)	PRPF3 HPRP3 PRP3	Homo sapiens (Human)	683
+Q15427	SF3B4_HUMAN	reviewed	Splicing factor 3B subunit 4 (Pre-mRNA-splicing factor SF3b 49 kDa subunit) (Spliceosome-associated protein 49) (SAP 49)	SF3B4 SAP49	Homo sapiens (Human)	424
+Q15415	RBY1F_HUMAN	reviewed	RNA-binding motif protein, Y chromosome, family 1 member F/J (Y chromosome RNA recognition motif 2)	RBMY1F YRRM2; RBMY1J	Homo sapiens (Human)	496
+Q9NWB1	RFOX1_HUMAN	reviewed	RNA binding protein fox-1 homolog 1 (Ataxin-2-binding protein 1) (Fox-1 homolog A) (Hexaribonucleotide-binding protein 1)	RBFOX1 A2BP A2BP1 FOX1 HRNBP1	Homo sapiens (Human)	397
+P09651	ROA1_HUMAN	reviewed	Heterogeneous nuclear ribonucleoprotein A1 (hnRNP A1) (Helix-destabilizing protein) (Single-strand RNA-binding protein) (hnRNP core protein A1) [Cleaved into: Heterogeneous nuclear ribonucleoprotein A1, N-terminally processed]	HNRNPA1 HNRPA1	Homo sapiens (Human)	372
+O75494	SRS10_HUMAN	reviewed	Serine/arginine-rich splicing factor 10 (40 kDa SR-repressor protein) (SRrp40) (FUS-interacting serine-arginine-rich protein 1) (Splicing factor SRp38) (Splicing factor, arginine/serine-rich 13A) (TLS-associated protein with Ser-Arg repeats) (TASR) (TLS-associated protein with SR repeats) (TLS-associated serine-arginine protein) (TLS-associated SR protein)	SRSF10 FUSIP1 FUSIP2 SFRS13A TASR	Homo sapiens (Human)	262
+Q9BRL6	SRSF8_HUMAN	reviewed	Serine/arginine-rich splicing factor 8 (Pre-mRNA-splicing factor SRP46) (Splicing factor SRp46) (Splicing factor, arginine/serine-rich 2B)	SRSF8 SFRS2B SRP46	Homo sapiens (Human)	282
+Q9UHX1	PUF60_HUMAN	reviewed	Poly(U)-binding-splicing factor PUF60 (60 kDa poly(U)-binding-splicing factor) (FUSE-binding protein-interacting repressor) (FBP-interacting repressor) (Ro-binding protein 1) (RoBP1) (Siah-binding protein 1) (Siah-BP1)	PUF60 FIR ROBPI SIAHBP1	Homo sapiens (Human)	559
+P18583	SON_HUMAN	reviewed	Protein SON (Bax antagonist selected in saccharomyces 1) (BASS1) (Negative regulatory element-binding protein) (NRE-binding protein) (Protein DBP-5) (SON3)	SON C21orf50 DBP5 KIAA1019 NREBP HSPC310 HSPC312	Homo sapiens (Human)	2426
+P62308	RUXG_HUMAN	reviewed	Small nuclear ribonucleoprotein G (snRNP-G) (Sm protein G) (Sm-G) (SmG)	SNRPG PBSCG	Homo sapiens (Human)	76
+Q9BRX9	WDR83_HUMAN	reviewed	WD repeat domain-containing protein 83 (Mitogen-activated protein kinase organizer 1) (MAPK organizer 1)	WDR83 MORG1	Homo sapiens (Human)	315
+Q01081	U2AF1_HUMAN	reviewed	Splicing factor U2AF 35 kDa subunit (U2 auxiliary factor 35 kDa subunit) (U2 small nuclear RNA auxiliary factor 1) (U2 snRNP auxiliary factor small subunit)	U2AF1 U2AF35 U2AFBP FP793	Homo sapiens (Human)	240
+Q8WU68	U2AF4_HUMAN	reviewed	Splicing factor U2AF 26 kDa subunit (U2 auxiliary factor 26) (U2 small nuclear RNA auxiliary factor 1-like protein 4) (U2AF1-like 4) (U2(RNU2) small nuclear RNA auxiliary factor 1-like protein 3) (U2 small nuclear RNA auxiliary factor 1-like protein 3) (U2AF1-like protein 3)	U2AF1L4 U2AF1-RS3 U2AF1L3	Homo sapiens (Human)	220
+Q13595	TRA2A_HUMAN	reviewed	Transformer-2 protein homolog alpha (TRA-2 alpha) (TRA2-alpha) (Transformer-2 protein homolog A)	TRA2A	Homo sapiens (Human)	282
+O95926	SYF2_HUMAN	reviewed	Pre-mRNA-splicing factor SYF2 (CCNDBP1-interactor) (p29)	SYF2 CBPIN GCIPIP	Homo sapiens (Human)	243
+P26368	U2AF2_HUMAN	reviewed	Splicing factor U2AF 65 kDa subunit (U2 auxiliary factor 65 kDa subunit) (hU2AF(65)) (hU2AF65) (U2 snRNP auxiliary factor large subunit)	U2AF2 U2AF65	Homo sapiens (Human)	475
+Q9Y2W2	WBP11_HUMAN	reviewed	WW domain-binding protein 11 (WBP-11) (Npw38-binding protein) (NpwBP) (SH3 domain-binding protein SNP70) (Splicing factor that interacts with PQBP-1 and PP1)	WBP11 NPWBP SIPP1 SNP70	Homo sapiens (Human)	641
+Q9NX01	TXN4B_HUMAN	reviewed	Thioredoxin-like protein 4B (Dim1-like protein)	TXNL4B DIM2 DLP	Homo sapiens (Human)	149
+Q15696	U2AFM_HUMAN	reviewed	U2 small nuclear ribonucleoprotein auxiliary factor 35 kDa subunit-related protein 2 (CCCH type zinc finger, RNA-binding motif and serine/arginine rich protein 2) (Renal carcinoma antigen NY-REN-20) (U2(RNU2) small nuclear RNA auxiliary factor 1-like 2) (U2AF35-related protein) (URP)	ZRSR2 U2AF1-RS2 U2AF1L2 U2AF1RS2 URP	Homo sapiens (Human)	482
+Q96E39	RMXL1_HUMAN	reviewed	RNA binding motif protein, X-linked-like-1 (Heterogeneous nuclear ribonucleoprotein G-like 1)	RBMXL1	Homo sapiens (Human)	390
+Q12872	SFSWA_HUMAN	reviewed	Splicing factor, suppressor of white-apricot homolog (Splicing factor, arginine/serine-rich 8) (Suppressor of white apricot protein homolog)	SFSWAP SFRS8 SWAP	Homo sapiens (Human)	951
+Q9UNP9	PPIE_HUMAN	reviewed	Peptidyl-prolyl cis-trans isomerase E (PPIase E) (EC 5.2.1.8) (Cyclophilin E) (Cyclophilin-33) (Rotamase E)	PPIE CYP33	Homo sapiens (Human)	301
+P07910	HNRPC_HUMAN	reviewed	Heterogeneous nuclear ribonucleoproteins C1/C2 (hnRNP C1/C2)	HNRNPC HNRPC	Homo sapiens (Human)	306
+Q00839	HNRPU_HUMAN	reviewed	Heterogeneous nuclear ribonucleoprotein U (hnRNP U) (GRIP120) (Nuclear p120 ribonucleoprotein) (Scaffold-attachment factor A) (SAF-A) (p120) (pp120)	HNRNPU C1orf199 HNRPU SAFA U21.1	Homo sapiens (Human)	825
+Q9Y333	LSM2_HUMAN	reviewed	U6 snRNA-associated Sm-like protein LSm2 (Protein G7b) (Small nuclear ribonuclear protein D homolog) (snRNP core Sm-like protein Sm-x5)	LSM2 C6orf28 G7B	Homo sapiens (Human)	95
+A6NEQ0	RBY1E_HUMAN	reviewed	RNA-binding motif protein, Y chromosome, family 1 member E	RBMY1E	Homo sapiens (Human)	496
+O43447	PPIH_HUMAN	reviewed	Peptidyl-prolyl cis-trans isomerase H (PPIase H) (EC 5.2.1.8) (Rotamase H) (Small nuclear ribonucleoprotein particle-specific cyclophilin H) (CypH) (U-snRNP-associated cyclophilin SnuCyp-20) (USA-CYP)	PPIH CYP20 CYPH	Homo sapiens (Human)	177
+Q9H875	PKRI1_HUMAN	reviewed	PRKR-interacting protein 1	PRKRIP1	Homo sapiens (Human)	184
+Q9Y4Z0	LSM4_HUMAN	reviewed	U6 snRNA-associated Sm-like protein LSm4 (Glycine-rich protein) (GRP)	LSM4	Homo sapiens (Human)	139
+P0C7P1	RBY1D_HUMAN	reviewed	RNA-binding motif protein, Y chromosome, family 1 member D	RBMY1D	Homo sapiens (Human)	496
+Q09161	NCBP1_HUMAN	reviewed	Nuclear cap-binding protein subunit 1 (80 kDa nuclear cap-binding protein) (CBP80) (NCBP 80 kDa subunit)	NCBP1 CBP80 NCBP	Homo sapiens (Human)	790
+Q9UKM9	RALY_HUMAN	reviewed	RNA-binding protein Raly (Autoantigen p542) (Heterogeneous nuclear ribonucleoprotein C-like 2) (hnRNP core protein C-like 2) (hnRNP associated with lethal yellow protein homolog)	RALY HNRPCL2 P542	Homo sapiens (Human)	306
+O95232	LC7L3_HUMAN	reviewed	Luc7-like protein 3 (Cisplatin resistance-associated-overexpressed protein) (Luc7A) (Okadaic acid-inducible phosphoprotein OA48-18) (cAMP regulatory element-associated protein 1) (CRE-associated protein 1) (CREAP-1)	LUC7L3 CREAP1 CROP O48	Homo sapiens (Human)	432
+Q8NDT2	RB15B_HUMAN	reviewed	Putative RNA-binding protein 15B (One-twenty two protein 3) (HsOTT3) (HuOTT3) (RNA-binding motif protein 15B)	RBM15B OTT3	Homo sapiens (Human)	890
+Q9BWF3	RBM4_HUMAN	reviewed	RNA-binding protein 4 (Lark homolog) (hLark) (RNA-binding motif protein 4) (RNA-binding motif protein 4a)	RBM4 RBM4A	Homo sapiens (Human)	364
+P62304	RUXE_HUMAN	reviewed	Small nuclear ribonucleoprotein E (snRNP-E) (Sm protein E) (Sm-E) (SmE)	SNRPE	Homo sapiens (Human)	92
+Q9BX46	RBM24_HUMAN	reviewed	RNA-binding protein 24 (RNA-binding motif protein 24) (RNA-binding region-containing protein 6)	RBM24 RNPC6	Homo sapiens (Human)	236
+Q9Y5S9	RBM8A_HUMAN	reviewed	RNA-binding protein 8A (Binder of OVCA1-1) (BOV-1) (RNA-binding motif protein 8A) (RNA-binding protein Y14) (Ribonucleoprotein RBM8A)	RBM8A RBM8 HSPC114 MDS014	Homo sapiens (Human)	174
+O94906	PRP6_HUMAN	reviewed	Pre-mRNA-processing factor 6 (Androgen receptor N-terminal domain-transactivating protein 1) (ANT-1) (PRP6 homolog) (U5 snRNP-associated 102 kDa protein) (U5-102 kDa protein)	PRPF6 C20orf14	Homo sapiens (Human)	941
+Q7RTV0	PHF5A_HUMAN	reviewed	PHD finger-like domain-containing protein 5A (PHD finger-like domain protein 5A) (Splicing factor 3B-associated 14 kDa protein) (SF3b14b)	PHF5A	Homo sapiens (Human)	110
+Q14684	RRP1B_HUMAN	reviewed	Ribosomal RNA processing protein 1 homolog B (RRP1-like protein B)	RRP1B KIAA0179	Homo sapiens (Human)	758
+Q9BWJ5	SF3B5_HUMAN	reviewed	Splicing factor 3B subunit 5 (SF3b5) (Pre-mRNA-splicing factor SF3b 10 kDa subunit)	SF3B5 SF3B10	Homo sapiens (Human)	86
+Q9Y3B4	SF3B6_HUMAN	reviewed	Splicing factor 3B subunit 6 (Pre-mRNA branch site protein p14) (SF3b 14 kDa subunit) (SF3B14a) (Spliceosome-associated protein, 14-kDa) (Splicing factor 3b, subunit 6, 14kDa)	SF3B6 SAP14 SF3B14 SF3B14A CGI-110 HSPC175 HT006	Homo sapiens (Human)	125
+Q9UQ35	SRRM2_HUMAN	reviewed	Serine/arginine repetitive matrix protein 2 (300 kDa nuclear matrix antigen) (Serine/arginine-rich splicing factor-related nuclear matrix protein of 300 kDa) (SR-related nuclear matrix protein of 300 kDa) (Ser/Arg-related nuclear matrix protein of 300 kDa) (Splicing coactivator subunit SRm300) (Tax-responsive enhancer element-binding protein 803) (TaxREB803)	SRRM2 KIAA0324 SRL300 SRM300 HSPC075	Homo sapiens (Human)	2752
+Q16629	SRSF7_HUMAN	reviewed	Serine/arginine-rich splicing factor 7 (Splicing factor 9G8) (Splicing factor, arginine/serine-rich 7)	SRSF7 SFRS7	Homo sapiens (Human)	238
+Q9H7N4	SFR19_HUMAN	reviewed	Splicing factor, arginine/serine-rich 19 (SR-related C-terminal domain-associated factor 1) (SR-related and CTD-associated factor 1) (SR-related-CTD-associated factor) (SCAF) (Serine arginine-rich pre-mRNA splicing factor SR-A1) (SR-A1)	SCAF1 SFRS19 SRA1	Homo sapiens (Human)	1312
+P51816	AFF2_HUMAN	reviewed	AF4/FMR2 family member 2 (Fragile X E mental retardation syndrome protein) (Fragile X mental retardation 2 protein) (FMR2P) (Protein FMR-2) (Protein Ox19)	AFF2 FMR2 OX19	Homo sapiens (Human)	1311
+P51991	ROA3_HUMAN	reviewed	Heterogeneous nuclear ribonucleoprotein A3 (hnRNP A3)	HNRNPA3 HNRPA3	Homo sapiens (Human)	378
+Q96LT9	RNPC3_HUMAN	reviewed	RNA-binding region-containing protein 3 (RNA-binding motif protein 40) (RNA-binding protein 40) (U11/U12 small nuclear ribonucleoprotein 65 kDa protein) (U11/U12 snRNP 65 kDa protein) (U11/U12-65K)	RNPC3 KIAA1839 RBM40 RNP SNRNP65	Homo sapiens (Human)	517
+Q13148	TADBP_HUMAN	reviewed	TAR DNA-binding protein 43 (TDP-43)	TARDBP TDP43	Homo sapiens (Human)	414
+P62312	LSM6_HUMAN	reviewed	U6 snRNA-associated Sm-like protein LSm6	LSM6	Homo sapiens (Human)	80
+P38919	IF4A3_HUMAN	reviewed	Eukaryotic initiation factor 4A-III (eIF-4A-III) (eIF4A-III) (EC 3.6.4.13) (ATP-dependent RNA helicase DDX48) (ATP-dependent RNA helicase eIF4A-3) (DEAD box protein 48) (Eukaryotic initiation factor 4A-like NUK-34) (Eukaryotic translation initiation factor 4A isoform 3) (Nuclear matrix protein 265) (NMP 265) (hNMP 265) [Cleaved into: Eukaryotic initiation factor 4A-III, N-terminally processed]	EIF4A3 DDX48 KIAA0111	Homo sapiens (Human)	411
+P17931	LEG3_HUMAN	reviewed	Galectin-3 (Gal-3) (35 kDa lectin) (Carbohydrate-binding protein 35) (CBP 35) (Galactose-specific lectin 3) (Galactoside-binding protein) (GALBP) (IgE-binding protein) (L-31) (Laminin-binding protein) (Lectin L-29) (Mac-2 antigen)	LGALS3 MAC2	Homo sapiens (Human)	250
+Q13523	PRP4B_HUMAN	reviewed	Serine/threonine-protein kinase PRP4 homolog (EC 2.7.11.1) (PRP4 kinase) (PRP4 pre-mRNA-processing factor 4 homolog)	PRPF4B KIAA0536 PRP4 PRP4H PRP4K	Homo sapiens (Human)	1007
+Q9H307	PININ_HUMAN	reviewed	Pinin (140 kDa nuclear and cell adhesion-related phosphoprotein) (Desmosome-associated protein) (Domain-rich serine protein) (DRS protein) (DRSP) (Melanoma metastasis clone A protein) (Nuclear protein SDK3) (SR-like protein)	PNN DRS MEMA	Homo sapiens (Human)	717
+P0DJD3	RBY1A_HUMAN	reviewed	RNA-binding motif protein, Y chromosome, family 1 member A1 (RNA-binding motif protein 1) (RNA-binding motif protein 2) (Y chromosome RNA recognition motif 1) (hRBMY)	RBMY1A1 RBM1 RBM2 YRRM1 YRRM2	Homo sapiens (Human)	496
+Q14498	RBM39_HUMAN	reviewed	RNA-binding protein 39 (CAPER alpha) (Hepatocellular carcinoma protein 1) (RNA-binding motif protein 39) (RNA-binding region-containing protein 2) (Splicing factor HCC1)	RBM39 HCC1 RNPC2	Homo sapiens (Human)	530
+O43251	RFOX2_HUMAN	reviewed	RNA binding protein fox-1 homolog 2 (Fox-1 homolog B) (Hexaribonucleotide-binding protein 2) (RNA-binding motif protein 9) (RNA-binding protein 9) (Repressor of tamoxifen transcriptional activity)	RBFOX2 FOX2 HRNBP2 RBM9 RTA	Homo sapiens (Human)	390
+Q12972	PP1R8_HUMAN	reviewed	Nuclear inhibitor of protein phosphatase 1 (NIPP-1) (Protein phosphatase 1 regulatory inhibitor subunit 8) [Includes: Activator of RNA decay (EC 3.1.4.-) (ARD-1)]	PPP1R8 ARD1 NIPP1	Homo sapiens (Human)	351
+Q9Y3C6	PPIL1_HUMAN	reviewed	Peptidyl-prolyl cis-trans isomerase-like 1 (PPIase) (EC 5.2.1.8) (Rotamase PPIL1)	PPIL1 CYPL1 CGI-124 UNQ2425/PRO4984	Homo sapiens (Human)	166
+Q6P2Q9	PRP8_HUMAN	reviewed	Pre-mRNA-processing-splicing factor 8 (220 kDa U5 snRNP-specific protein) (PRP8 homolog) (Splicing factor Prp8) (p220)	PRPF8 PRPC8	Homo sapiens (Human)	2335
+Q70CQ1	UBP49_HUMAN	reviewed	Ubiquitin carboxyl-terminal hydrolase 49 (EC 3.4.19.12) (Deubiquitinating enzyme 49) (Ubiquitin thioesterase 49) (Ubiquitin-specific-processing protease 49)	USP49	Homo sapiens (Human)	688
+Q9Y388	RBMX2_HUMAN	reviewed	RNA-binding motif protein, X-linked 2	RBMX2 CGI-79	Homo sapiens (Human)	322
+Q99590	SCAFB_HUMAN	reviewed	Protein SCAF11 (CTD-associated SR protein 11) (Renal carcinoma antigen NY-REN-40) (SC35-interacting protein 1) (SR-related and CTD-associated factor 11) (SRSF2-interacting protein) (Serine/arginine-rich splicing factor 2-interacting protein) (Splicing factor, arginine/serine-rich 2-interacting protein) (Splicing regulatory protein 129) (SRrp129)	SCAF11 CASP11 SFRS2IP SIP1 SRSF2IP	Homo sapiens (Human)	1463
+Q96IZ7	RSRC1_HUMAN	reviewed	Serine/Arginine-related protein 53 (SRrp53) (Arginine/serine-rich coiled-coil protein 1)	RSRC1 SRRP53 BM-011	Homo sapiens (Human)	334
+O75934	SPF27_HUMAN	reviewed	Pre-mRNA-splicing factor SPF27 (Breast carcinoma-amplified sequence 2) (DNA amplified in mammary carcinoma 1 protein) (Spliceosome-associated protein SPF 27)	BCAS2 DAM1	Homo sapiens (Human)	225
+Q9BW85	YJU2_HUMAN	reviewed	Splicing factor YJU2 (Coiled-coil domain-containing protein 94)	YJU2 CCDC94	Homo sapiens (Human)	323
+Q9BQ04	RBM4B_HUMAN	reviewed	RNA-binding protein 4B (RNA-binding motif protein 30) (RNA-binding motif protein 4B) (RNA-binding protein 30)	RBM4B RBM30	Homo sapiens (Human)	359
+Q8WXF0	SRS12_HUMAN	reviewed	Serine/arginine-rich splicing factor 12 (35 kDa SR repressor protein) (SRrp35) (Splicing factor, arginine/serine-rich 13B) (Splicing factor, arginine/serine-rich 19)	SRSF12 SFRS13B SFRS19 SRRP35	Homo sapiens (Human)	261
+P84103	SRSF3_HUMAN	reviewed	Serine/arginine-rich splicing factor 3 (Pre-mRNA-splicing factor SRP20) (Splicing factor, arginine/serine-rich 3)	SRSF3 SFRS3 SRP20	Homo sapiens (Human)	164
+Q92620	PRP16_HUMAN	reviewed	Pre-mRNA-splicing factor ATP-dependent RNA helicase PRP16 (EC 3.6.4.13) (ATP-dependent RNA helicase DHX38) (DEAH box protein 38)	DHX38 DDX38 KIAA0224 PRP16	Homo sapiens (Human)	1227
+P83876	TXN4A_HUMAN	reviewed	Thioredoxin-like protein 4A (DIM1 protein homolog) (Spliceosomal U5 snRNP-specific 15 kDa protein) (Thioredoxin-like U5 snRNP protein U5-15kD)	TXNL4A DIM1 TXNL4	Homo sapiens (Human)	142
+P0DJD4	RBY1C_HUMAN	reviewed	RNA-binding motif protein, Y chromosome, family 1 member C	RBMY1C	Homo sapiens (Human)	496
+O43172	PRP4_HUMAN	reviewed	U4/U6 small nuclear ribonucleoprotein Prp4 (PRP4 homolog) (hPrp4) (U4/U6 snRNP 60 kDa protein) (WD splicing factor Prp4)	PRPF4 PRP4	Homo sapiens (Human)	522
+P49756	RBM25_HUMAN	reviewed	RNA-binding protein 25 (Arg/Glu/Asp-rich protein of 120 kDa) (RED120) (Protein S164) (RNA-binding motif protein 25) (RNA-binding region-containing protein 7)	RBM25 RNPC7	Homo sapiens (Human)	843
+Q01130	SRSF2_HUMAN	reviewed	Serine/arginine-rich splicing factor 2 (Protein PR264) (Splicing component, 35 kDa) (Splicing factor SC35) (SC-35) (Splicing factor, arginine/serine-rich 2)	SRSF2 SFRS2	Homo sapiens (Human)	221
+Q9Y3F4	STRAP_HUMAN	reviewed	Serine-threonine kinase receptor-associated protein (MAP activator with WD repeats) (UNR-interacting protein) (WD-40 repeat protein PT-WD)	STRAP MAWD UNRIP	Homo sapiens (Human)	350
+Q12874	SF3A3_HUMAN	reviewed	Splicing factor 3A subunit 3 (SF3a60) (Spliceosome-associated protein 61) (SAP 61)	SF3A3 SAP61	Homo sapiens (Human)	501
+Q9BV90	SNR25_HUMAN	reviewed	U11/U12 small nuclear ribonucleoprotein 25 kDa protein (U11/U12 snRNP 25 kDa protein) (U11/U12-25K) (Minus-99 protein)	SNRNP25 C16orf33	Homo sapiens (Human)	132
+O75940	SPF30_HUMAN	reviewed	Survival of motor neuron-related-splicing factor 30 (30 kDa splicing factor SMNrp) (SMN-related protein) (Survival motor neuron domain-containing protein 1)	SMNDC1 SMNR SPF30	Homo sapiens (Human)	238
+Q96J01	THOC3_HUMAN	reviewed	THO complex subunit 3 (Tho3) (TEX1 homolog) (hTREX45)	THOC3	Homo sapiens (Human)	351
+Q96NC0	ZMAT2_HUMAN	reviewed	Zinc finger matrin-type protein 2	ZMAT2	Homo sapiens (Human)	199
+P52756	RBM5_HUMAN	reviewed	RNA-binding protein 5 (Protein G15) (Putative tumor suppressor LUCA15) (RNA-binding motif protein 5) (Renal carcinoma antigen NY-REN-9)	RBM5 H37 LUCA15	Homo sapiens (Human)	815
+Q13242	SRSF9_HUMAN	reviewed	Serine/arginine-rich splicing factor 9 (Pre-mRNA-splicing factor SRp30C) (Splicing factor, arginine/serine-rich 9)	SRSF9 SFRS9 SRP30C	Homo sapiens (Human)	221
+Q15020	SART3_HUMAN	reviewed	Squamous cell carcinoma antigen recognized by T-cells 3 (SART-3) (Tat-interacting protein of 110 kDa) (Tip110) (p110 nuclear RNA-binding protein)	SART3 KIAA0156 TIP110	Homo sapiens (Human)	963
+P62306	RUXF_HUMAN	reviewed	Small nuclear ribonucleoprotein F (snRNP-F) (Sm protein F) (Sm-F) (SmF)	SNRPF PBSCF	Homo sapiens (Human)	86
+P38159	RBMX_HUMAN	reviewed	RNA-binding motif protein, X chromosome (Glycoprotein p43) (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]	RBMX HNRPG RBMXP1	Homo sapiens (Human)	391
+Q9UBB9	TFP11_HUMAN	reviewed	Tuftelin-interacting protein 11 (Septin and tuftelin-interacting protein 1) (STIP-1)	TFIP11 STIP HSPC006	Homo sapiens (Human)	837
+Q8IYB3	SRRM1_HUMAN	reviewed	Serine/arginine repetitive matrix protein 1 (SR-related nuclear matrix protein of 160 kDa) (SRm160) (Ser/Arg-related nuclear matrix protein)	SRRM1 SRM160	Homo sapiens (Human)	904
+A8MWD9	RUXGL_HUMAN	reviewed	Putative small nuclear ribonucleoprotein G-like protein 15	SNRPGP15	Homo sapiens (Human)	76
+O43290	SNUT1_HUMAN	reviewed	U4/U6.U5 tri-snRNP-associated protein 1 (SNU66 homolog) (hSnu66) (Squamous cell carcinoma antigen recognized by T-cells 1) (SART-1) (hSART-1) (U4/U6.U5 tri-snRNP-associated 110 kDa protein) (allergen Hom s 1)	SART1	Homo sapiens (Human)	800
+Q5VTL8	PR38B_HUMAN	reviewed	Pre-mRNA-splicing factor 38B (Sarcoma antigen NY-SAR-27)	PRPF38B	Homo sapiens (Human)	546
+Q9NW13	RBM28_HUMAN	reviewed	RNA-binding protein 28 (RNA-binding motif protein 28)	RBM28	Homo sapiens (Human)	759
+Q8WXA9	SREK1_HUMAN	reviewed	Splicing regulatory glutamine/lysine-rich protein 1 (Serine/arginine-rich-splicing regulatory protein 86) (SRrp86) (Splicing factor, arginine/serine-rich 12) (Splicing regulatory protein 508) (SRrp508)	SREK1 SFRS12 SRRP86	Homo sapiens (Human)	508
+Q2TAY7	SMU1_HUMAN	reviewed	WD40 repeat-containing protein SMU1 (Smu-1 suppressor of mec-8 and unc-52 protein homolog) [Cleaved into: WD40 repeat-containing protein SMU1, N-terminally processed]	SMU1	Homo sapiens (Human)	513
+Q9UMS4	PRP19_HUMAN	reviewed	Pre-mRNA-processing factor 19 (EC 2.3.2.27) (Nuclear matrix protein 200) (PRP19/PSO4 homolog) (hPso4) (RING-type E3 ubiquitin transferase PRP19) (Senescence evasion factor)	PRPF19 NMP200 PRP19 SNEV	Homo sapiens (Human)	504
+Q15287	RNPS1_HUMAN	reviewed	RNA-binding protein with serine-rich domain 1 (SR-related protein LDC2)	RNPS1 LDC2	Homo sapiens (Human)	305
+Q13243	SRSF5_HUMAN	reviewed	Serine/arginine-rich splicing factor 5 (Delayed-early protein HRS) (Pre-mRNA-splicing factor SRP40) (Splicing factor, arginine/serine-rich 5)	SRSF5 HRS SFRS5 SRP40	Homo sapiens (Human)	272
+Q15459	SF3A1_HUMAN	reviewed	Splicing factor 3A subunit 1 (SF3a120) (Spliceosome-associated protein 114) (SAP 114)	SF3A1 SAP114	Homo sapiens (Human)	793
+O75533	SF3B1_HUMAN	reviewed	Splicing factor 3B subunit 1 (Pre-mRNA-splicing factor SF3b 155 kDa subunit) (SF3b155) (Spliceosome-associated protein 155) (SAP 155)	SF3B1 SAP155	Homo sapiens (Human)	1304
+P22626	ROA2_HUMAN	reviewed	Heterogeneous nuclear ribonucleoproteins A2/B1 (hnRNP A2/B1)	HNRNPA2B1 HNRPA2B1	Homo sapiens (Human)	353
+Q99633	PRP18_HUMAN	reviewed	Pre-mRNA-splicing factor 18 (PRP18 homolog) (hPRP18)	PRPF18 HPRP18	Homo sapiens (Human)	342
+Q13247	SRSF6_HUMAN	reviewed	Serine/arginine-rich splicing factor 6 (Pre-mRNA-splicing factor SRP55) (Splicing factor, arginine/serine-rich 6)	SRSF6 SFRS6 SRP55	Homo sapiens (Human)	344
+Q15428	SF3A2_HUMAN	reviewed	Splicing factor 3A subunit 2 (SF3a66) (Spliceosome-associated protein 62) (SAP 62)	SF3A2 SAP62	Homo sapiens (Human)	464
+Q9HCS7	SYF1_HUMAN	reviewed	Pre-mRNA-splicing factor SYF1 (Protein HCNP) (XPA-binding protein 2)	XAB2 HCNP KIAA1177 SYF1 PP3898	Homo sapiens (Human)	855
+Q13435	SF3B2_HUMAN	reviewed	Splicing factor 3B subunit 2 (Pre-mRNA-splicing factor SF3b 145 kDa subunit) (SF3b145) (Spliceosome-associated protein 145) (SAP 145)	SF3B2 SAP145	Homo sapiens (Human)	895
+Q15393	SF3B3_HUMAN	reviewed	Splicing factor 3B subunit 3 (Pre-mRNA-splicing factor SF3b 130 kDa subunit) (SF3b130) (STAF130) (Spliceosome-associated protein 130) (SAP 130)	SF3B3 KIAA0017 SAP130	Homo sapiens (Human)	1217
+Q15637	SF01_HUMAN	reviewed	Splicing factor 1 (Mammalian branch point-binding protein) (BBP) (mBBP) (Transcription factor ZFM1) (Zinc finger gene in MEN1 locus) (Zinc finger protein 162)	SF1 ZFM1 ZNF162	Homo sapiens (Human)	639
+Q13573	SNW1_HUMAN	reviewed	SNW domain-containing protein 1 (Nuclear protein SkiP) (Nuclear receptor coactivator NCoA-62) (Ski-interacting protein)	SNW1 SKIIP SKIP	Homo sapiens (Human)	536
+Q9UDW3	ZMAT5_HUMAN	reviewed	Zinc finger matrin-type protein 5 (U11/U12 small nuclear ribonucleoprotein 20 kDa protein) (U11/U12 snRNP 20 kDa protein) (U11/U12-20K)	ZMAT5	Homo sapiens (Human)	170
+Q9UNY4	TTF2_HUMAN	reviewed	Transcription termination factor 2 (EC 3.6.4.-) (Lodestar homolog) (RNA polymerase II termination factor) (Transcription release factor 2) (F2) (HuF2)	TTF2	Homo sapiens (Human)	1162
+O75643	U520_HUMAN	reviewed	U5 small nuclear ribonucleoprotein 200 kDa helicase (EC 3.6.4.13) (Activating signal cointegrator 1 complex subunit 3-like 1) (BRR2 homolog) (U5 snRNP-specific 200 kDa protein) (U5-200KD)	SNRNP200 ASCC3L1 HELIC2 KIAA0788	Homo sapiens (Human)	2136
+Q6I9Y2	THOC7_HUMAN	reviewed	THO complex subunit 7 homolog (Functional spliceosome-associated protein 24) (fSAP24) (Ngg1-interacting factor 3-like protein 1-binding protein 1) (NIF3L1-binding protein 1) (hTREX30)	THOC7 NIF3L1BP1	Homo sapiens (Human)	204
+P67809	YBOX1_HUMAN	reviewed	Nuclease-sensitive element-binding protein 1 (CCAAT-binding transcription factor I subunit A) (CBF-A) (DNA-binding protein B) (DBPB) (Enhancer factor I subunit A) (EFI-A) (Y-box transcription factor) (Y-box-binding protein 1) (YB-1)	YBX1 NSEP1 YB1	Homo sapiens (Human)	324
+Q13123	RED_HUMAN	reviewed	Protein Red (Cytokine IK) (IK factor) (Protein RER)	IK RED RER	Homo sapiens (Human)	557
+Q9NW64	RBM22_HUMAN	reviewed	Pre-mRNA-splicing factor RBM22 (RNA-binding motif protein 22) (Zinc finger CCCH domain-containing protein 16)	RBM22 ZC3H16 199G4	Homo sapiens (Human)	420
+Q16560	U1SBP_HUMAN	reviewed	U11/U12 small nuclear ribonucleoprotein 35 kDa protein (U11/U12 snRNP 35 kDa protein) (U11/U12-35K) (Protein HM-1) (U1 snRNP-binding protein homolog)	SNRNP35 HM1 U1SNRNPBP	Homo sapiens (Human)	246
+Q96DI7	SNR40_HUMAN	reviewed	U5 small nuclear ribonucleoprotein 40 kDa protein (U5 snRNP 40 kDa protein) (U5-40K) (38 kDa-splicing factor) (Prp8-binding protein) (hPRP8BP) (U5 snRNP-specific 40 kDa protein) (WD repeat-containing protein 57)	SNRNP40 PRP8BP SFP38 WDR57	Homo sapiens (Human)	357
+Q96I25	SPF45_HUMAN	reviewed	Splicing factor 45 (45 kDa-splicing factor) (RNA-binding motif protein 17)	RBM17 SPF45	Homo sapiens (Human)	401
+Q9H0Z9	RBM38_HUMAN	reviewed	RNA-binding protein 38 (CLL-associated antigen KW-5) (HSRNASEB) (RNA-binding motif protein 38) (RNA-binding region-containing protein 1) (ssDNA-binding protein SEB4)	RBM38 RNPC1 SEB4	Homo sapiens (Human)	239
+Q5T481	RBM20_HUMAN	reviewed	RNA-binding protein 20 (RNA-binding motif protein 20)	RBM20	Homo sapiens (Human)	1227
+Q32P51	RA1L2_HUMAN	reviewed	Heterogeneous nuclear ribonucleoprotein A1-like 2 (hnRNP A1-like 2) (hnRNP core protein A1-like 2)	HNRNPA1L2 HNRNPA1L	Homo sapiens (Human)	320
+O00422	SAP18_HUMAN	reviewed	Histone deacetylase complex subunit SAP18 (18 kDa Sin3-associated polypeptide) (2HOR0202) (Cell growth-inhibiting gene 38 protein) (Sin3-associated polypeptide p18)	SAP18 GIG38	Homo sapiens (Human)	153
+P57052	RBM11_HUMAN	reviewed	Splicing regulator RBM11 (RNA-binding motif protein 11)	RBM11	Homo sapiens (Human)	281
+Q9Y2W1	TR150_HUMAN	reviewed	Thyroid hormone receptor-associated protein 3 (BCLAF1 and THRAP3 family member 2) (Thyroid hormone receptor-associated protein complex 150 kDa component) (Trap150)	THRAP3 BCLAF2 TRAP150	Homo sapiens (Human)	955
+P23246	SFPQ_HUMAN	reviewed	Splicing factor, proline- and glutamine-rich (100 kDa DNA-pairing protein) (hPOMp100) (DNA-binding p52/p100 complex, 100 kDa subunit) (Polypyrimidine tract-binding protein-associated-splicing factor) (PSF) (PTB-associated-splicing factor)	SFPQ PSF	Homo sapiens (Human)	707
+P14678	RSMB_HUMAN	reviewed	Small nuclear ribonucleoprotein-associated proteins B and B' (snRNP-B) (Sm protein B/B') (Sm-B/B') (SmB/B')	SNRPB COD SNRPB1	Homo sapiens (Human)	240
+A7MD48	SRRM4_HUMAN	reviewed	Serine/arginine repetitive matrix protein 4 (Medulloblastoma antigen MU-MB-2.76) (Neural-specific serine/arginine repetitive splicing factor of 100 kDa) (Neural-specific SR-related protein of 100 kDa) (nSR100)	SRRM4 KIAA1853	Homo sapiens (Human)	611
+Q6IEG0	SNR48_HUMAN	reviewed	U11/U12 small nuclear ribonucleoprotein 48 kDa protein (U11/U12 snRNP 48 kDa protein) (U11/U12-48K)	SNRNP48 C6orf151	Homo sapiens (Human)	339
+Q07955	SRSF1_HUMAN	reviewed	Serine/arginine-rich splicing factor 1 (Alternative-splicing factor 1) (ASF-1) (Splicing factor, arginine/serine-rich 1) (pre-mRNA-splicing factor SF2, P33 subunit)	SRSF1 ASF SF2 SF2P33 SFRS1 OK/SW-cl.3	Homo sapiens (Human)	248
+Q7KZ85	SPT6H_HUMAN	reviewed	Transcription elongation factor SPT6 (hSPT6) (Histone chaperone suppressor of Ty6) (Tat-cotransactivator 2 protein) (Tat-CT2 protein)	SUPT6H KIAA0162 SPT6H	Homo sapiens (Human)	1726
+O95391	SLU7_HUMAN	reviewed	Pre-mRNA-splicing factor SLU7 (hSlu7)	SLU7	Homo sapiens (Human)	586
+Q8NAV1	PR38A_HUMAN	reviewed	Pre-mRNA-splicing factor 38A	PRPF38A	Homo sapiens (Human)	312
+A6NFN3	RFOX3_HUMAN	reviewed	RNA binding protein fox-1 homolog 3 (Fox-1 homolog C) (Neuronal nuclei antigen) (NeuN antigen)	RBFOX3	Homo sapiens (Human)	312
+Q96SB4	SRPK1_HUMAN	reviewed	SRSF protein kinase 1 (EC 2.7.11.1) (SFRS protein kinase 1) (Serine/arginine-rich protein-specific kinase 1) (SR-protein-specific kinase 1)	SRPK1	Homo sapiens (Human)	655
+P62995	TRA2B_HUMAN	reviewed	Transformer-2 protein homolog beta (TRA-2 beta) (TRA2-beta) (hTRA2-beta) (Splicing factor, arginine/serine-rich 10) (Transformer-2 protein homolog B)	TRA2B SFRS10	Homo sapiens (Human)	288
+Q8TBF4	ZCRB1_HUMAN	reviewed	Zinc finger CCHC-type and RNA-binding motif-containing protein 1 (U11/U12 small nuclear ribonucleoprotein 31 kDa protein) (U11/U12 snRNP 31 kDa protein) (U11/U12-31K)	ZCRB1	Homo sapiens (Human)	217
+Q05519	SRS11_HUMAN	reviewed	Serine/arginine-rich splicing factor 11 (Arginine-rich 54 kDa nuclear protein) (p54) (Splicing factor, arginine/serine-rich 11)	SRSF11 SFRS11	Homo sapiens (Human)	484
+Q9BWG6	SCNM1_HUMAN	reviewed	Sodium channel modifier 1	SCNM1	Homo sapiens (Human)	230
+Q8IX01	SUGP2_HUMAN	reviewed	SURP and G-patch domain-containing protein 2 (Arginine/serine-rich-splicing factor 14) (Splicing factor, arginine/serine-rich 14)	SUGP2 KIAA0365 SFRS14	Homo sapiens (Human)	1082
+Q8IWZ8	SUGP1_HUMAN	reviewed	SURP and G-patch domain-containing protein 1 (RNA-binding protein RBP) (Splicing factor 4)	SUGP1 SF4	Homo sapiens (Human)	645
+Q96FV9	THOC1_HUMAN	reviewed	THO complex subunit 1 (Tho1) (Nuclear matrix protein p84) (p84N5) (hTREX84)	THOC1 HPR1	Homo sapiens (Human)	657
+O95218	ZRAB2_HUMAN	reviewed	Zinc finger Ran-binding domain-containing protein 2 (Zinc finger protein 265) (Zinc finger, splicing)	ZRANB2 ZIS ZNF265	Homo sapiens (Human)	330
+Q08170	SRSF4_HUMAN	reviewed	Serine/arginine-rich splicing factor 4 (Pre-mRNA-splicing factor SRP75) (SRP001LB) (Splicing factor, arginine/serine-rich 4)	SRSF4 SFRS4 SRP75	Homo sapiens (Human)	494
+Q86W42	THOC6_HUMAN	reviewed	THO complex subunit 6 homolog (Functional spliceosome-associated protein 35) (fSAP35) (WD repeat-containing protein 58)	THOC6 WDR58 PSEC0006	Homo sapiens (Human)	341
+O75554	WBP4_HUMAN	reviewed	WW domain-binding protein 4 (WBP-4) (Formin-binding protein 21) (WW domain-containing-binding protein 4)	WBP4 FBP21 FNBP21	Homo sapiens (Human)	376
+Q96PU8	QKI_HUMAN	reviewed	Protein quaking (Hqk) (HqkI)	QKI HKQ	Homo sapiens (Human)	341
+Q8WVK2	SNR27_HUMAN	reviewed	U4/U6.U5 small nuclear ribonucleoprotein 27 kDa protein (U4/U6.U5 snRNP 27 kDa protein) (U4/U6.U5-27K) (Nucleic acid-binding protein RY-1) (U4/U6.U5 tri-snRNP-associated 27 kDa protein) (27K) (U4/U6.U5 tri-snRNP-associated protein 3)	SNRNP27	Homo sapiens (Human)	155
+Q15029	U5S1_HUMAN	reviewed	116 kDa U5 small nuclear ribonucleoprotein component (Elongation factor Tu GTP-binding domain-containing protein 2) (SNU114 homolog) (hSNU114) (U5 snRNP-specific protein, 116 kDa) (U5-116 kDa)	EFTUD2 KIAA0031 SNRP116	Homo sapiens (Human)	972
+O60508	PRP17_HUMAN	reviewed	Pre-mRNA-processing factor 17 (Cell division cycle 40 homolog) (EH-binding protein 3) (Ehb3) (PRP17 homolog) (hPRP17)	CDC40 EHB3 PRP17 PRPF17	Homo sapiens (Human)	579
+Q6NZY4	ZCHC8_HUMAN	reviewed	Zinc finger CCHC domain-containing protein 8 (TRAMP-like complex RNA-binding factor ZCCHC8)	ZCCHC8	Homo sapiens (Human)	707
+Q86V81	THOC4_HUMAN	reviewed	THO complex subunit 4 (Tho4) (Ally of AML-1 and LEF-1) (Aly/REF export factor) (Transcriptional coactivator Aly/REF) (bZIP-enhancing factor BEF)	ALYREF ALY BEF THOC4	Homo sapiens (Human)	257
+P62314	SMD1_HUMAN	reviewed	Small nuclear ribonucleoprotein Sm D1 (Sm-D1) (Sm-D autoantigen) (snRNP core protein D1)	SNRPD1	Homo sapiens (Human)	119
+P08579	RU2B_HUMAN	reviewed	U2 small nuclear ribonucleoprotein B'' (U2 snRNP B'')	SNRPB2	Homo sapiens (Human)	225
+Q8N9Q2	SR1IP_HUMAN	reviewed	Protein SREK1IP1 (SFRS12-interacting protein 1) (SREK1-interacting protein 1) (Splicing regulatory protein of 18 kDa) (p18SRP)	SREK1IP1 P18SRP SFRS12IP1	Homo sapiens (Human)	155
+Q5BKZ1	ZN326_HUMAN	reviewed	DBIRD complex subunit ZNF326 (Zinc finger protein 326) (Zinc finger protein interacting with mRNPs and DBC1)	ZNF326 ZIRD	Homo sapiens (Human)	582
+Q13769	THOC5_HUMAN	reviewed	THO complex subunit 5 homolog (Functional spliceosome-associated protein 79) (fSAP79) (NF2/meningioma region protein pK1.3) (Placental protein 39.2) (PP39.2) (hTREX90)	THOC5 C22orf19 KIAA0983	Homo sapiens (Human)	683
+P62316	SMD2_HUMAN	reviewed	Small nuclear ribonucleoprotein Sm D2 (Sm-D2) (snRNP core protein D2)	SNRPD2 SNRPD1	Homo sapiens (Human)	118
+Q5T200	ZC3HD_HUMAN	reviewed	Zinc finger CCCH domain-containing protein 13	ZC3H13 KIAA0853	Homo sapiens (Human)	1668
+Q9NY27	PP4R2_HUMAN	reviewed	Serine/threonine-protein phosphatase 4 regulatory subunit 2	PPP4R2 SBBI57	Homo sapiens (Human)	417
+Q9H0G5	NSRP1_HUMAN	reviewed	Nuclear speckle splicing regulatory protein 1 (Coiled-coil domain-containing protein 55) (Nuclear speckle-related protein 70) (NSrp70)	NSRP1 CCDC55 NSRP70	Homo sapiens (Human)	558
+Q86UA1	PRP39_HUMAN	reviewed	Pre-mRNA-processing factor 39 (PRP39 homolog)	PRPF39	Homo sapiens (Human)	669
+O95777	LSM8_HUMAN	reviewed	U6 snRNA-associated Sm-like protein LSm8	LSM8	Homo sapiens (Human)	96
+Q969L4	LSM10_HUMAN	reviewed	U7 snRNA-associated Sm-like protein LSm10	LSM10	Homo sapiens (Human)	123
+O60506	HNRPQ_HUMAN	reviewed	Heterogeneous nuclear ribonucleoprotein Q (hnRNP Q) (Glycine- and tyrosine-rich RNA-binding protein) (GRY-RBP) (NS1-associated protein 1) (Synaptotagmin-binding, cytoplasmic RNA-interacting protein)	SYNCRIP HNRPQ NSAP1	Homo sapiens (Human)	623
+O15541	R113A_HUMAN	reviewed	E3 ubiquitin-protein ligase RNF113A (EC 2.3.2.27) (Cwc24 homolog) (RING finger protein 113A) (Zinc finger protein 183)	RNF113A RNF113 ZNF183	Homo sapiens (Human)	343
+P62310	LSM3_HUMAN	reviewed	U6 snRNA-associated Sm-like protein LSm3	LSM3 MDS017	Homo sapiens (Human)	102
+Q6NWY9	PR40B_HUMAN	reviewed	Pre-mRNA-processing factor 40 homolog B (Huntingtin yeast partner C) (Huntingtin-interacting protein C)	PRPF40B HYPC	Homo sapiens (Human)	871
+Q96C86	DCPS_HUMAN	reviewed	m7GpppX diphosphatase (EC 3.6.1.59) (DCS-1) (Decapping scavenger enzyme) (Hint-related 7meGMP-directed hydrolase) (Histidine triad nucleotide-binding protein 5) (Histidine triad protein member 5) (HINT-5) (Scavenger mRNA-decapping enzyme DcpS)	DCPS DCS1 HINT5 HSPC015	Homo sapiens (Human)	337
+P42285	MTREX_HUMAN	reviewed	Exosome RNA helicase MTR4 (EC 3.6.4.13) (ATP-dependent RNA helicase DOB1) (ATP-dependent RNA helicase SKIV2L2) (Superkiller viralicidic activity 2-like 2) (TRAMP-like complex helicase)	MTREX DOB1 KIAA0052 MTR4 SKIV2L2	Homo sapiens (Human)	1042
+O95758	PTBP3_HUMAN	reviewed	Polypyrimidine tract-binding protein 3 (Regulator of differentiation 1) (Rod1)	PTBP3 ROD1	Homo sapiens (Human)	552
+Q9Y312	AAR2_HUMAN	reviewed	Protein AAR2 homolog (AAR2 splicing factor homolog)	AAR2 C20orf4 CGI-23 PRO0225	Homo sapiens (Human)	384
+Q06787	FMR1_HUMAN	reviewed	Synaptic functional regulator FMR1 (Fragile X mental retardation protein 1) (FMRP) (Protein FMR-1)	FMR1	Homo sapiens (Human)	632
+Q13838	DX39B_HUMAN	reviewed	Spliceosome RNA helicase DDX39B (EC 3.6.4.13) (56 kDa U2AF65-associated protein) (ATP-dependent RNA helicase p47) (DEAD box protein UAP56) (HLA-B-associated transcript 1 protein)	DDX39B BAT1 UAP56	Homo sapiens (Human)	428
+Q9UJV9	DDX41_HUMAN	reviewed	Probable ATP-dependent RNA helicase DDX41 (EC 3.6.4.13) (DEAD box protein 41) (DEAD box protein abstrakt homolog)	DDX41 ABS	Homo sapiens (Human)	622
+O00148	DX39A_HUMAN	reviewed	ATP-dependent RNA helicase DDX39A (EC 3.6.4.13) (DEAD box protein 39) (Nuclear RNA helicase URH49)	DDX39A DDX39	Homo sapiens (Human)	427
+Q8TEQ6	GEMI5_HUMAN	reviewed	Gem-associated protein 5 (Gemin5)	GEMIN5	Homo sapiens (Human)	1508
+O14893	GEMI2_HUMAN	reviewed	Gem-associated protein 2 (Gemin-2) (Component of gems 2) (Survival of motor neuron protein-interacting protein 1) (SMN-interacting protein 1)	GEMIN2 SIP1	Homo sapiens (Human)	280
+Q9NYV4	CDK12_HUMAN	reviewed	Cyclin-dependent kinase 12 (EC 2.7.11.22) (EC 2.7.11.23) (Cdc2-related kinase, arginine/serine-rich) (CrkRS) (Cell division cycle 2-related protein kinase 7) (CDC2-related protein kinase 7) (Cell division protein kinase 12) (hCDK12)	CDK12 CRK7 CRKRS KIAA0904	Homo sapiens (Human)	1490
+Q7L014	DDX46_HUMAN	reviewed	Probable ATP-dependent RNA helicase DDX46 (EC 3.6.4.13) (DEAD box protein 46) (PRP5 homolog)	DDX46 KIAA0801	Homo sapiens (Human)	1031
+Q9H6T0	ESRP2_HUMAN	reviewed	Epithelial splicing regulatory protein 2 (RNA-binding motif protein 35B) (RNA-binding protein 35B)	ESRP2 RBM35B PP7059	Homo sapiens (Human)	727
+Q9H0S4	DDX47_HUMAN	reviewed	Probable ATP-dependent RNA helicase DDX47 (EC 3.6.4.13) (DEAD box protein 47)	DDX47	Homo sapiens (Human)	455
+Q8WXD5	GEMI6_HUMAN	reviewed	Gem-associated protein 6 (Gemin-6) (SIP2)	GEMIN6	Homo sapiens (Human)	167
+P61326	MGN_HUMAN	reviewed	Protein mago nashi homolog	MAGOH MAGOHA	Homo sapiens (Human)	146
+Q9UK45	LSM7_HUMAN	reviewed	U6 snRNA-associated Sm-like protein LSm7	LSM7	Homo sapiens (Human)	103
+Q02040	AK17A_HUMAN	reviewed	A-kinase anchor protein 17A (AKAP-17A) (721P) (B-lymphocyte antigen) (Protein XE7) (Protein kinase A-anchoring protein 17A) (PRKA17A) (Splicing factor, arginine/serine-rich 17A)	AKAP17A CXYorf3 DXYS155E SFRS17A XE7	Homo sapiens (Human)	695
+P52597	HNRPF_HUMAN	reviewed	Heterogeneous nuclear ribonucleoprotein F (hnRNP F) (Nucleolin-like protein mcs94-1) [Cleaved into: Heterogeneous nuclear ribonucleoprotein F, N-terminally processed]	HNRNPF HNRPF	Homo sapiens (Human)	415
+Q9H2H8	PPIL3_HUMAN	reviewed	Peptidyl-prolyl cis-trans isomerase-like 3 (PPIase) (EC 5.2.1.8) (Cyclophilin J) (CyPJ) (Cyclophilin-like protein PPIL3) (Rotamase PPIL3)	PPIL3	Homo sapiens (Human)	161
+Q9ULR0	ISY1_HUMAN	reviewed	Pre-mRNA-splicing factor ISY1 homolog	ISY1 KIAA1160	Homo sapiens (Human)	285
+P61978	HNRPK_HUMAN	reviewed	Heterogeneous nuclear ribonucleoprotein K (hnRNP K) (Transformation up-regulated nuclear protein) (TUNP)	HNRNPK HNRPK	Homo sapiens (Human)	463
+P55081	MFAP1_HUMAN	reviewed	Microfibrillar-associated protein 1 (Spliceosome B complex protein MFAP1)	MFAP1	Homo sapiens (Human)	439
+Q15233	NONO_HUMAN	reviewed	Non-POU domain-containing octamer-binding protein (NonO protein) (54 kDa nuclear RNA- and DNA-binding protein) (55 kDa nuclear protein) (DNA-binding p52/p100 complex, 52 kDa subunit) (NMT55) (p54(nrb)) (p54nrb)	NONO NRB54	Homo sapiens (Human)	471
+O43660	PLRG1_HUMAN	reviewed	Pleiotropic regulator 1	PLRG1	Homo sapiens (Human)	514
+P11940	PABP1_HUMAN	reviewed	Polyadenylate-binding protein 1 (PABP-1) (Poly(A)-binding protein 1)	PABPC1 PAB1 PABP1 PABPC2	Homo sapiens (Human)	636
+P55769	NH2L1_HUMAN	reviewed	NHP2-like protein 1 (High mobility group-like nuclear protein 2 homolog 1) (OTK27) (SNU13 homolog) (hSNU13) (U4/U6.U5 small nuclear ribonucleoprotein SNU13) (U4/U6.U5 tri-snRNP 15.5 kDa protein) [Cleaved into: NHP2-like protein 1, N-terminally processed]	SNU13 NHP2L1	Homo sapiens (Human)	128
+Q96BP3	PPWD1_HUMAN	reviewed	Peptidylprolyl isomerase domain and WD repeat-containing protein 1 (EC 5.2.1.8) (Spliceosome-associated cyclophilin)	PPWD1 KIAA0073	Homo sapiens (Human)	646
+O15116	LSM1_HUMAN	reviewed	U6 snRNA-associated Sm-like protein LSm1 (Cancer-associated Sm-like) (Small nuclear ribonuclear CaSm)	LSM1 CASM	Homo sapiens (Human)	133
+O75400	PR40A_HUMAN	reviewed	Pre-mRNA-processing factor 40 homolog A (Fas ligand-associated factor 1) (Formin-binding protein 11) (Formin-binding protein 3) (Huntingtin yeast partner A) (Huntingtin-interacting protein 10) (HIP-10) (Huntingtin-interacting protein A) (Renal carcinoma antigen NY-REN-6)	PRPF40A FBP11 FLAF1 FNBP3 HIP10 HYPA HSPC225	Homo sapiens (Human)	957
+Q9NXE8	CWC25_HUMAN	reviewed	Pre-mRNA-splicing factor CWC25 homolog (Coiled-coil domain-containing protein 49) (Spliceosome-associated protein homolog CWC25)	CWC25 CCDC49	Homo sapiens (Human)	425
+Q9BUQ8	DDX23_HUMAN	reviewed	Probable ATP-dependent RNA helicase DDX23 (EC 3.6.4.13) (100 kDa U5 snRNP-specific protein) (DEAD box protein 23) (PRP28 homolog) (U5-100kD)	DDX23	Homo sapiens (Human)	820
+Q9P013	CWC15_HUMAN	reviewed	Spliceosome-associated protein CWC15 homolog	CWC15 C11orf5 AD-002 HSPC148	Homo sapiens (Human)	229
+Q9ULX6	AKP8L_HUMAN	reviewed	A-kinase anchor protein 8-like (AKAP8-like protein) (Helicase A-binding protein 95) (HAP95) (Homologous to AKAP95 protein) (HA95) (Neighbor of A-kinase-anchoring protein 95) (Neighbor of AKAP95)	AKAP8L NAKAP NAKAP95 HRIHFB2018	Homo sapiens (Human)	646
+O60231	DHX16_HUMAN	reviewed	Pre-mRNA-splicing factor ATP-dependent RNA helicase DHX16 (EC 3.6.4.13) (ATP-dependent RNA helicase #3) (DEAH-box protein 16)	DHX16 DBP2 DDX16 KIAA0577 PRP2	Homo sapiens (Human)	1041
+Q15007	FL2D_HUMAN	reviewed	Pre-mRNA-splicing regulator WTAP (Female-lethal(2)D homolog) (hFL(2)D) (WT1-associated protein) (Wilms tumor 1-associating protein)	WTAP KIAA0105	Homo sapiens (Human)	396
+O95905	ECD_HUMAN	reviewed	Protein ecdysoneless homolog (Human suppressor of GCR two) (hSGT1)	ECD	Homo sapiens (Human)	644
+Q9HCG8	CWC22_HUMAN	reviewed	Pre-mRNA-splicing factor CWC22 homolog (Nucampholin homolog) (fSAPb)	CWC22 KIAA1604 NCM	Homo sapiens (Human)	908
+Q9H5Z1	DHX35_HUMAN	reviewed	Probable ATP-dependent RNA helicase DHX35 (EC 3.6.4.13) (DEAH box protein 35)	DHX35 C20orf15 DDX35	Homo sapiens (Human)	703
+Q14004	CDK13_HUMAN	reviewed	Cyclin-dependent kinase 13 (EC 2.7.11.22) (EC 2.7.11.23) (CDC2-related protein kinase 5) (Cell division cycle 2-like protein kinase 5) (Cell division protein kinase 13) (hCDK13) (Cholinesterase-related cell division controller)	CDK13 CDC2L CDC2L5 CHED KIAA1791	Homo sapiens (Human)	1512
+Q8WWY3	PRP31_HUMAN	reviewed	U4/U6 small nuclear ribonucleoprotein Prp31 (Pre-mRNA-processing factor 31) (Serologically defined breast cancer antigen NY-BR-99) (U4/U6 snRNP 61 kDa protein) (Protein 61K) (hPrp31)	PRPF31 PRP31	Homo sapiens (Human)	499
+P52272	HNRPM_HUMAN	reviewed	Heterogeneous nuclear ribonucleoprotein M (hnRNP M)	HNRNPM HNRPM NAGR1	Homo sapiens (Human)	730
+O60936	NOL3_HUMAN	reviewed	Nucleolar protein 3 (Apoptosis repressor with CARD) (Muscle-enriched cytoplasmic protein) (Myp) (Nucleolar protein of 30 kDa) (Nop30)	NOL3 ARC NOP	Homo sapiens (Human)	208
+Q9UKA9	PTBP2_HUMAN	reviewed	Polypyrimidine tract-binding protein 2 (Neural polypyrimidine tract-binding protein) (Neurally-enriched homolog of PTB) (PTB-like protein)	PTBP2 NPTB PTB PTBLP	Homo sapiens (Human)	531
+Q5VZF2	MBNL2_HUMAN	reviewed	Muscleblind-like protein 2 (Muscleblind-like protein 1) (Muscleblind-like protein-like) (Muscleblind-like protein-like 39)	MBNL2 MBLL MBLL39 MLP1	Homo sapiens (Human)	373
+Q9NWZ8	GEMI8_HUMAN	reviewed	Gem-associated protein 8 (Gemin-8) (Protein FAM51A1)	GEMIN8 FAM51A1	Homo sapiens (Human)	242
+Q96ST2	IWS1_HUMAN	reviewed	Protein IWS1 homolog (IWS1-like protein)	IWS1 IWS1L	Homo sapiens (Human)	819
+O60306	AQR_HUMAN	reviewed	RNA helicase aquarius (EC 3.6.4.13) (Intron-binding protein of 160 kDa) (IBP160)	AQR KIAA0560	Homo sapiens (Human)	1485
+P11142	HSP7C_HUMAN	reviewed	Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Lipopolysaccharide-associated protein 1) (LAP-1) (LPS-associated protein 1)	HSPA8 HSC70 HSP73 HSPA10	Homo sapiens (Human)	646
+Q9H840	GEMI7_HUMAN	reviewed	Gem-associated protein 7 (Gemin-7) (SIP3)	GEMIN7	Homo sapiens (Human)	131
+O43143	DHX15_HUMAN	reviewed	Pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15 (EC 3.6.4.13) (ATP-dependent RNA helicase #46) (DEAH box protein 15)	DHX15 DBP1 DDX15	Homo sapiens (Human)	795
+Q9NUK0	MBNL3_HUMAN	reviewed	Muscleblind-like protein 3 (Cys3His CCG1-required protein) (Muscleblind-like X-linked protein) (Protein HCHCR)	MBNL3 CHCR MBLX39 MBXL	Homo sapiens (Human)	354
+O60828	PQBP1_HUMAN	reviewed	Polyglutamine-binding protein 1 (PQBP-1) (38 kDa nuclear protein containing a WW domain) (Npw38) (Polyglutamine tract-binding protein 1)	PQBP1 NPW38 JM26	Homo sapiens (Human)	265
+P26599	PTBP1_HUMAN	reviewed	Polypyrimidine tract-binding protein 1 (PTB) (57 kDa RNA-binding protein PPTB-1) (Heterogeneous nuclear ribonucleoprotein I) (hnRNP I)	PTBP1 PTB	Homo sapiens (Human)	531
+Q9Y4Y9	LSM5_HUMAN	reviewed	U6 snRNA-associated Sm-like protein LSm5	LSM5	Homo sapiens (Human)	91
+Q7Z7F0	KHDC4_HUMAN	reviewed	KH homology domain-containing protein 4 (Brings lots of money 7) (Pre-mRNA splicing factor protein KHDC4)	KHDC4 BLOM7 KIAA0907 SNORA80EHG	Homo sapiens (Human)	614
+Q6NYC1	JMJD6_HUMAN	reviewed	Bifunctional arginine demethylase and lysyl-hydroxylase JMJD6 (EC 1.14.11.-) (Histone arginine demethylase JMJD6) (JmjC domain-containing protein 6) (Jumonji domain-containing protein 6) (Lysyl-hydroxylase JMJD6) (Peptide-lysine 5-dioxygenase JMJD6) (Phosphatidylserine receptor) (Protein PTDSR)	JMJD6 KIAA0585 PSR PTDSR	Homo sapiens (Human)	403
+Q8WUQ7	CATIN_HUMAN	reviewed	Cactin (Renal carcinoma antigen NY-REN-24)	CACTIN C19orf29	Homo sapiens (Human)	758
+Q9NR56	MBNL1_HUMAN	reviewed	Muscleblind-like protein 1 (Triplet-expansion RNA-binding protein)	MBNL1 EXP KIAA0428 MBNL	Homo sapiens (Human)	388
+Q92945	FUBP2_HUMAN	reviewed	Far upstream element-binding protein 2 (FUSE-binding protein 2) (KH type-splicing regulatory protein) (KSRP) (p75)	KHSRP FUBP2	Homo sapiens (Human)	711
+Q66PJ3	AR6P4_HUMAN	reviewed	ADP-ribosylation factor-like protein 6-interacting protein 4 (ARL-6-interacting protein 4) (Aip-4) (HSP-975) (HSVI-binding protein) (SR-15) (SRp25) (SR-25) (Splicing factor SRrp37)	ARL6IP4	Homo sapiens (Human)	421
+Q92917	GPKOW_HUMAN	reviewed	G-patch domain and KOW motifs-containing protein (G-patch domain-containing protein 5) (Protein MOS2 homolog) (Protein T54)	GPKOW GPATC5 GPATCH5 T54	Homo sapiens (Human)	476
+O43390	HNRPR_HUMAN	reviewed	Heterogeneous nuclear ribonucleoprotein R (hnRNP R)	HNRNPR HNRPR	Homo sapiens (Human)	633
+Q14331	FRG1_HUMAN	reviewed	Protein FRG1 (FSHD region gene 1 protein)	FRG1	Homo sapiens (Human)	258
+Q9BZC1	CELF4_HUMAN	reviewed	CUGBP Elav-like family member 4 (CELF-4) (Bruno-like protein 4) (CUG-BP- and ETR-3-like factor 4) (RNA-binding protein BRUNOL-4)	CELF4 BRUNOL4	Homo sapiens (Human)	486
+P16383	GCFC2_HUMAN	reviewed	GC-rich sequence DNA-binding factor 2 (GC-rich sequence DNA-binding factor) (Transcription factor 9) (TCF-9)	GCFC2 C2orf3 GCF TCF9	Homo sapiens (Human)	781
+Q14562	DHX8_HUMAN	reviewed	ATP-dependent RNA helicase DHX8 (EC 3.6.4.13) (DEAH box protein 8) (RNA helicase HRH1)	DHX8 DDX8	Homo sapiens (Human)	1220
+Q6NXG1	ESRP1_HUMAN	reviewed	Epithelial splicing regulatory protein 1 (RNA-binding motif protein 35A) (RNA-binding protein 35A)	ESRP1 RBM35A	Homo sapiens (Human)	681
+P57678	GEMI4_HUMAN	reviewed	Gem-associated protein 4 (Gemin-4) (Component of gems 4) (p97)	GEMIN4	Homo sapiens (Human)	1058
+Q08211	DHX9_HUMAN	reviewed	ATP-dependent RNA helicase A (EC 3.6.4.13) (DEAH box protein 9) (DExH-box helicase 9) (Leukophysin) (LKP) (Nuclear DNA helicase II) (NDH II) (RNA helicase A)	DHX9 DDX9 LKP NDH2	Homo sapiens (Human)	1270
+Q96DF8	ESS2_HUMAN	reviewed	Splicing factor ESS-2 homolog (DiGeorge syndrome critical region 13) (DiGeorge syndrome critical region 14) (DiGeorge syndrome protein H) (DGS-H) (Protein ES2)	ESS2 DGCR13 DGCR14 DGSH DGSI ES2	Homo sapiens (Human)	476
+Q5SZQ8	CELF3_HUMAN	reviewed	CUGBP Elav-like family member 3 (CELF-3) (Bruno-like protein 1) (CAG repeat protein 4) (CUG-BP- and ETR-3-like factor 3) (ELAV-type RNA-binding protein 1) (ETR-1) (Expanded repeat domain protein CAG/CTG 4) (RNA-binding protein BRUNOL-1) (Trinucleotide repeat-containing gene 4 protein)	CELF3 BRUNOL1 CAGH4 ERDA4 TNRC4	Homo sapiens (Human)	465
+Q96A72	MGN2_HUMAN	reviewed	Protein mago nashi homolog 2	MAGOHB MAGOH2	Homo sapiens (Human)	148
+P31943	HNRH1_HUMAN	reviewed	Heterogeneous nuclear ribonucleoprotein H (hnRNP H) [Cleaved into: Heterogeneous nuclear ribonucleoprotein H, N-terminally processed]	HNRNPH1 HNRPH HNRPH1	Homo sapiens (Human)	449
+Q5JVS0	HABP4_HUMAN	reviewed	Intracellular hyaluronan-binding protein 4 (IHABP-4) (IHABP4) (Hyaluronan-binding protein 4) (Ki-1/57 intracellular antigen)	HABP4	Homo sapiens (Human)	413
+Q8N163	CCAR2_HUMAN	reviewed	Cell cycle and apoptosis regulator protein 2 (Cell division cycle and apoptosis regulator protein 2) (DBIRD complex subunit KIAA1967) (Deleted in breast cancer gene 1 protein) (DBC-1) (DBC.1) (NET35) (p30 DBC)	CCAR2 DBC1 KIAA1967	Homo sapiens (Human)	923
+Q9UKV3	ACINU_HUMAN	reviewed	Apoptotic chromatin condensation inducer in the nucleus (Acinus)	ACIN1 ACINUS KIAA0670	Homo sapiens (Human)	1341
+Q9UHI6	DDX20_HUMAN	reviewed	Probable ATP-dependent RNA helicase DDX20 (EC 3.6.4.13) (Component of gems 3) (DEAD box protein 20) (DEAD box protein DP 103) (Gemin-3)	DDX20 DP103 GEMIN3	Homo sapiens (Human)	824
+Q58F21	BRDT_HUMAN	reviewed	Bromodomain testis-specific protein (Cancer/testis antigen 9) (CT9) (RING3-like protein)	BRDT	Homo sapiens (Human)	947
