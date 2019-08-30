@@ -34,6 +34,7 @@ Note we also made use of [metaSRA](http://metasra.biostat.wisc.edu/)'s ontology 
 
 ## Execution
 
+### Preliminaries
 1. Create TCGA and GTEx junction index by running `jx_indexer.py` in `index` mode:
 
         python3 jx_indexer.py -d DB_DIR index -c GTEx_JUNCTION_COVERAGE -C TCGA_JUNCTION_COVERAGE -b GTEx_JUNCTION_BED -B TCGA_JUNCTION_BED -p GTEx_PHEN -P TCGA_PHEN -s RECOUNT_SAMPLE_IDS -g GENCODE_ANNOTATION_GTF
@@ -99,7 +100,9 @@ count SRA experiments:
 python count_unique_SRA_expts.py -c SNAPTRON_CANCER_EXPTLIST_DIRECTORY -n SNAPTRON_NONCANCER_EXPTLIST_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY
 
 ——
-After these steps are complete, regenerate figures as follows.
+
+
+### Figure generation
 
 Fig 1A:
         
