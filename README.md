@@ -73,13 +73,14 @@ Run `jx_indexer.py` in `experiment` mode on junction index to collect junction f
         python3 collect_1-read_TCGA_jxs.py -C TCGA_JUNCTION_COVERAGE -B TCGA_JUNCTION_BED -o JSON_DIR
 
 `JSON_DIR` will now contain:
-* `single-read-tcga-jxs_json.txt` containing single-read junctions for use in set membership annotation runs below, using `set_membership_annotation.py`.
+* `single-read-tcga-jxs_json.txt` containing single-read junctions for use in set membership annotation runs below, using `set_membership_annotation.py`, as follows:
 
-Add set membership/piechart annotation to full junction files:
-For primary data and figures:
-python set_membership_annotation.py --db-path DB_DIRECTORY --snaptron-results SNAPTRON_NONCANCER_DIRECTORY -d ALL_JX_DIRECTORY -g NON_CORE_NORMAL_DIRECTORY -p NON_TISSUE_MATCHED_NORMAL_DIRECTORY --gtf-file GENCODE_ANNOTATION_GTF --single-read-jx-json JSON_DIRECTORY/single-read-tcga-jxs_json.txt --cancer-sra-directory SNAPTRON_CANCER_DIRECTORY --cancer-gene-census CANCER_GENE_CENSUS --oncokb-cancer-genes ONCOKB_GENES --min-overall-set-count 1 -o FULL_PIECHART_DIRECTORY
+        python3 set_membership_annotation.py --db-path DB_DIR --snaptron-results SNAPTRON_NONCANCER_DIR -d ALL_JX_DIR -g NON_CORE_NORMAL_DIR -p NON_TISSUE_MATCHED_NORMAL_DIR --gtf-file GENCODE_ANNOTATION_GTF --single-read-jx-json JSON_DIR/single-read-tcga-jxs_json.txt --cancer-sra-directory SNAPTRON_CANCER_DIR --cancer-gene-census CANCER_GENE_CENSUS --oncokb-cancer-genes ONCOKB_GENES --min-overall-set-count 1 -o FULL_PIECHART_DIR
 
-Note: this also creates subdirectories FULL_PIECHART_DIRECTORY/unexplained and FULL_PIECHART_DIRECTORY/developmental containing the relevant subsets of the full files.
+`FULL_PIECHART_DIR` will now contain:
+* `unexplained` (`UNEXPLAINED_DIR`) containing unexplained subset of all single-read junctions
+* `developmental` (`DEVELOPMENTAL_DIR`) containing developmentally-occuring subset of all single-read junctions
+
 
 Run 2-sample minimum requirement for category membership for Figures S8B and S8C:
 python set_membership_annotation.py --db-path DB_DIRECTORY --snaptron-results SNAPTRON_NONCANCER_DIRECTORY -d ALL_JX_DIRECTORY -g NON_CORE_NORMAL_DIRECTORY -p NON_TISSUE_MATCHED_NORMAL_DIRECTORY --gtf-file GENCODE_ANNOTATION_GTF --single-read-jx-json 1_READ_TCGA_JX_JSON --cancer-sra-directory SNAPTRON_CANCER_DIRECTORY --cancer-gene-census CANCER_GENE_CENSUS --oncokb-cancer-genes ONCOKB_GENES --min-overall-set-count 2 -o 2-SAMPLE_PIECHART_DIRECTORY
