@@ -99,103 +99,35 @@ count SRA experiments:
 python count_unique_SRA_expts.py -c SNAPTRON_CANCER_EXPTLIST_DIRECTORY -n SNAPTRON_NONCANCER_EXPTLIST_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY
 
 ——
-Figure generation:
+After these steps are complete, regenerate figures as follows.
 
 Fig 1A:
-python fig1A_overall_set_barplots.py -s FULL_PIECHART_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY
+        
+        python3 fig1A_overall_set_barplots.py -s FULL_PIECHART_DIR -o FIGURE_OUTPUT_DIR
 
 Fig 1B:
-python fig1B_ncn_jx_counts_per_sample.py -j COUNTS_PER_SAMPLE_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY
+
+        python3 fig1B_ncn_jx_counts_per_sample.py -j COUNTS_PER_SAMPLE_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY
 
 Fig 1C:
-python fig1C_overall_set_prevalence_boxplot.py --set-memberships FULL_PIECHART_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY
+
+        python3 fig1C_overall_set_prevalence_boxplot.py --set-memberships FULL_PIECHART_DIR -o FIGURE_OUTPUT_DIR
 
 Fig 2A:
-python fig2A_TCGA_heatmap.py -d PREVALENCE_FILE_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY
+
+        python3 fig2A_TCGA_heatmap.py -d PREVALENCE_FILE_DIR -o FIGURE_OUTPUT_DIR
 
 Fig 2B:
-python fig2B_TCGA_subtypes_heatmap.py -d PREVALENCE_FILE_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY
+
+        python3 fig2B_TCGA_subtypes_heatmap.py -d PREVALENCE_FILE_DIR -o FIGURE_OUTPUT_DIR
 
 Fig 2C:
-python fig2C_cell_of_origin_heatmap.py  -d PREVALENCE_FILE_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY --snaptron-results SNAPTRON_NONCANCER_DIRECTORY -e SNAPTRON_NONCANCER_EXPTLIST_DIRECTORY
 
-Fig 3A:--already added by sean on github
+        python3 fig2C_cell_of_origin_heatmap.py  -d PREVALENCE_FILE_DIR -o FIGURE_OUTPUT_DIR --snaptron-results SNAPTRON_NONCANCER_DIR -e SNAPTRON_NONCANCER_EXPTLIST_DIR
 
-Fig 3B:
-python fig3B_antisense_boxplot.py -o FIGURE_OUTPUT_DIRECTORY -s FULL_PIECHART_DIRECTORY
+Figs 3A, S8:
 
-Fig S1A:
-python fig1B_ncn_jx_counts_per_sample.py -j FILTERED_NCN_JX_PER_SAMPLE_DIRECTORY -p FILTERED_NTM_JX_PER_SAMPLE_DIRECTORY -d -g THYM CESC UVM DLBC --prepared-sort-order -o FIGURE_OUTPUT_DIRECTORY
-
-Fig S1B and S1C:
-python figS1BC_S9BC_junction_sharedness.py -d FULL_PIECHART_DIRECTORY/true_TCGA_prevalence_files populated -o FIGURE_OUTPUT_DIRECTORY
-
-Note: requires contents of “true_TCGA_prevalence_files” directory created by set_membership_analysis.py
-
-Fig S2:
-python figS2_set_prevalences_per_cancer.py -s FULL_PIECHART_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY
-
-Fig S3A & S3B:
-R SF_mutation_script.R
-
-Fig S4A & S4B:
-R SF_sharedness_plots.R
-Ben’s instructions:
-To generate splicing factor plots, ensure you have the following dependencies installed for R:
-Data.table
-ggplot2
-gridExtra
-RColorBrewer
-tidyverse
-dplyr
-
-1. download the TCGA mutation files from http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/ for each cancer type and move into the sub-directory ./TCGA_mut_files/, where ./ is the location of "SF_mutation_script.R" and "SF_sharedness_plots.R"
-
-2. Copy files from NON_CORE_NORMAL_DIRECTORY to a new directory within ./ called "non_core_jxns/". Rename files from full cancer names to match TCGA cancer codes.
-
-3. Copy files from [PIECHART DIRECTORY] to a new directory within ./ called "non_core_jxn_annotations/". Rename files from full cancer names to match TCGA cancer codes.
-
-4. run SF_mutation_script.R
-
-Generates "fig_s3a.jpg", "fig_s3b.jpg" and shared_jxn_df.txt. shared_jxn_df.txt is used downstream for SF_sharedness_plots.R
-
-If run interactively, also presents statistics for jxn comparisons between patients with and without splicing factor mutations across cancers.
-
-5. run SF_sharedness_plots.R
-
-Generates "fig_s4a.jpg" and "fig_s4b.jpg"
-
-If run interactively, also presents statistics for jxn comparisons between patients with and without splicing factor mutations across cancers.
----
-
-Fig S5:
-python figS5_S9A_SRA_cancer_shared_prevalence.py --snaptron-results SNAPTRON_CANCER_DIRECTORY -e SNAPTRON_CANCER_EXPTLIST_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY -d PREVALENCE_FILE_DIRECTORY
-
-Fig S6:
-python figS6_full_TCGA_SRA_heatmap.py  -d PREVALENCE_FILE_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY --snaptron-results SNAPTRON_NONCANCER_DIRECTORY -e SNAPTRON_NONCANCER_EXPTLIST_DIRECTORY
-
-Fig S7:
-python figS7_SKCM_jx_similarity.py --snaptron-results SNAPTRON_NONCANCER_DIRECTORY -d ALL_JXS_PER_SAMPLE_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY
-
-Fig S8A:
-Fig S8B:
-Fig S8C: -- already added by sean on github
-
-Fig S9A:
-python figS5_S9A_SRA_cancer_shared_prevalence.py --snaptron-results SNAPTRON_CANCER_DIRECTORY -e SNAPTRON_CANCER_EXPTLIST_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY -d UNEXPLAINED_PIECHART_DIRECTORY  --unexplained-junctions
-
-Fig S9B and S9C:
-python figS1BC_S9BC_junction_sharedness.py -d UNEXPLAINED_PIECHART_DIRECTORY -o FIGURE_OUTPUT_DIRECTORY
-
-
-# Generate Junction Upset Plot Figures
-To generate junction upset plots, ensure you have the following dependencies installed for R:
-
-1. [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html)
-2. [data.table](https://cran.r-project.org/web/packages/data.table/index.html)
-3. [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html)
-
-Next, download the cancer-specific junction tables from the data resource to a subdirectory in your working directory.
+(Contact on instructions for regenerating this figure: https://github.com/metamaden)
 
 Instantiate the functions in `upset_functions.R`, and make a new subdirectory (default name: `cxdat`), and run `get.datlist()`, specifying the name of the subdirectory containing the junction data tables. Once this has run, the working directory should contain a large list object containing the junction data tables, as well as a newly populated subdirectory (default: `cxdat`). Depending on your session memory limit, you may need to remove the object `cxdl` from your environment before proceeding.
 
@@ -203,8 +135,62 @@ Follow the remaining steps in `upset_data.R` to: Define the new `developmental` 
 
 Next, follow the steps in `upset_plots_original.R` to: Specify the data table containing the whole/total group sets and subset group sets, respectively; Exclude the pre-filtered set columns from visualization; Properly order whole set columns by mean value; Automatically generate the axis limits and labels; Specify the group labels (should match whole set column labels after ordering on means); Generate the plot data objects; Generate the final plot images.
 
-Following these steps should generate both a main and a supplemental upset plot with annotation set and subset abundances. It may be necessary to experiment with different plot and image dimensions in `upset_plots_original.R` and `make.ggset.final()` to refine the figure properties. For additional information, refer to the function docstrings and script comments.
+Following these steps should generate both a main and a supplemental upset plot with annotation set and subset abundances. It may be necessary to experiment with different plot and image dimensions in `upset_plots_original.R` and `make.ggset.final()` to refine the figure properties. For additional information, refer to the function docstrings and script comments.)
 
+Fig 3B:
 
+        python3 fig3B_antisense_boxplot.py -o FIGURE_OUTPUT_DIR -s FULL_PIECHART_DIR
 
+Fig S1A:
 
+        python3 fig1B_ncn_jx_counts_per_sample.py -j FILTERED_NCN_JX_PER_SAMPLE_DIR -p FILTERED_NTM_JX_PER_SAMPLE_DI -d -g THYM CESC UVM DLBC --prepared-sort-order -o FIGURE_OUTPUT_DIR
+
+Fig S1B and S1C:
+
+        python3 figS1BC_S9BC_junction_sharedness.py -d FULL_PIECHART_DIR/true_TCGA_prevalence_files populated -o FIGURE_OUTPUT_DIR
+
+Note: requires contents of “true_TCGA_prevalence_files” directory created by set_membership_analysis.py
+
+Fig S2:
+
+        python3 figS2_set_prevalences_per_cancer.py -s FULL_PIECHART_DIR -o FIGURE_OUTPUT_DIR
+
+Figs S3, S4:
+
+(Contact for instructions on regenerating this figure: https://github.com/weederb23)
+
+1. Download the TCGA mutation files from http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/ for each cancer type and move into the sub-directory ./TCGA_mut_files/, where ./ is the location of "SF_mutation_script.R" and "SF_sharedness_plots.R"
+
+2. Copy files from NON_CORE_NORMAL_DIRECTORY to a new directory within ./ called "non_core_jxns/". Rename files from full cancer names to match TCGA cancer codes.
+
+3. Copy files from [PIECHART DIRECTORY] to a new directory within ./ called "non_core_jxn_annotations/". Rename files from full cancer names to match TCGA cancer codes.
+
+4. Run `Rscript SF_mutation_script.R`.
+
+This generates `fig_s3a.jpg`, `fig_s3b.jpg` and `shared_jxn_df.txt`. `shared_jxn_df.txt` is used downstream for `SF_sharedness_plots.R`.
+
+If run interactively, also presents statistics for junction comparisons between patients with and without splicing factor mutations across cancers.
+
+5. Run `SF_sharedness_plots.R`.
+
+This generates `fig_s4a.jpg` and `fig_s4b.jpg`. If run interactively, also presents statistics for jxn comparisons between patients with and without splicing factor mutations across cancers.
+
+Fig S5:
+
+        python3 figS5_S9A_SRA_cancer_shared_prevalence.py --snaptron-results SNAPTRON_CANCER_DIR -e SNAPTRON_CANCER_EXPTLIST_DIR -o FIGURE_OUTPUT_DIR -d PREVALENCE_FILE_DIR
+
+Fig S6:
+
+        python3 figS6_full_TCGA_SRA_heatmap.py  -d PREVALENCE_FILE_DIR -o FIGURE_OUTPUT_DIR --snaptron-results SNAPTRON_NONCANCER_DIR -e SNAPTRON_NONCANCER_EXPTLIST_DIR
+
+Fig S7:
+
+        python3 figS7_SKCM_jx_similarity.py --snaptron-results SNAPTRON_NONCANCER_DIR -d ALL_JXS_PER_SAMPLE_DIR -o FIGURE_OUTPUT_DIR
+
+Fig S9A:
+
+        python3 figS5_S9A_SRA_cancer_shared_prevalence.py --snaptron-results SNAPTRON_CANCER_DIR -e SNAPTRON_CANCER_EXPTLIST_DIR -o FIGURE_OUTPUT_DIR -d UNEXPLAINED_PIECHART_DIR --unexplained-junctions
+
+Fig S9B and S9C:
+
+        python3 figS1BC_S9BC_junction_sharedness.py -d UNEXPLAINED_PIECHART_DIR -o FIGURE_OUTPUT_DIR
