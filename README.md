@@ -46,9 +46,9 @@ Note we also made use of [metaSRA](http://metasra.biostat.wisc.edu/)'s ontology 
 * `all_jxs` (`ALL_JX_DIR`) for use in set membership annotation;
 * `non-core-normal_jxs_per_sample` (`NON_CORE_NORMAL_DIR`) and `non-tissue-matched_jxs_per_sample` (`NON_TISSUE_MATCHED_NORMAL_DIR`) for use in set membership annotation and Figures S3A, S3B, S4A, and S4B;
 * `non-core-normal_counts_per_sample` (`COUNTS_PER_SAMPLE_DIR`) (junctions not found in core normals) to generate Figure 1B;
-* PREVALENCE_FILE_DIRECTORY (tcga cancer junctions not found in core normals with cancer-type prevalence, per cancer type) to generate Figures 2A, 2B, 2C, and S5
-* FILTERED_NTM_JX_PER_SAMPLE_DIRECTORY (coverage- and annotation-filtered junctions not found in GTEx or TCGA tissue-matched normal samples) and FILTERED_NCN_JX_PER_SAMPLE_DIRECTORY (coverage- and annotation-filtered junctions not found in core normals) to generate Figure S1A
-* ALL_JXS_PER_SAMPLE_DIRECTORY containing all junctions for TCGA SKCM normal samples, TCGA SKCM tumor samples, and GTEx bulk skin normal samples to generate Figure S7.
+* `non-core-normal_jx_prevalences` (`PREVALENCE_FILE_DIR`) (TCGA cancer junctions not found in core normals with cancer-type prevalence, per cancer type) to generate Figures 2A, 2B, 2C, and S5;
+* `FigS1a_non-core-normal_counts_per_sample` (`FILTERED_NTM_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in GTEx or TCGA tissue-matched normal samples) and `FigS1a_non-tissue-matched_counts_per_sample` (`FILTERED_NCN_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in core normals) to generate Figure S1A;
+* (`all_jxs_per_sample_paired_normals`) `ALL_JXS_PER_SAMPLE_DIR` containing all junctions for TCGA SKCM normal samples, TCGA SKCM tumor samples, and GTEx bulk skin normal samples to generate Figure S7.
 
 ——
 Collect SRA junctions
