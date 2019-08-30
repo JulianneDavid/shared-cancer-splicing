@@ -56,13 +56,13 @@ Note we also made use of [metaSRA](http://metasra.biostat.wisc.edu/)'s ontology 
 
 where `UTILITIES_DIRECTORY` is where `snaptron-experiments` was previously cloned (see Requirements). `SRA_JUNCTION_OUTPUT_DIR` is where the results will appear.
 
-4. Run each `SAMPLE_TYPE_indiv_chrom_batch_query_script.sh` to collect SRA junctions.
+4. Run each `SAMPLE_TYPE_indiv_chrom_batch_query_script.sh` in `SRA_JUNCTION_OUTPUT_DIR` to collect SRA junctions.
 
 `SRA_JUNCTION_OUTPUT_DIR` will now contain:
-* `SRA_noncancer_rawresults` (`SNAPTRON_NONCANCER_DIRECTORY`) for non-cancer junction results
-* `SRA_noncancer_exptlists` (`SNAPTRON_NONCANCER_EXPTLIST_DIRECTORY`) for non-cancer experiment lists
-* `SRA_cancer_rawresults` (`SNAPTRON_CANCER_DIRECTORY`) for cancer junction results
-* `SRA_cancer_exptlists` (`SNAPTRON_CANCER_EXPTLIST_DIRECTORY`) for cancer experiment lists 
+* `SRA_noncancer_rawresults` (`SNAPTRON_NONCANCER_DIR`) for non-cancer junction results
+* `SRA_noncancer_exptlists` (`SNAPTRON_NONCANCER_EXPTLIST_DIR`) for non-cancer experiment lists
+* `SRA_cancer_rawresults` (`SNAPTRON_CANCER_DIR`) for cancer junction results
+* `SRA_cancer_exptlists` (`SNAPTRON_CANCER_EXPTLIST_DIR`) for cancer experiment lists 
 
 
 ——
