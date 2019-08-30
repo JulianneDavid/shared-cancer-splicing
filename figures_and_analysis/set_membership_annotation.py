@@ -352,7 +352,7 @@ if __name__ == '__main__':
         if os.path.exists(annotated_file):
             continue
 
-        logging.info('\nstarting {}'.format(cancer))
+        logging.info('starting {}'.format(cancer))
         all_jxs_name = '{}_all_jxs*.csv'.format(cancer)
         file = glob.glob(os.path.join(jx_dir, all_jxs_name))[0]
 
