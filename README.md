@@ -82,11 +82,13 @@ Run `jx_indexer.py` in `experiment` mode on junction index to collect junction f
 * `unexplained` (`UNEXPLAINED_DIR`) containing unexplained subset of all single-read junctions
 * `developmental` (`DEVELOPMENTAL_DIR`) containing developmentally-occuring subset of all single-read junctions
 
+To generate two-sample minimum junction sets, run:
 
-Run 2-sample minimum requirement for category membership for Figures S8B and S8C:
-python set_membership_annotation.py --db-path DB_DIRECTORY --snaptron-results SNAPTRON_NONCANCER_DIRECTORY -d ALL_JX_DIRECTORY -g NON_CORE_NORMAL_DIRECTORY -p NON_TISSUE_MATCHED_NORMAL_DIRECTORY --gtf-file GENCODE_ANNOTATION_GTF --single-read-jx-json 1_READ_TCGA_JX_JSON --cancer-sra-directory SNAPTRON_CANCER_DIRECTORY --cancer-gene-census CANCER_GENE_CENSUS --oncokb-cancer-genes ONCOKB_GENES --min-overall-set-count 2 -o 2-SAMPLE_PIECHART_DIRECTORY
+        python3 set_membership_annotation.py --db-path DB_DIR --snaptron-results SNAPTRON_NONCANCER_DIR -d ALL_JX_DIR -g NON_CORE_NORMAL_DIR -p NON_TISSUE_MATCHED_NORMAL_DIR --gtf-file GENCODE_ANNOTATION_GTF --single-read-jx-json 1_READ_TCGA_JX_JSON --cancer-sra-directory SNAPTRON_CANCER_DIR --cancer-gene-census CANCER_GENE_CENSUS --oncokb-cancer-genes ONCOKB_GENES --min-overall-set-count 2 -o 2-SAMPLE_PIECHART_DIR
 
-Note: this also creates subdirectories 2-SAMPLE_PIECHART_DIRECTORY/unexplained and 2-SAMPLE_PIECHART_DIRECTORY/developmental containing the relevant subsets of the full files.
+`2-SAMPLE_PIECHART_DIR` will now contain:
+* `unexplained` (`UNEXPLAINED_2-SAMPLE_DIR`) containing unexplained subset of all two-sample junctions
+* `developmental` (`DEVELOPMENTAL_2-SAMPLE_DIR`) containing developmentally-occuring subset of all two-sample junctions
 
 ——
 Data analyses:
