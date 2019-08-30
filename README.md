@@ -90,7 +90,7 @@ To generate two-sample minimum junction sets (used in Figures S8B and S8C), run:
 * `unexplained` (`UNEXPLAINED_2-SAMPLE_DIR`) containing unexplained subset of all two-sample junctions
 * `developmental` (`DEVELOPMENTAL_2-SAMPLE_DIR`) containing developmentally-occuring subset of all two-sample junctions
 
-6. To perform additional set membership analyses using `set_membership_analysis.py`, run:
+6. To perform additional set membership analyses using `set_membership_analysis.py` (for use in Figures S1B and S1C), run:
 
         python3 set_membership_analysis.py -o OUTPUT_DIR -s FULL_PIECHART_DIR
 
@@ -151,7 +151,7 @@ Fig S1A:
 
 Fig S1B and S1C:
 
-        python3 figS1BC_S9BC_junction_sharedness.py -d FULL_PIECHART_DIR/true_TCGA_prevalence_files populated -o FIGURE_OUTPUT_DIR
+        python3 figS1BC_S9BC_junction_sharedness.py -d TCGA_PREVALENCE_DIR populated -o FIGURE_OUTPUT_DIR
 
 Note: requires contents of “true_TCGA_prevalence_files” directory created by set_membership_analysis.py
 
