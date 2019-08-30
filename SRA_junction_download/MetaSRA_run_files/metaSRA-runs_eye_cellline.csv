@@ -1,0 +1,240 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP069088,Live single-cell laser tag,SRS1272742,,SRX1555501,SRR3136917
+SRP069088,Live single-cell laser tag,SRS1271317,,SRX1555654,SRR3137160
+SRP069088,Live single-cell laser tag,SRS1272574,,SRX1557182,SRR3138902
+SRP069088,Live single-cell laser tag,SRS1269954,,SRX1554091,SRR3135202
+SRP069088,Live single-cell laser tag,SRS1269955,,SRX1554092,SRR3135241
+SRP069088,Live single-cell laser tag,SRS1271220,,SRX1555493,SRR3136915
+SRP069088,Live single-cell laser tag,SRS1272737,,SRX1555498,SRR3136916
+SRP069088,Live single-cell laser tag,SRS1271332,,SRX1555657,SRR3137161
+SRP069088,Live single-cell laser tag,SRS1271333,,SRX1555660,SRR3137167
+SRP069088,Live single-cell laser tag,SRS1271348,,SRX1555665,SRR3137171
+SRP069088,Live single-cell laser tag,SRS1271368,,SRX1555670,SRR3137176
+SRP069088,Live single-cell laser tag,SRS1271223,,SRX1555674,SRR3137179
+SRP069088,Live single-cell laser tag,SRS1271246,,SRX1555678,SRR3137183
+SRP069088,Live single-cell laser tag,SRS1271259,,SRX1555680,SRR3137184
+SRP069088,Live single-cell laser tag,SRS1272266,,SRX1556844,SRR3138282
+SRP069088,Live single-cell laser tag,SRS1272267,,SRX1556845,SRR3138283
+SRP069088,Live single-cell laser tag,SRS1272268,,SRX1556846,SRR3138285
+SRP069088,Live single-cell laser tag,SRS1272269,,SRX1556847,SRR3138294
+SRP069088,Live single-cell laser tag,SRS1272569,,SRX1557177,SRR3138874
+SRP069088,Live single-cell laser tag,SRS1272568,,SRX1557176,SRR3138869
+SRP069088,Live single-cell laser tag,SRS1272570,,SRX1557178,SRR3138875
+SRP069088,Live single-cell laser tag,SRS1272571,,SRX1557179,SRR3138876
+SRP069088,Live single-cell laser tag,SRS1272572,,SRX1557180,SRR3138878
+SRP069088,Live single-cell laser tag,SRS1272573,,SRX1557181,SRR3138901
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647912,RPE1_cytD_2n,SRX2055868,SRR4069100
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647910,RPE1_cytD_2n,SRX2055870,SRR4069102
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647907,RPE1_cytD_2n,SRX2055872,SRR4069104
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647909,RPE1_cytD_4n,SRX2055869,SRR4069101
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647920,RPE1_cytD_4n,SRX2055871,SRR4069103
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647913,RPE1_cytD_4n,SRX2055873,SRR4069105
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647911,RPE1_zm_2n,SRX2055874,SRR4069106
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647917,RPE1_zm_2n,SRX2055876,SRR4069108
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647915,RPE1_zm_2n,SRX2055878,SRR4069110
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647914,RPE1_zm_4n,SRX2055875,SRR4069107
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647927,RPE1_zm_4n,SRX2055877,SRR4069109
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647918,RPE1_zm_4n,SRX2055879,SRR4069111
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647919,RPE1_unt_2n,SRX2055862,SRR4069094
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647904,RPE1_unt_2n,SRX2055864,SRR4069096
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647905,RPE1_unt_2n,SRX2055866,SRR4069098
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647906,RPE1_unt_4n,SRX2055863,SRR4069095
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647903,RPE1_unt_4n,SRX2055865,SRR4069097
+SRP083013,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure or Aurora kinase inhibition [tpo3],SRS1647908,RPE1_unt_4n,SRX2055867,SRR4069099
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647932,RPE1_s1_2N,SRX2055892,SRR4069124
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647937,RPE1_s1_2N,SRX2055894,SRR4069126
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647933,RPE1_s1_2N,SRX2055893,SRR4069125
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647938,RPE1_s1_4N,SRX2055895,SRR4069127
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647934,RPE1_s1_4N,SRX2055896,SRR4069128
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647935,RPE1_s1_4N,SRX2055897,SRR4069129
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647946,RPE1_s2_2N,SRX2055898,SRR4069130
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647949,RPE1_s2_2N,SRX2055899,SRR4069131
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647950,RPE1_s2_2N,SRX2055900,SRR4069132
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647941,RPE1_s2_4N,SRX2055901,SRR4069133
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647940,RPE1_s2_4N,SRX2055902,SRR4069134
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647939,RPE1_s2_4N,SRX2055903,SRR4069135
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647943,RPE1_s3_2N,SRX2055904,SRR4069136
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647956,RPE1_s3_2N,SRX2055905,SRR4069137
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647947,RPE1_s3_2N,SRX2055906,SRR4069138
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647944,RPE1_s3_4N,SRX2055907,SRR4069139
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647945,RPE1_s3_4N,SRX2055908,SRR4069140
+SRP083015,RNA-Seq analysis of proliferating 4N and 2N RPE1 cells derived from single cell clones following inhibition of Aurora B to induce polyploidization [tpo10],SRS1647948,RPE1_s3_4N,SRX2055909,SRR4069141
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445760,ARPE-19 cell line,SRX3110672,SRR5952206
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445744,fhRPE-13A cell line,SRX3110656,SRR5952190
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445748,fhRPE-13A cell line,SRX3110660,SRR5952194
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445752,fhRPE-13A cell line,SRX3110664,SRR5952198
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445740,fhRPE-13B cell line,SRX3110652,SRR5952186
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445745,fhRPE-13A cell line,SRX3110657,SRR5952191
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445749,fhRPE-13A cell line,SRX3110661,SRR5952195
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445753,fhRPE-13A cell line,SRX3110665,SRR5952199
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445741,fhRPE-13B cell line,SRX3110653,SRR5952187
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445746,fhRPE-13A cell line,SRX3110658,SRR5952192
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445750,fhRPE-13A cell line,SRX3110662,SRR5952196
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445754,fhRPE-13A cell line,SRX3110666,SRR5952200
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445742,fhRPE-13B cell line,SRX3110654,SRR5952188
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445747,fhRPE-13A cell line,SRX3110659,SRR5952193
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445751,fhRPE-13A cell line,SRX3110663,SRR5952197
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445755,fhRPE-13A cell line,SRX3110667,SRR5952201
+SRP115908,Spontaneous generation of a novel fetal human retinal pigment epithelium (RPE) cell line available for investigation on phagocytosis and morphogenesis,SRS2445743,fhRPE-13B cell line,SRX3110655,SRR5952189
+SRP076885,RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide,SRS1520145,"GM09677 SMA fibroblasts, RN-0005 treated",SRX1867611,SRR3705758
+SRP076885,RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide,SRS1520147,"GM09677 SMA fibroblasts, RN-0005 treated",SRX1867612,SRR3705759
+SRP076885,RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide,SRS1520148,"GM09677 SMA fibroblasts, SUZ12kd-treated",SRX1867613,SRR3705760
+SRP076885,RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide,SRS1520149,"GM09677 SMA fibroblasts, SUZ12kd-treated",SRX1867614,SRR3705761
+SRP076885,RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide,SRS1520144,"GM09677 SMA fibroblasts, mock controls",SRX1867609,SRR3705756
+SRP076885,RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide,SRS1520146,"GM09677 SMA fibroblasts, mock controls",SRX1867610,SRR3705757
+SRP076885,RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide,SRS1520154,"GM09677 SMA fibroblasts, RN-0005 treated",SRX1867617,SRR3705764
+SRP076885,RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide,SRS1520151,"GM09677 SMA fibroblasts, RN-0005 treated",SRX1867618,SRR3705765
+SRP076885,RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide,SRS1520153,"GM09677 SMA fibroblasts, SUZ12kd-treated",SRX1867619,SRR3705766
+SRP076885,RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide,SRS1520155,"GM09677 SMA fibroblasts, SUZ12kd-treated",SRX1867620,SRR3705767
+SRP076885,RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide,SRS1520150,"GM09677 SMA fibroblasts, mock controls",SRX1867615,SRR3705762
+SRP076885,RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide,SRS1520152,"GM09677 SMA fibroblasts, mock controls",SRX1867616,SRR3705763
+SRP045639,Aneuploidy-induced cellular stresses limit autophagic degradation.,SRS687015,hTERT-RPE1_BafA1,SRX683845,SRR1554588
+SRP045639,Aneuploidy-induced cellular stresses limit autophagic degradation.,SRS687016,hTERT-RPE1_BafA1,SRX683846,SRR1554589
+SRP045639,Aneuploidy-induced cellular stresses limit autophagic degradation.,SRS687017,hTERT-RPE1_BafA1,SRX683847,SRR1554590
+SRP045639,Aneuploidy-induced cellular stresses limit autophagic degradation.,SRS687012,hTERT-RPE1_Reversine,SRX683842,SRR1554585
+SRP045639,Aneuploidy-induced cellular stresses limit autophagic degradation.,SRS687013,hTERT-RPE1_Reversine,SRX683843,SRR1554586
+SRP045639,Aneuploidy-induced cellular stresses limit autophagic degradation.,SRS687014,hTERT-RPE1_Reversine,SRX683844,SRR1554587
+SRP045639,Aneuploidy-induced cellular stresses limit autophagic degradation.,SRS687018,hTERT-RPE1_MG132,SRX683848,SRR1554591
+SRP045639,Aneuploidy-induced cellular stresses limit autophagic degradation.,SRS687019,hTERT-RPE1_MG132,SRX683849,SRR1554592
+SRP045639,Aneuploidy-induced cellular stresses limit autophagic degradation.,SRS687020,hTERT-RPE1_MG132,SRX683850,SRR1554593
+SRP045639,Aneuploidy-induced cellular stresses limit autophagic degradation.,SRS687009,hTERT-RPE1_control,SRX683839,SRR1554582
+SRP045639,Aneuploidy-induced cellular stresses limit autophagic degradation.,SRS687011,hTERT-RPE1_control,SRX683841,SRR1554584
+SRP045639,Aneuploidy-induced cellular stresses limit autophagic degradation.,SRS687010,hTERT-RPE1_control,SRX683840,SRR1554583
+SRP083014,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure by siRNA knockdown of Anillin [tpo8],SRS1647926,RPE1_anil_2n,SRX2055886,SRR4069118
+SRP083014,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure by siRNA knockdown of Anillin [tpo8],SRS1647931,RPE1_anil_2n,SRX2055888,SRR4069120
+SRP083014,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure by siRNA knockdown of Anillin [tpo8],SRS1647936,RPE1_anil_2n,SRX2055887,SRR4069119
+SRP083014,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure by siRNA knockdown of Anillin [tpo8],SRS1647929,RPE1_anil_4n,SRX2055889,SRR4069121
+SRP083014,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure by siRNA knockdown of Anillin [tpo8],SRS1647930,RPE1_anil_4n,SRX2055890,SRR4069122
+SRP083014,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure by siRNA knockdown of Anillin [tpo8],SRS1647928,RPE1_anil_4n,SRX2055891,SRR4069123
+SRP083014,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure by siRNA knockdown of Anillin [tpo8],SRS1647924,RPE1_nt_2n,SRX2055880,SRR4069112
+SRP083014,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure by siRNA knockdown of Anillin [tpo8],SRS1647925,RPE1_nt_2n,SRX2055881,SRR4069113
+SRP083014,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure by siRNA knockdown of Anillin [tpo8],SRS1647923,RPE1_nt_2n,SRX2055882,SRR4069114
+SRP083014,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure by siRNA knockdown of Anillin [tpo8],SRS1647942,RPE1_nt_4n,SRX2055883,SRR4069115
+SRP083014,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure by siRNA knockdown of Anillin [tpo8],SRS1647921,RPE1_nt_4n,SRX2055884,SRR4069116
+SRP083014,RNA-Seq analysis of 4N and 2N RPE1 cells following polyploid induction via cytokinesis failure by siRNA knockdown of Anillin [tpo8],SRS1647922,RPE1_nt_4n,SRX2055885,SRR4069117
+SRP093877,Transcriptomic Profiling of Posterior Polymorphous Corneal Dystrophy,SRS1817755,primary corneal endothelial cells,SRX2373820,SRR5052453
+SRP093877,Transcriptomic Profiling of Posterior Polymorphous Corneal Dystrophy,SRS1817754,primary corneal endothelial cells,SRX2373819,SRR5052452
+SRP093877,Transcriptomic Profiling of Posterior Polymorphous Corneal Dystrophy,SRS1817753,primary corneal endothelial cells,SRX2373818,SRR5052451
+SRP093877,Transcriptomic Profiling of Posterior Polymorphous Corneal Dystrophy,SRS1817756,primary corneal endothelial cells,SRX2373821,SRR5052454
+SRP093877,Transcriptomic Profiling of Posterior Polymorphous Corneal Dystrophy,SRS1817757,primary corneal endothelial cells,SRX2373822,SRR5052455
+SRP093877,Transcriptomic Profiling of Posterior Polymorphous Corneal Dystrophy,SRS1817760,primary corneal endothelial cells,SRX2373825,SRR5052458
+SRP093877,Transcriptomic Profiling of Posterior Polymorphous Corneal Dystrophy,SRS1817759,primary corneal endothelial cells,SRX2373824,SRR5052457
+SRP093877,Transcriptomic Profiling of Posterior Polymorphous Corneal Dystrophy,SRS1817758,primary corneal endothelial cells,SRX2373823,SRR5052456
+SRP093877,Transcriptomic Profiling of Posterior Polymorphous Corneal Dystrophy,SRS1817752,primary corneal endothelial cells,SRX2373817,SRR5052450
+SRP076983,Aneuploidy triggers an immune response,SRS1522339,Euploid control,SRX1872295,SRR3712756
+SRP076983,Aneuploidy triggers an immune response,SRS1522340,Euploid control,SRX1872296,SRR3712757
+SRP076983,Aneuploidy triggers an immune response,SRS1522343,Aneuploid arrested cells,SRX1872300,SRR3712761
+SRP076983,Aneuploidy triggers an immune response,SRS1522346,Aneuploid arrested cells,SRX1872301,SRR3712762
+SRP076983,Aneuploidy triggers an immune response,SRS1522341,Aneuploid arrested cells,SRX1872302,SRR3712763
+SRP076983,Aneuploidy triggers an immune response,SRS1522342,Aneuploid cycling cells,SRX1872297,SRR3712758
+SRP076983,Aneuploidy triggers an immune response,SRS1522347,Aneuploid cycling cells,SRX1872298,SRR3712759
+SRP076983,Aneuploidy triggers an immune response,SRS1522345,Aneuploid cycling cells,SRX1872299,SRR3712760
+ERP005189,Human corneas treated with 'cold plasma' (APCP) in presence or absence of NAC,ERS418461,,ERX419857,ERR453485
+ERP005189,Human corneas treated with 'cold plasma' (APCP) in presence or absence of NAC,ERS418460,,ERX419856,ERR453484
+ERP005189,Human corneas treated with 'cold plasma' (APCP) in presence or absence of NAC,ERS418459,,ERX419855,ERR453483
+ERP005189,Human corneas treated with 'cold plasma' (APCP) in presence or absence of NAC,ERS418458,,ERX419854,ERR453482
+ERP005189,Human corneas treated with 'cold plasma' (APCP) in presence or absence of NAC,ERS418457,,ERX419853,ERR453481
+ERP005189,Human corneas treated with 'cold plasma' (APCP) in presence or absence of NAC,ERS418456,,ERX419852,ERR453480
+SRP091675,Appropriately Differentiated ARPE-19 Cells Regain a Native Phenotype and Similar Gene Expression Profile,SRS1749415,"ARPE-19 cells, 4 days",SRX2249434,SRR4427911
+SRP091675,Appropriately Differentiated ARPE-19 Cells Regain a Native Phenotype and Similar Gene Expression Profile,SRS1749416,"ARPE-19 cells, 4 days",SRX2249435,SRR4427912
+SRP091675,Appropriately Differentiated ARPE-19 Cells Regain a Native Phenotype and Similar Gene Expression Profile,SRS1749417,"ARPE-19 cells, 4 days",SRX2249436,SRR4427913
+SRP091675,Appropriately Differentiated ARPE-19 Cells Regain a Native Phenotype and Similar Gene Expression Profile,SRS1749418,"ARPE-19 cells, 4 months",SRX2249437,SRR4427914
+SRP091675,Appropriately Differentiated ARPE-19 Cells Regain a Native Phenotype and Similar Gene Expression Profile,SRS1749419,"ARPE-19 cells, 4 months",SRX2249438,SRR4427915
+SRP091675,Appropriately Differentiated ARPE-19 Cells Regain a Native Phenotype and Similar Gene Expression Profile,SRS1749420,"ARPE-19 cells, 4 months",SRX2249439,SRR4427916
+SRP057253,Regulation of protein translation during mitosis,SRS911635,Human Retinal pigment epithelial cells immortalized with hTERT,SRX997419,SRR1976451
+SRP057253,Regulation of protein translation during mitosis,SRS911632,Human Retinal pigment epithelial cells immortalized with hTERT,SRX997420,SRR1976452
+SRP057253,Regulation of protein translation during mitosis,SRS911630,Human Retinal pigment epithelial cells immortalized with hTERT,SRX997421,SRR1976453
+SRP057253,Regulation of protein translation during mitosis,SRS911629,Human Retinal pigment epithelial cells immortalized with hTERT,SRX997422,SRR1976454
+SRP057253,Regulation of protein translation during mitosis,SRS911636,Human Retinal pigment epithelial cells immortalized with hTERT,SRX997417,SRR1976449
+SRP057253,Regulation of protein translation during mitosis,SRS911634,Human Retinal pigment epithelial cells immortalized with hTERT,SRX997418,SRR1976450
+ERP022243,RNAseq of wild-type and giantin knockout retinal pigment epithelial cell lines,ERS1625858,,ERX1955981,ERR1895585
+ERP022243,RNAseq of wild-type and giantin knockout retinal pigment epithelial cell lines,ERS1625858,,ERX1955981,ERR1895586
+ERP022243,RNAseq of wild-type and giantin knockout retinal pigment epithelial cell lines,ERS1625860,,ERX1955983,ERR1895589
+ERP022243,RNAseq of wild-type and giantin knockout retinal pigment epithelial cell lines,ERS1625860,,ERX1955983,ERR1895590
+ERP022243,RNAseq of wild-type and giantin knockout retinal pigment epithelial cell lines,ERS1625859,,ERX1955982,ERR1895587
+ERP022243,RNAseq of wild-type and giantin knockout retinal pigment epithelial cell lines,ERS1625859,,ERX1955982,ERR1895588
+ERP022243,RNAseq of wild-type and giantin knockout retinal pigment epithelial cell lines,ERS1625861,,ERX1955984,ERR1895591
+ERP022243,RNAseq of wild-type and giantin knockout retinal pigment epithelial cell lines,ERS1625861,,ERX1955984,ERR1895592
+ERP022243,RNAseq of wild-type and giantin knockout retinal pigment epithelial cell lines,ERS1625863,,ERX1955986,ERR1895595
+ERP022243,RNAseq of wild-type and giantin knockout retinal pigment epithelial cell lines,ERS1625863,,ERX1955986,ERR1895596
+ERP022243,RNAseq of wild-type and giantin knockout retinal pigment epithelial cell lines,ERS1625862,,ERX1955985,ERR1895593
+ERP022243,RNAseq of wild-type and giantin knockout retinal pigment epithelial cell lines,ERS1625862,,ERX1955985,ERR1895594
+SRP062870,Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing,SRS1509092,Retinal Pigmented Epithelial Cells (hTERT-RPE1),SRX1851593,SRR3677548
+SRP062870,Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing,SRS1509092,Retinal Pigmented Epithelial Cells (hTERT-RPE1),SRX1851593,SRR3677549
+SRP062870,Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing,SRS1509093,Retinal Pigmented Epithelial Cells (hTERT-RPE1),SRX1851594,SRR3677550
+SRP062870,Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing,SRS1509093,Retinal Pigmented Epithelial Cells (hTERT-RPE1),SRX1851594,SRR3677551
+SRP062870,Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing,SRS1509094,Retinal Pigmented Epithelial Cells (hTERT-RPE1),SRX1851595,SRR3677552
+SRP062870,Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing,SRS1509094,Retinal Pigmented Epithelial Cells (hTERT-RPE1),SRX1851595,SRR3677553
+SRP062870,Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing,SRS1509095,Retinal Pigmented Epithelial Cells (hTERT-RPE1),SRX1851596,SRR3677554
+SRP062870,Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing,SRS1509095,Retinal Pigmented Epithelial Cells (hTERT-RPE1),SRX1851596,SRR3677555
+SRP062870,Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing,SRS1509096,Retinal Pigmented Epithelial Cells (hTERT-RPE1),SRX1851597,SRR3677556
+SRP062870,Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing,SRS1509096,Retinal Pigmented Epithelial Cells (hTERT-RPE1),SRX1851597,SRR3677557
+SRP062870,Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing,SRS1509097,Retinal Pigmented Epithelial Cells (hTERT-RPE1),SRX1851598,SRR3677558
+SRP062870,Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing,SRS1509097,Retinal Pigmented Epithelial Cells (hTERT-RPE1),SRX1851598,SRR3677559
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338626,ARPE-19 cell,SRX2986141,SRR5807539
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338626,ARPE-19 cell,SRX2986141,SRR5807540
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338626,ARPE-19 cell,SRX2986141,SRR5807541
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338626,ARPE-19 cell,SRX2986141,SRR5807542
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338625,ARPE-19 cell,SRX2986142,SRR5807543
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338625,ARPE-19 cell,SRX2986142,SRR5807544
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338625,ARPE-19 cell,SRX2986142,SRR5807545
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338625,ARPE-19 cell,SRX2986142,SRR5807546
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338624,ARPE-19 cell,SRX2986143,SRR5807547
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338624,ARPE-19 cell,SRX2986143,SRR5807548
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338624,ARPE-19 cell,SRX2986143,SRR5807549
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338624,ARPE-19 cell,SRX2986143,SRR5807550
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338621,ARPE-19 cell,SRX2986138,SRR5807527
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338621,ARPE-19 cell,SRX2986138,SRR5807528
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338621,ARPE-19 cell,SRX2986138,SRR5807529
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338621,ARPE-19 cell,SRX2986138,SRR5807530
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338623,ARPE-19 cell,SRX2986139,SRR5807531
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338623,ARPE-19 cell,SRX2986139,SRR5807532
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338623,ARPE-19 cell,SRX2986139,SRR5807533
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338623,ARPE-19 cell,SRX2986139,SRR5807534
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338622,ARPE-19 cell,SRX2986140,SRR5807535
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338622,ARPE-19 cell,SRX2986140,SRR5807536
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338622,ARPE-19 cell,SRX2986140,SRR5807537
+SRP111145,Ebola virus (EBOV) infection of ARPE-19 cells,SRS2338622,ARPE-19 cell,SRX2986140,SRR5807538
+SRP083016,RNA-Seq analysis RPE1 cells following exposure to Nutlin-3 to identify target genes of p53 [tpo12],SRS1647954,RPE1_dmso,SRX2055910,SRR4069142
+SRP083016,RNA-Seq analysis RPE1 cells following exposure to Nutlin-3 to identify target genes of p53 [tpo12],SRS1647955,RPE1_dmso,SRX2055911,SRR4069143
+SRP083016,RNA-Seq analysis RPE1 cells following exposure to Nutlin-3 to identify target genes of p53 [tpo12],SRS1647953,RPE1_dmso,SRX2055912,SRR4069144
+SRP083016,RNA-Seq analysis RPE1 cells following exposure to Nutlin-3 to identify target genes of p53 [tpo12],SRS1647952,RPE1_nutlin,SRX2055913,SRR4069145
+SRP083016,RNA-Seq analysis RPE1 cells following exposure to Nutlin-3 to identify target genes of p53 [tpo12],SRS1647957,RPE1_nutlin,SRX2055914,SRR4069146
+SRP083016,RNA-Seq analysis RPE1 cells following exposure to Nutlin-3 to identify target genes of p53 [tpo12],SRS1647958,RPE1_nutlin,SRX2055915,SRR4069147
+SRP064956,mammalian cell-lines Transcriptome or Gene expression,SRS1146040,,SRX1411444,SRR2895372
+SRP064956,mammalian cell-lines Transcriptome or Gene expression,SRS1146045,,SRX1411453,SRR2895380
+SRP064956,mammalian cell-lines Transcriptome or Gene expression,SRS1146043,,SRX1411451,SRR2895378
+SRP064956,mammalian cell-lines Transcriptome or Gene expression,SRS1146046,,SRX1411455,SRR2895381
+SRP106457,RNA-seq analysis of scaffold attachment factor A (SAF-A) knockdown in RPE1 cells,SRS2165872,RPE1 cells,SRX2783737,SRR5508028
+SRP106457,RNA-seq analysis of scaffold attachment factor A (SAF-A) knockdown in RPE1 cells,SRS2165874,RPE1 cells,SRX2783739,SRR5508030
+SRP106457,RNA-seq analysis of scaffold attachment factor A (SAF-A) knockdown in RPE1 cells,SRS2165871,RPE1 cells,SRX2783736,SRR5508027
+SRP106457,RNA-seq analysis of scaffold attachment factor A (SAF-A) knockdown in RPE1 cells,SRS2165873,RPE1 cells,SRX2783738,SRR5508029
+SRP007596,Genome-wide maps of polyadenylation sites in control and PABPN1kd cells,SRS254477,RPE-1 cells,SRX085425,SRR317203
+SRP007596,Genome-wide maps of polyadenylation sites in control and PABPN1kd cells,SRS254475,RPE-1 cells,SRX085423,SRR317201
+SRP007596,Genome-wide maps of polyadenylation sites in control and PABPN1kd cells,SRS254476,RPE-1 cells,SRX085424,SRR317202
+SRP011895,Comparison of stem-cell derived retinal pigment epithelia (RPE) with human fetal retina pigment epithelium,SRS302236,Retinal Pigment Epithelium,SRX130846,SRR447137
+SRP011895,Comparison of stem-cell derived retinal pigment epithelia (RPE) with human fetal retina pigment epithelium,SRS402526,,SRX251952,SRR786439
+SRP011895,Comparison of stem-cell derived retinal pigment epithelia (RPE) with human fetal retina pigment epithelium,SRS302237,Retinal Pigment Epithelium,SRX130847,SRR447138
+SRP053034,Homo sapiens Transcriptome or Gene expression,SRS873539,,SRX955743,SRR1783834
+SRP053034,Homo sapiens Transcriptome or Gene expression,SRS873539,,SRX955743,SRR1783835
+SRP053034,Homo sapiens Transcriptome or Gene expression,SRS873540,,SRX955744,SRR1783836
+SRP053034,Homo sapiens Transcriptome or Gene expression,SRS873540,,SRX955744,SRR1783837
+SRP053034,Homo sapiens Transcriptome or Gene expression,SRS873541,,SRX955745,SRR1783838
+SRP053034,Homo sapiens Transcriptome or Gene expression,SRS873541,,SRX955745,SRR1783839
+SRP090226,Long noncoding RNA related-competing endogenous RNAs in retinal pigment epithelial cells induced by clusterin,SRS1706077,Retinal Pigment Epithelial (RPE) cells_clusterin-treated,SRX2182145,SRR4280470
+SRP090226,Long noncoding RNA related-competing endogenous RNAs in retinal pigment epithelial cells induced by clusterin,SRS1706078,Retinal Pigment Epithelial (RPE) cells_control,SRX2182146,SRR4280471
+SRP061670,Homo sapiens Raw sequence reads,SRS1054265,,SRX1181975,SRR2166357
+SRP012585,Identification of miRNA signatures during the differentiation of hESCs into retinal pigment epithelial cells,SRS311714,ES-RPE,SRX145391,SRR493016
+SRP077681,Human Lens Epithelial Cells treated by NC Raw sequence reads,SRS1531390,,SRX1887539,SRR3734950
+SRP077681,Human Lens Epithelial Cells treated by NC Raw sequence reads,SRS1531390,,SRX1887539,SRR3735150
+SRP077681,Human Lens Epithelial Cells treated by NC Raw sequence reads,SRS1531390,,SRX1890702,SRR3735176
+SRP077681,Human Lens Epithelial Cells treated by NC Raw sequence reads,SRS1531390,,SRX1890702,SRR3735178
+SRP077606,Lens Epithelial Cells treated by miR-184 Raw sequence reads,SRS1531390,,SRX1887539,SRR3734950
+SRP077606,Lens Epithelial Cells treated by miR-184 Raw sequence reads,SRS1531390,,SRX1887539,SRR3735150
+SRP077606,Lens Epithelial Cells treated by miR-184 Raw sequence reads,SRS1531390,,SRX1890702,SRR3735176
+SRP077606,Lens Epithelial Cells treated by miR-184 Raw sequence reads,SRS1531390,,SRX1890702,SRR3735178
+SRP092413,Transcriptomic Profiling of 39 Neuroblastoma Cell Lines,SRS1773864,retinal pigmented epithelial hTERT-immortalized cell line,SRX2317245,SRR4787042
+SRP090027,Homo sapiens Transcriptome or Gene expression,SRS1700197,,SRX2172520,SRR4252548
+SRP090027,Homo sapiens Transcriptome or Gene expression,SRS1700197,,SRX2805061,SRR5535471
+SRP090027,Homo sapiens Transcriptome or Gene expression,SRS1700197,,SRX2805368,SRR5535778
+SRP090027,Homo sapiens Transcriptome or Gene expression,SRS1700197,,SRX2805524,SRR5535934

@@ -1,0 +1,596 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890372,,SRX2457133,SRR5137845
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890350,,SRX2457111,SRR5137823
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890401,,SRX2457162,SRR5137874
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890399,,SRX2457160,SRR5137872
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890353,,SRX2457114,SRR5137826
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890460,,SRX2457221,SRR5137933
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890342,,SRX2457103,SRR5137815
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890534,,SRX2457295,SRR5138007
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890471,,SRX2457232,SRR5137944
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890501,,SRX2457262,SRR5137974
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890445,,SRX2457206,SRR5137918
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890341,,SRX2457102,SRR5137814
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890492,,SRX2457253,SRR5137965
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890423,,SRX2457184,SRR5137896
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890429,,SRX2457189,SRR5137901
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890455,,SRX2457216,SRR5137928
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890360,,SRX2457121,SRR5137833
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890364,,SRX2457125,SRR5137837
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890428,,SRX2457190,SRR5137902
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890434,,SRX2457197,SRR5137909
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890414,,SRX2457175,SRR5137887
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890380,,SRX2457141,SRR5137853
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890390,,SRX2457151,SRR5137863
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890389,,SRX2457150,SRR5137862
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890523,,SRX2457284,SRR5137996
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890417,,SRX2457178,SRR5137890
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890450,,SRX2457211,SRR5137923
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890496,,SRX2457257,SRR5137969
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890362,,SRX2457123,SRR5137835
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890475,,SRX2457237,SRR5137949
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890540,,SRX2457301,SRR5138013
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890468,,SRX2457229,SRR5137941
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890525,,SRX2457286,SRR5137998
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890463,,SRX2457225,SRR5137937
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890533,,SRX2457294,SRR5138006
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890377,,SRX2457138,SRR5137850
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890378,,SRX2457139,SRR5137851
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890409,,SRX2457170,SRR5137882
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890432,,SRX2457193,SRR5137905
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890507,,SRX2457268,SRR5137980
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890439,,SRX2457199,SRR5137911
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890371,,SRX2457132,SRR5137844
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890403,,SRX2457164,SRR5137876
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890511,,SRX2457272,SRR5137984
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890406,,SRX2457167,SRR5137879
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890479,,SRX2457240,SRR5137952
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890483,,SRX2457243,SRR5137955
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890405,,SRX2457166,SRR5137878
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890344,,SRX2457105,SRR5137817
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890387,,SRX2457148,SRR5137860
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890529,,SRX2457290,SRR5138002
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890356,,SRX2457117,SRR5137829
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890418,,SRX2457179,SRR5137891
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890419,,SRX2457180,SRR5137892
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890366,,SRX2457127,SRR5137839
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890410,,SRX2457171,SRR5137883
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890493,,SRX2457254,SRR5137966
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890392,,SRX2457153,SRR5137865
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890535,,SRX2457296,SRR5138008
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890539,,SRX2457300,SRR5138012
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890361,,SRX2457122,SRR5137834
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890537,,SRX2457298,SRR5138010
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890436,,SRX2457195,SRR5137907
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890472,,SRX2457233,SRR5137945
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890370,,SRX2457131,SRR5137843
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890516,,SRX2457277,SRR5137989
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890398,,SRX2457159,SRR5137871
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890505,,SRX2457266,SRR5137978
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890453,,SRX2457214,SRR5137926
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890462,,SRX2457223,SRR5137935
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890524,,SRX2457285,SRR5137997
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890458,,SRX2457219,SRR5137931
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890433,,SRX2457194,SRR5137906
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890469,,SRX2457230,SRR5137942
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890379,,SRX2457140,SRR5137852
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890515,,SRX2457276,SRR5137988
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890512,,SRX2457273,SRR5137985
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890457,,SRX2457218,SRR5137930
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890530,,SRX2457291,SRR5138003
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890369,,SRX2457130,SRR5137842
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890490,,SRX2457251,SRR5137963
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890473,,SRX2457235,SRR5137947
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890510,,SRX2457271,SRR5137983
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890491,,SRX2457252,SRR5137964
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890393,,SRX2457154,SRR5137866
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890427,,SRX2457188,SRR5137900
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890365,,SRX2457126,SRR5137838
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890442,,SRX2457203,SRR5137915
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890420,,SRX2457181,SRR5137893
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890412,,SRX2457173,SRR5137885
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890456,,SRX2457217,SRR5137929
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890394,,SRX2457155,SRR5137867
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890480,,SRX2457241,SRR5137953
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890478,,SRX2457239,SRR5137951
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890506,,SRX2457267,SRR5137979
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890508,,SRX2457269,SRR5137981
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890416,,SRX2457176,SRR5137888
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890347,,SRX2457108,SRR5137820
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890474,,SRX2457234,SRR5137946
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890485,,SRX2457246,SRR5137958
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890527,,SRX2457288,SRR5138000
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890425,,SRX2457186,SRR5137898
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890522,,SRX2457283,SRR5137995
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890466,,SRX2457227,SRR5137939
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890437,,SRX2457198,SRR5137910
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890448,,SRX2457209,SRR5137921
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890354,,SRX2457115,SRR5137827
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890441,,SRX2457202,SRR5137914
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890407,,SRX2457168,SRR5137880
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890385,,SRX2457146,SRR5137858
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890438,,SRX2457200,SRR5137912
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890375,,SRX2457136,SRR5137848
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890447,,SRX2457208,SRR5137920
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890528,,SRX2457289,SRR5138001
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890495,,SRX2457255,SRR5137967
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890391,,SRX2457152,SRR5137864
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890352,,SRX2457113,SRR5137825
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890482,,SRX2457244,SRR5137956
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890422,,SRX2457183,SRR5137895
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890452,,SRX2457212,SRR5137924
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890504,,SRX2457265,SRR5137977
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890526,,SRX2457287,SRR5137999
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890486,,SRX2457247,SRR5137959
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890517,,SRX2457278,SRR5137990
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890497,,SRX2457258,SRR5137970
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890408,,SRX2457169,SRR5137881
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890343,,SRX2457104,SRR5137816
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890461,,SRX2457222,SRR5137934
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890421,,SRX2457182,SRR5137894
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890509,,SRX2457270,SRR5137982
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890481,,SRX2457242,SRR5137954
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890464,,SRX2457224,SRR5137936
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890395,,SRX2457156,SRR5137868
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890388,,SRX2457149,SRR5137861
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890348,,SRX2457109,SRR5137821
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890384,,SRX2457145,SRR5137857
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890513,,SRX2457274,SRR5137986
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890449,,SRX2457210,SRR5137922
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890435,,SRX2457196,SRR5137908
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890487,,SRX2457248,SRR5137960
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890373,,SRX2457134,SRR5137846
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890489,,SRX2457250,SRR5137962
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890345,,SRX2457106,SRR5137818
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890451,,SRX2457213,SRR5137925
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890396,,SRX2457157,SRR5137869
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890470,,SRX2457231,SRR5137943
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890532,,SRX2457293,SRR5138005
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890358,,SRX2457119,SRR5137831
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890477,,SRX2457238,SRR5137950
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890531,,SRX2457292,SRR5138004
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890518,,SRX2457279,SRR5137991
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890431,,SRX2457192,SRR5137904
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890465,,SRX2457226,SRR5137938
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890426,,SRX2457187,SRR5137899
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890446,,SRX2457207,SRR5137919
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890400,,SRX2457161,SRR5137873
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890476,,SRX2457236,SRR5137948
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890467,,SRX2457228,SRR5137940
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890454,,SRX2457215,SRR5137927
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890386,,SRX2457147,SRR5137859
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890494,,SRX2457256,SRR5137968
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890519,,SRX2457280,SRR5137992
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890404,,SRX2457165,SRR5137877
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890444,,SRX2457205,SRR5137917
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890500,,SRX2457261,SRR5137973
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890368,,SRX2457129,SRR5137841
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890440,,SRX2457201,SRR5137913
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890367,,SRX2457128,SRR5137840
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890521,,SRX2457282,SRR5137994
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890520,,SRX2457281,SRR5137993
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890459,,SRX2457220,SRR5137932
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890363,,SRX2457124,SRR5137836
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890355,,SRX2457116,SRR5137828
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890374,,SRX2457135,SRR5137847
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890430,,SRX2457191,SRR5137903
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890503,,SRX2457264,SRR5137976
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890498,,SRX2457259,SRR5137971
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890376,,SRX2457137,SRR5137849
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890402,,SRX2457163,SRR5137875
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890349,,SRX2457110,SRR5137822
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890538,,SRX2457299,SRR5138011
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890424,,SRX2457185,SRR5137897
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890346,,SRX2457107,SRR5137819
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890411,,SRX2457172,SRR5137884
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890484,,SRX2457245,SRR5137957
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890413,,SRX2457174,SRR5137886
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890382,,SRX2457143,SRR5137855
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890514,,SRX2457275,SRR5137987
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890443,,SRX2457204,SRR5137916
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890383,,SRX2457144,SRR5137856
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890357,,SRX2457118,SRR5137830
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890397,,SRX2457158,SRR5137870
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890488,,SRX2457249,SRR5137961
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890351,,SRX2457112,SRR5137824
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890415,,SRX2457177,SRR5137889
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890502,,SRX2457263,SRR5137975
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890359,,SRX2457120,SRR5137832
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890536,,SRX2457297,SRR5138009
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890381,,SRX2457142,SRR5137854
+SRP095910,Homo sapiens Transcriptome or Gene expression,SRS1890499,,SRX2457260,SRR5137972
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866602,placenta,SRX906202,SRR1850982
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866588,placenta,SRX906184,SRR1850964
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866571,placenta,SRX906201,SRR1850981
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866572,placenta,SRX906200,SRR1850980
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866580,placenta,SRX906192,SRR1850972
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866573,placenta,SRX906199,SRR1850979
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866552,placenta,SRX906232,SRR1851012
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866576,placenta,SRX906196,SRR1850976
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866544,placenta,SRX906219,SRR1850999
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866578,placenta,SRX906194,SRR1850974
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866579,placenta,SRX906193,SRR1850973
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866582,placenta,SRX906191,SRR1850971
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866583,placenta,SRX906188,SRR1850968
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866608,placenta,SRX906166,SRR1850946
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866577,placenta,SRX906195,SRR1850975
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866585,placenta,SRX906187,SRR1850967
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866599,placenta,SRX906173,SRR1850953
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866586,placenta,SRX906186,SRR1850966
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866590,placenta,SRX906182,SRR1850962
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866591,placenta,SRX906181,SRR1850961
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866612,placenta,SRX906162,SRR1850942
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866575,placenta,SRX906197,SRR1850977
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866584,placenta,SRX906189,SRR1850969
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866568,placenta,SRX906205,SRR1850985
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866589,placenta,SRX906183,SRR1850963
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866593,placenta,SRX906180,SRR1850960
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866603,placenta,SRX906171,SRR1850951
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866581,placenta,SRX906190,SRR1850970
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866540,placenta,SRX906222,SRR1851002
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866592,placenta,SRX906179,SRR1850959
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866611,placenta,SRX906163,SRR1850943
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866587,placenta,SRX906185,SRR1850965
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866605,placenta,SRX906169,SRR1850949
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866565,placenta,SRX906209,SRR1850989
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866567,placenta,SRX906206,SRR1850986
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866548,placenta,SRX906230,SRR1851010
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866595,placenta,SRX906208,SRR1850988
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866564,placenta,SRX906210,SRR1850990
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866569,placenta,SRX906203,SRR1850983
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866563,placenta,SRX906211,SRR1850991
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866543,placenta,SRX906218,SRR1850998
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866562,placenta,SRX906212,SRR1850992
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866560,placenta,SRX906214,SRR1850994
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866600,placenta,SRX906174,SRR1850954
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866559,placenta,SRX906215,SRR1850995
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866539,placenta,SRX906223,SRR1851003
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866555,placenta,SRX906228,SRR1851008
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866607,placenta,SRX906167,SRR1850947
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866553,placenta,SRX906231,SRR1851011
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866547,placenta,SRX906236,SRR1851016
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866554,placenta,SRX906229,SRR1851009
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866546,placenta,SRX906216,SRR1850996
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866601,placenta,SRX906172,SRR1850952
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866561,placenta,SRX906213,SRR1850993
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866557,placenta,SRX906226,SRR1851006
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866550,placenta,SRX906235,SRR1851015
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866542,placenta,SRX906221,SRR1851001
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866566,placenta,SRX906207,SRR1850987
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866541,placenta,SRX906220,SRR1851000
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866545,placenta,SRX906217,SRR1850997
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866538,placenta,SRX906224,SRR1851004
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866597,placenta,SRX906176,SRR1850956
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866604,placenta,SRX906170,SRR1850950
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866551,placenta,SRX906233,SRR1851013
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866616,placenta,SRX906159,SRR1850939
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866610,placenta,SRX906164,SRR1850944
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866549,placenta,SRX906234,SRR1851014
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866606,placenta,SRX906168,SRR1850948
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866617,placenta,SRX906157,SRR1850937
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866556,placenta,SRX906227,SRR1851007
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866615,placenta,SRX906158,SRR1850938
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866598,placenta,SRX906175,SRR1850955
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866570,placenta,SRX906204,SRR1850984
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866613,placenta,SRX906160,SRR1850940
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866609,placenta,SRX906165,SRR1850945
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866614,placenta,SRX906161,SRR1850941
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866596,placenta,SRX906177,SRR1850957
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866594,placenta,SRX906178,SRR1850958
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866574,placenta,SRX906198,SRR1850978
+SRP055918,Evaluating intra- and inter-individual variation in the human placental transcriptome,SRS866558,placenta,SRX906225,SRR1851005
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132274,,SRX2745907,SRR5457873
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132263,,SRX2745896,SRR5457862
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132269,,SRX2745902,SRR5457868
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132233,,SRX2745866,SRR5457832
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132268,,SRX2745901,SRR5457867
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132267,,SRX2745900,SRR5457866
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132280,,SRX2745913,SRR5457879
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132266,,SRX2745899,SRR5457865
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132264,,SRX2745897,SRR5457863
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132261,,SRX2745894,SRR5457860
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132246,,SRX2745879,SRR5457845
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132265,,SRX2745898,SRR5457864
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132262,,SRX2745895,SRR5457861
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132250,,SRX2745883,SRR5457849
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132231,,SRX2745864,SRR5457830
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132275,,SRX2745908,SRR5457874
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132260,,SRX2745893,SRR5457859
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132258,,SRX2745891,SRR5457857
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132252,,SRX2745885,SRR5457851
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132230,,SRX2745863,SRR5457829
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132242,,SRX2745875,SRR5457841
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132240,,SRX2745873,SRR5457839
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132283,,SRX2745916,SRR5457882
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132245,,SRX2745878,SRR5457844
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132249,,SRX2745882,SRR5457848
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132282,,SRX2745915,SRR5457881
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132241,,SRX2745874,SRR5457840
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132288,,SRX2745921,SRR5457887
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132285,,SRX2745918,SRR5457884
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132277,,SRX2745910,SRR5457876
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132279,,SRX2745912,SRR5457878
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132287,,SRX2745920,SRR5457886
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132243,,SRX2745876,SRR5457842
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132276,,SRX2745909,SRR5457875
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132232,,SRX2745865,SRR5457831
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132278,,SRX2745911,SRR5457877
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132234,,SRX2745867,SRR5457833
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132239,,SRX2745872,SRR5457838
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132286,,SRX2745919,SRR5457885
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132238,,SRX2745871,SRR5457837
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132251,,SRX2745884,SRR5457850
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132281,,SRX2745914,SRR5457880
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132235,,SRX2745868,SRR5457834
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132254,,SRX2745887,SRR5457853
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132256,,SRX2745889,SRR5457855
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132257,,SRX2745890,SRR5457856
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132259,,SRX2745892,SRR5457858
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132247,,SRX2745880,SRR5457846
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132236,,SRX2745869,SRR5457835
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132272,,SRX2745905,SRR5457871
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132237,,SRX2745870,SRR5457836
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132248,,SRX2745881,SRR5457847
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132271,,SRX2745904,SRR5457870
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132253,,SRX2745886,SRR5457852
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132273,,SRX2745906,SRR5457872
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132270,,SRX2745903,SRR5457869
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132284,,SRX2745917,SRR5457883
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132244,,SRX2745877,SRR5457843
+SRP104268,Investigating Human Placentation and Pregnancy Using First Trimester Chorionic Villi,SRS2132255,,SRX2745888,SRR5457854
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256249,,SRX1539791,SRR3096657
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256262,,SRX1539779,SRR3096594
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256257,,SRX1539784,SRR3096649
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256264,,SRX1539777,SRR3096525
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256250,,SRX1539790,SRR3096656
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256255,,SRX1539786,SRR3096652
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256254,,SRX1539787,SRR3096653
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256261,,SRX1539780,SRR3096612
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256258,,SRX1539783,SRR3096648
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256252,,SRX1539789,SRR3096655
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256247,,SRX1539794,SRR3096661
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256256,,SRX1539785,SRR3096650
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256251,,SRX1539792,SRR3096659
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256260,,SRX1539781,SRR3096624
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256263,,SRX1539778,SRR3096545
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256259,,SRX1539782,SRR3096625
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256248,,SRX1539793,SRR3096660
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256253,,SRX1539788,SRR3096654
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1256265,,SRX1539776,SRR3096511
+SRP068290,Homo sapiens Transcriptome or Gene expression,SRS1244668,,SRX1526833,SRR3096662
+SRP063885,Primary human trophoblast from term placenta,SRS1068098,term placenta,SRX1242454,SRR2397327
+SRP063885,Primary human trophoblast from term placenta,SRS1068097,term placenta,SRX1242455,SRR2397329
+SRP063885,Primary human trophoblast from term placenta,SRS1068096,term placenta,SRX1242456,SRR2397330
+SRP063885,Primary human trophoblast from term placenta,SRS1068100,term placenta,SRX1242451,SRR2397323
+SRP063885,Primary human trophoblast from term placenta,SRS1068101,term placenta,SRX1242452,SRR2397324
+SRP063885,Primary human trophoblast from term placenta,SRS1068099,term placenta,SRX1242453,SRR2397326
+SRP063885,Primary human trophoblast from term placenta,SRS1068092,term placenta,SRX1242460,SRR2397336
+SRP063885,Primary human trophoblast from term placenta,SRS1068091,term placenta,SRX1242461,SRR2397338
+SRP063885,Primary human trophoblast from term placenta,SRS1068090,term placenta,SRX1242462,SRR2397339
+SRP063885,Primary human trophoblast from term placenta,SRS1068095,term placenta,SRX1242457,SRR2397332
+SRP063885,Primary human trophoblast from term placenta,SRS1068093,term placenta,SRX1242459,SRR2397335
+SRP063885,Primary human trophoblast from term placenta,SRS1068094,term placenta,SRX1242458,SRR2397333
+SRP063885,Primary human trophoblast from term placenta,SRS1068086,term placenta,SRX1242466,SRR2397345
+SRP063885,Primary human trophoblast from term placenta,SRS1068084,term placenta,SRX1242468,SRR2397348
+SRP063885,Primary human trophoblast from term placenta,SRS1068085,term placenta,SRX1242467,SRR2397347
+SRP063885,Primary human trophoblast from term placenta,SRS1068089,term placenta,SRX1242463,SRR2397341
+SRP063885,Primary human trophoblast from term placenta,SRS1068088,term placenta,SRX1242464,SRR2397342
+SRP063885,Primary human trophoblast from term placenta,SRS1068087,term placenta,SRX1242465,SRR2397344
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362320,placenta,SRX186164,SRR567638
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362327,placenta,SRX186171,SRR567645
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362314,placenta,SRX186158,SRR567632
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362321,placenta,SRX186165,SRR567639
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362315,placenta,SRX186159,SRR567633
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362322,placenta,SRX186166,SRR567640
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362316,placenta,SRX186160,SRR567634
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362323,placenta,SRX186167,SRR567641
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362319,placenta,SRX186163,SRR567637
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362326,placenta,SRX186170,SRR567644
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362317,placenta,SRX186161,SRR567635
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362324,placenta,SRX186168,SRR567642
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362318,placenta,SRX186162,SRR567636
+SRP015725,Differences in miRNA Detection Levels are Technology and Sequence Dependent [NGS],SRS362325,placenta,SRX186169,SRR567643
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491229,,ERX1838811,ERR1773734
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491229,,ERX1838812,ERR1773735
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491229,,ERX1838813,ERR1773736
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491227,,ERX1838718,ERR1773641
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491227,,ERX1838719,ERR1773642
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491231,,ERX1838816,ERR1773739
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491231,,ERX1838817,ERR1773740
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491231,,ERX1838818,ERR1773741
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491234,,ERX1838824,ERR1773747
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491234,,ERX1838825,ERR1773748
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491234,,ERX1838826,ERR1773749
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491234,,ERX1838827,ERR1773750
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491235,,ERX1838828,ERR1773751
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491235,,ERX1838829,ERR1773752
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491235,,ERX1838830,ERR1773753
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491236,,ERX1838831,ERR1773754
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491236,,ERX1838832,ERR1773755
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491236,,ERX1838833,ERR1773756
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491236,,ERX1838834,ERR1773757
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491232,,ERX1838819,ERR1773742
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491232,,ERX1838820,ERR1773743
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491232,,ERX1838821,ERR1773744
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491228,,ERX1838808,ERR1773731
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491228,,ERX1838809,ERR1773732
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491228,,ERX1838810,ERR1773733
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491230,,ERX1838814,ERR1773737
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491230,,ERX1838815,ERR1773738
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491233,,ERX1838822,ERR1773745
+ERP020724,"RNASeq reveals conservation of function among the yolk sacs of human, mouse and chicken",ERS1491233,,ERX1838823,ERR1773746
+SRP055513,A human fetal transcriptional atlas,SRS857281,Fetal tissue,SRX890496,SRR1818555
+SRP055513,A human fetal transcriptional atlas,SRS857335,Fetal tissue,SRX890439,SRR1818498
+SRP055513,A human fetal transcriptional atlas,SRS857245,Fetal tissue,SRX890532,SRR1818591
+SRP055513,A human fetal transcriptional atlas,SRS857325,Fetal tissue,SRX890451,SRR1818510
+SRP055513,A human fetal transcriptional atlas,SRS857255,Fetal tissue,SRX890522,SRR1818581
+SRP055513,A human fetal transcriptional atlas,SRS857316,Fetal tissue,SRX890461,SRR1818520
+SRP055513,A human fetal transcriptional atlas,SRS857249,Fetal tissue,SRX890527,SRR1818586
+SRP077553,Transcriptome profile and gene expression in the human placenta,SRS1530020,,SRX1884034,SRR3727623
+SRP077553,Transcriptome profile and gene expression in the human placenta,SRS1530020,,SRX1884034,SRR5217259
+SRP077553,Transcriptome profile and gene expression in the human placenta,SRS1530019,,SRX1884035,SRR3727624
+SRP077553,Transcriptome profile and gene expression in the human placenta,SRS1530019,,SRX1884035,SRR5217260
+SRP077553,Transcriptome profile and gene expression in the human placenta,SRS1530021,,SRX1884036,SRR3727625
+SRP077553,Transcriptome profile and gene expression in the human placenta,SRS1530021,,SRX1884036,SRR5217261
+SRP077553,Transcriptome profile and gene expression in the human placenta,SRS1530005,,SRX1884033,SRR3727622
+SRP077553,Transcriptome profile and gene expression in the human placenta,SRS1530005,,SRX1884033,SRR5217258
+ERP003613,HPA RNA-seq normal tissues,ERS326968,,ERX288518,ERR315476
+ERP003613,HPA RNA-seq normal tissues,ERS326968,,ERX288539,ERR315478
+ERP003613,HPA RNA-seq normal tissues,ERS326999,,ERX288569,ERR315375
+ERP003613,HPA RNA-seq normal tissues,ERS326981,,ERX288541,ERR315377
+ERP003613,HPA RNA-seq normal tissues,ERS326981,,ERX288564,ERR315374
+ERP003613,HPA RNA-seq normal tissues,ERS327018,,ERX288611,ERR315336
+ERP003613,HPA RNA-seq normal tissues,ERS327018,,ERX288612,ERR315399
+SRP017959,The evolution of lncRNA repertoires and expression patterns in tetrapods,SRS464358,Placenta,SRX328075,SRR943340
+SRP017959,The evolution of lncRNA repertoires and expression patterns in tetrapods,SRS464371,Placenta,SRX328089,SRR943354
+SRP017959,The evolution of lncRNA repertoires and expression patterns in tetrapods,SRS464375,Placenta,SRX328094,SRR943359
+SRP017959,The evolution of lncRNA repertoires and expression patterns in tetrapods,SRS386066,Placenta,SRX217683,SRR649363
+SRP046944,Roadmap Epigenomics Program - UCSF,SRS1039158,,SRX1158076,SRR2173265
+SRP046944,Roadmap Epigenomics Program - UCSF,SRS1039240,,SRX1158083,SRR2173272
+SRP046944,Roadmap Epigenomics Program - UCSF,SRS1039232,,SRX1158091,SRR2173280
+SRP046944,Roadmap Epigenomics Program - UCSF,SRS1039237,,SRX1158086,SRR2173275
+SRP099114,Transcriptome analysis of HCMV infected tissues,SRS1965581,Decidua,SRX2546931,SRR5240053
+SRP099114,Transcriptome analysis of HCMV infected tissues,SRS1965586,Decidua,SRX2546933,SRR5240055
+SRP099114,Transcriptome analysis of HCMV infected tissues,SRS1965584,Decidua,SRX2546932,SRR5240054
+SRP099114,Transcriptome analysis of HCMV infected tissues,SRS1965585,Decidua,SRX2546934,SRR5240056
+SRP106771,A Complex Association between DNA Methylation and Gene Expression in Human Placenta at First and Third Trimesters,SRS2175147,Third trimester placenta,SRX2793964,SRR5520718
+SRP106771,A Complex Association between DNA Methylation and Gene Expression in Human Placenta at First and Third Trimesters,SRS2175149,Third trimester placenta,SRX2793965,SRR5520719
+SRP106771,A Complex Association between DNA Methylation and Gene Expression in Human Placenta at First and Third Trimesters,SRS2175150,Third trimester placenta,SRX2793967,SRR5520721
+SRP106771,A Complex Association between DNA Methylation and Gene Expression in Human Placenta at First and Third Trimesters,SRS2175148,Third trimester placenta,SRX2793966,SRR5520720
+SRP017583,Transcriptome landscape of the human placenta,SRS380991,,SRX212096,SRR638937
+SRP017583,Transcriptome landscape of the human placenta,SRS380991,,SRX212126,SRR638939
+SRP017583,Transcriptome landscape of the human placenta,SRS380035,,SRX210762,SRR635193
+SRP017583,Transcriptome landscape of the human placenta,SRS380035,,SRX212117,SRR638932
+SRP017583,Transcriptome landscape of the human placenta,SRS380990,,SRX212094,SRR638936
+SRP017583,Transcriptome landscape of the human placenta,SRS380990,,SRX212127,SRR638941
+SRP076277,Identification of Tissue-Specific Protein-Coding and Noncoding Transcripts across 14 Human Tissues Using RNA-seq,SRS1491598,Tissue,SRX1830401,SRR3647483
+SRP076277,Identification of Tissue-Specific Protein-Coding and Noncoding Transcripts across 14 Human Tissues Using RNA-seq,SRS1491612,Tissue,SRX1830415,SRR3647497
+SRP014635,Examination of gene expression in human placenta using RNA-seq,SRS352532,placenta,SRX172467,SRR530651
+SRP014635,Examination of gene expression in human placenta using RNA-seq,SRS352533,placenta,SRX172468,SRR530652
+SRP047192,Quantitative profiling of long noncoding RNAs with targeted RNA sequencing.,SRS701726,Placenta,SRX701862,SRR1576156
+SRP047192,Quantitative profiling of long noncoding RNAs with targeted RNA sequencing.,SRS701753,Placenta,SRX701887,SRR1576181
+SRP109805,A map of human circular RNAs in clinically-relevant tissues,SRS2297630,"maternal endometrium, female",SRX2935456,SRR5715087
+SRP109805,A map of human circular RNAs in clinically-relevant tissues,SRS2297640,placenta,SRX2935467,SRR5715098
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572528
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572529
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572530
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572531
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572532
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572533
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572534
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572535
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572536
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572537
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572538
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572539
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572540
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572541
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572542
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572543
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572544
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572545
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572546
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572547
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572548
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572549
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572550
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572551
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572552
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572553
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572554
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572555
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572556
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572557
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572558
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572559
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572560
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572561
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572562
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572563
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572564
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572565
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572566
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572567
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572568
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572569
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572570
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572571
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572572
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572573
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572574
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572575
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572576
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572577
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572578
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572579
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572580
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572581
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572582
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572583
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572584
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572585
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572586
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572587
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572588
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572589
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572590
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572591
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572592
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572593
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572594
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572595
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572596
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572597
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572598
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572599
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572600
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572601
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572602
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572603
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572604
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572605
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572606
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572607
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572608
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572609
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572610
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572611
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572612
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572613
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572614
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572615
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572616
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572617
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572618
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572619
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572620
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572621
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572622
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572623
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572624
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572625
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572626
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572627
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572628
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572629
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572630
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572631
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572632
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572633
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572634
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572635
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572636
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572637
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572638
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572639
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572640
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572641
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572642
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572643
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572644
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572645
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572646
+SRP015789,Allele-specific Methylation of Human Placental Tissue,SRS363943,Third trimester Placenta,SRX187585,SRR572647
+SRP056969,RNA sequencing of total RNA from 20 human tissues,SRS897366,,SRX982637,SRR1957197
+SRP067137,Homo sapiens Transcriptome or Gene expression,SRS1197379,,SRX1471483,SRR2982162
+SRP007494,Integrative Annotation of Human Large Intergenic Non-Coding RNAs Reveals Global Properties and Specific Subclasses,SRS227999,Placenta Tissue,SRX083287,SRR309266

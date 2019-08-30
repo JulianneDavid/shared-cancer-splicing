@@ -1,0 +1,75 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP098699,RNA sequencing of primary human platelets and in vitro cell lines,SRS1952993,platelet-like particle (PLP),SRX2532233,SRR5223056
+SRP098699,RNA sequencing of primary human platelets and in vitro cell lines,SRS1952988,platelet-like particle (PLP),SRX2532228,SRR5223051
+SRP098699,RNA sequencing of primary human platelets and in vitro cell lines,SRS1952989,platelet-like particle (PLP),SRX2532229,SRR5223052
+SRP098699,RNA sequencing of primary human platelets and in vitro cell lines,SRS1952987,platelet-like particle (PLP),SRX2532227,SRR5223050
+SRP098699,RNA sequencing of primary human platelets and in vitro cell lines,SRS1952995,platelet-like particle (PLP),SRX2532235,SRR5223058
+SRP098699,RNA sequencing of primary human platelets and in vitro cell lines,SRS1952986,platelet-like particle (PLP),SRX2532226,SRR5223049
+SRP098699,RNA sequencing of primary human platelets and in vitro cell lines,SRS1952984,platelet-like particle (PLP),SRX2532225,SRR5223048
+SRP098699,RNA sequencing of primary human platelets and in vitro cell lines,SRS1952992,platelet-like particle (PLP),SRX2532232,SRR5223055
+SRP098699,RNA sequencing of primary human platelets and in vitro cell lines,SRS1952994,platelet-like particle (PLP),SRX2532234,SRR5223057
+SRP098699,RNA sequencing of primary human platelets and in vitro cell lines,SRS1952985,platelet-like particle (PLP),SRX2532224,SRR5223047
+SRP098699,RNA sequencing of primary human platelets and in vitro cell lines,SRS1952990,platelet-like particle (PLP),SRX2532230,SRR5223053
+SRP098699,RNA sequencing of primary human platelets and in vitro cell lines,SRS1952991,platelet-like particle (PLP),SRX2532231,SRR5223054
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630242,Macrophages(BC12),SRX581569,SRR1363145
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630245,Macrophages(BC12),SRX581571,SRR1363147
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630244,Macrophages(BC12),SRX581570,SRR1363146
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630231,Macrophages(BC8),SRX581557,SRR1363133
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630232,Macrophages(BC8),SRX581558,SRR1363134
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630233,Macrophages(BC8),SRX581559,SRR1363135
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630235,Macrophages(BC9),SRX581561,SRR1363137
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630236,Macrophages(BC9),SRX581562,SRR1363138
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630237,Macrophages(BC9),SRX581563,SRR1363139
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630241,Primary Monocytes(BC12),SRX581568,SRR1363144
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630229,Primary Monocytes(BC8),SRX581556,SRR1363132
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630234,Primary Monocytes(BC9),SRX581560,SRR1363136
+ERP020771,"RNA-seq analysis of neutrophils from CD40L-deficient patients and healthy controls, as well as HL-60 promielocytic cell line",ERS1497407,,ERX1842516,ERR1777656
+ERP020771,"RNA-seq analysis of neutrophils from CD40L-deficient patients and healthy controls, as well as HL-60 promielocytic cell line",ERS1497408,,ERX1842517,ERR1777657
+ERP020771,"RNA-seq analysis of neutrophils from CD40L-deficient patients and healthy controls, as well as HL-60 promielocytic cell line",ERS1497410,,ERX1842519,ERR1777659
+ERP020771,"RNA-seq analysis of neutrophils from CD40L-deficient patients and healthy controls, as well as HL-60 promielocytic cell line",ERS1497411,,ERX1842520,ERR1777660
+ERP020771,"RNA-seq analysis of neutrophils from CD40L-deficient patients and healthy controls, as well as HL-60 promielocytic cell line",ERS1497403,,ERX1842512,ERR1777652
+ERP020771,"RNA-seq analysis of neutrophils from CD40L-deficient patients and healthy controls, as well as HL-60 promielocytic cell line",ERS1497400,,ERX1842509,ERR1777649
+ERP020771,"RNA-seq analysis of neutrophils from CD40L-deficient patients and healthy controls, as well as HL-60 promielocytic cell line",ERS1497405,,ERX1842514,ERR1777654
+ERP020771,"RNA-seq analysis of neutrophils from CD40L-deficient patients and healthy controls, as well as HL-60 promielocytic cell line",ERS1497404,,ERX1842513,ERR1777653
+ERP020771,"RNA-seq analysis of neutrophils from CD40L-deficient patients and healthy controls, as well as HL-60 promielocytic cell line",ERS1497401,,ERX1842510,ERR1777650
+ERP020771,"RNA-seq analysis of neutrophils from CD40L-deficient patients and healthy controls, as well as HL-60 promielocytic cell line",ERS1497402,,ERX1842511,ERR1777651
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229902,macrophage,SRX1509588,SRR3068613
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229897,macrophage,SRX1509592,SRR3068617
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229901,macrophage,SRX1509589,SRR3068614
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229899,macrophage,SRX1509593,SRR3068618
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229900,macrophage,SRX1509590,SRR3068615
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229896,macrophage,SRX1509594,SRR3068619
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229898,macrophage,SRX1509591,SRR3068616
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229895,macrophage,SRX1509595,SRR3068620
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937771,Human Kupffer cells,SRX1029307,SRR2027903
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937770,Human Kupffer cells,SRX1029308,SRR2027904
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937769,Human Kupffer cells,SRX1029309,SRR2027905
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937782,Human Kupffer cells,SRX1029302,SRR2027898
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937781,Human Kupffer cells,SRX1029303,SRR2027899
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937780,Human Kupffer cells,SRX1029304,SRR2027900
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937779,Human Kupffer cells,SRX1029305,SRR2027901
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937772,Human Kupffer cells,SRX1029306,SRR2027902
+SRP073022,Whole transcriptome sequencing identifies increased CXCR2 expression in PNH granulocytes,SRS1382499,healthy_GPI-AP+ granulocyte,SRX1687844,SRR3350017
+SRP073022,Whole transcriptome sequencing identifies increased CXCR2 expression in PNH granulocytes,SRS1382497,healthy_GPI-AP+ granulocyte,SRX1687845,SRR3350018
+SRP073022,Whole transcriptome sequencing identifies increased CXCR2 expression in PNH granulocytes,SRS1382498,healthy_GPI-AP+ granulocyte,SRX1687846,SRR3350019
+SRP073022,Whole transcriptome sequencing identifies increased CXCR2 expression in PNH granulocytes,SRS1382503,PNH_GPI-AP+ granulocyte,SRX1687840,SRR3350013
+SRP073022,Whole transcriptome sequencing identifies increased CXCR2 expression in PNH granulocytes,SRS1382502,PNH_GPI-AP+ granulocyte,SRX1687841,SRR3350014
+SRP073022,Whole transcriptome sequencing identifies increased CXCR2 expression in PNH granulocytes,SRS1382501,PNH_GPI-AP- granulocyte,SRX1687842,SRR3350015
+SRP073022,Whole transcriptome sequencing identifies increased CXCR2 expression in PNH granulocytes,SRS1382500,PNH_GPI-AP- granulocyte,SRX1687843,SRR3350016
+SRP090496,Homo sapiens Transcriptome or Gene expression,SRS1714265,,SRX2191750,SRR4296978
+SRP090496,Homo sapiens Transcriptome or Gene expression,SRS1714267,,SRX2191756,SRR4296984
+SRP090496,Homo sapiens Transcriptome or Gene expression,SRS1714266,,SRX2191755,SRR4296983
+SRP090496,Homo sapiens Transcriptome or Gene expression,SRS1714264,,SRX2191749,SRR4296977
+SRP090496,Homo sapiens Transcriptome or Gene expression,SRS1714268,,SRX2191753,SRR4296981
+SRP090496,Homo sapiens Transcriptome or Gene expression,SRS1714269,,SRX2191754,SRR4296982
+ERP004617,RNA-Seq of Acute Myeloid Leukemia Cell lines with a 3q-aberration and Acute Myeloid Leukemia cell line controls,ERS393452,,ERX379238,ERR412876
+ERP004617,RNA-Seq of Acute Myeloid Leukemia Cell lines with a 3q-aberration and Acute Myeloid Leukemia cell line controls,ERS393455,,ERX379241,ERR412880
+ERP004617,RNA-Seq of Acute Myeloid Leukemia Cell lines with a 3q-aberration and Acute Myeloid Leukemia cell line controls,ERS393449,,ERX379235,ERR412877
+ERP004617,RNA-Seq of Acute Myeloid Leukemia Cell lines with a 3q-aberration and Acute Myeloid Leukemia cell line controls,ERS393454,,ERX379240,ERR412879
+ERP004617,RNA-Seq of Acute Myeloid Leukemia Cell lines with a 3q-aberration and Acute Myeloid Leukemia cell line controls,ERS393450,,ERX379236,ERR412878
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313364,,SRX1603540,SRR3192563
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313365,,SRX1603539,SRR3192562
+SRP042031,Modulation of the TNF-induced macrophage response by synovial fibroblasts,SRS608828,primary macrophages,SRX544934,SRR1289651
+SRP042031,Modulation of the TNF-induced macrophage response by synovial fibroblasts,SRS608830,primary macrophages,SRX544936,SRR1289653
+SRP052874,SRSF2 mutations impair hematopoiesis and alter exon recognition,SRS827856,erythroleukemia cells,SRX854043,SRR1774217
+SRP052874,SRSF2 mutations impair hematopoiesis and alter exon recognition,SRS827857,erythroleukemia cells,SRX854044,SRR1774218

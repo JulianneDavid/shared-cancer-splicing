@@ -1,0 +1,13 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP063834,RNA-sequencing analysis of human fibrolamellar hepatocellular carcinoma and 4 maturational stages of the human hepatobiliary system,SRS1072206,Biliary tree stem cells,SRX1253331,SRR2430371
+SRP063834,RNA-sequencing analysis of human fibrolamellar hepatocellular carcinoma and 4 maturational stages of the human hepatobiliary system,SRS1072205,Biliary tree stem cells,SRX1253332,SRR2430372
+SRP063834,RNA-sequencing analysis of human fibrolamellar hepatocellular carcinoma and 4 maturational stages of the human hepatobiliary system,SRS1072204,Biliary tree stem cells,SRX1253333,SRR2430373
+SRP082692,iPSC-Derived Cholangiocytes,SRS1636507,Normal Human Cholangiocyte,SRX2043846,SRR4054274
+SRP082692,iPSC-Derived Cholangiocytes,SRS1636508,Normal Human Cholangiocyte,SRX2043847,SRR4054275
+SRP082692,iPSC-Derived Cholangiocytes,SRS1636509,Normal Human Cholangiocyte,SRX2043848,SRR4054276
+SRP022743,Identification of Targetable FGFR Gene Fusions in Diverse Cancers,SRS420931,,SRX278010,SRR851041
+SRP022743,Identification of Targetable FGFR Gene Fusions in Diverse Cancers,SRS420932,,SRX278011,SRR851040
+ERP010065,Baseline gene expression profile of human extrahepatic biliary cells/biliospheres in vitro,ERS695387,,ERX921738,ERR841673
+ERP010065,Baseline gene expression profile of human extrahepatic biliary cells/biliospheres in vitro,ERS695387,,ERX921739,ERR841669
+ERP010065,Baseline gene expression profile of human extrahepatic biliary cells/biliospheres in vitro,ERS695387,,ERX921740,ERR841672
+ERP010065,Baseline gene expression profile of human extrahepatic biliary cells/biliospheres in vitro,ERS695387,,ERX921742,ERR841670

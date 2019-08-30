@@ -1,0 +1,3 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP035503,Small molecule inhibitor of BCL2 in combination with RCHOP is effective in CD20 negative lymphoma,SRS536989,Parental DOHH2 xenograft,SRX437494,SRR1124844
+SRP035503,Small molecule inhibitor of BCL2 in combination with RCHOP is effective in CD20 negative lymphoma,SRS536990,Rituximad resistant DOHH2 xenograft,SRX437495,SRR1124845

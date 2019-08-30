@@ -1,0 +1,10 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP068591,Gene signature in sessile serrated polyps identifies colon cancer subtype,SRS1252142,Colon,SRX1535211,SRR3106813
+SRP068591,Gene signature in sessile serrated polyps identifies colon cancer subtype,SRS1252143,Colon,SRX1535212,SRR3106814
+SRP068591,Gene signature in sessile serrated polyps identifies colon cancer subtype,SRS1252141,Colon,SRX1535213,SRR3106815
+SRP068591,Gene signature in sessile serrated polyps identifies colon cancer subtype,SRS1252140,Colon,SRX1535214,SRR3106816
+SRP006575,Transcriptional profiling of lncRNAs and novel transcribed regions across a diverse panel of archived human cancers,SRS190707,Colon adenocarcinoma,SRX059642,SRR191650
+SRP006575,Transcriptional profiling of lncRNAs and novel transcribed regions across a diverse panel of archived human cancers,SRS190708,Colon adenocarcinoma,SRX059643,SRR191651
+SRP006575,Transcriptional profiling of lncRNAs and novel transcribed regions across a diverse panel of archived human cancers,SRS190709,Colon adenocarcinoma,SRX059644,SRR191652
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1739699,,SRX1908728,SRR4305774
+SRP071557,The Landscape of Antisense Gene Expression in Human Cancers,SRS1332423,,SRX1622540,SRR3215003

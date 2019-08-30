@@ -1,0 +1,611 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273332,PVTT,SRX1558067,SRR3140432
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273332,PVTT,SRX1558067,SRR3140433
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273332,PVTT,SRX1558067,SRR3140434
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273332,PVTT,SRX1558067,SRR3140435
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273332,PVTT,SRX1558067,SRR3140436
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273300,adjacent normal,SRX1558027,SRR3140239
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273300,adjacent normal,SRX1558027,SRR3140240
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273300,adjacent normal,SRX1558027,SRR3140241
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273300,adjacent normal,SRX1558027,SRR3140242
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273300,adjacent normal,SRX1558027,SRR3140243
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273352,primary tumor,SRX1558047,SRR3140336
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273352,primary tumor,SRX1558047,SRR3140337
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273352,primary tumor,SRX1558047,SRR3140338
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273352,primary tumor,SRX1558047,SRR3140339
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273352,primary tumor,SRX1558047,SRR3140340
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273318,PVTT,SRX1558081,SRR3140500
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273318,PVTT,SRX1558081,SRR3140501
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273318,PVTT,SRX1558081,SRR3140502
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273318,PVTT,SRX1558081,SRR3140503
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273358,adjacent normal,SRX1558041,SRR3140307
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273358,adjacent normal,SRX1558041,SRR3140308
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273358,adjacent normal,SRX1558041,SRR3140309
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273358,adjacent normal,SRX1558041,SRR3140310
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273337,primary tumor,SRX1558061,SRR3140404
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273337,primary tumor,SRX1558061,SRR3140405
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273337,primary tumor,SRX1558061,SRR3140406
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273337,primary tumor,SRX1558061,SRR3140407
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273331,PVTT,SRX1558068,SRR3140437
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273331,PVTT,SRX1558068,SRR3140438
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273331,PVTT,SRX1558068,SRR3140439
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273331,PVTT,SRX1558068,SRR3140440
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273331,PVTT,SRX1558068,SRR3140441
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273299,adjacent normal,SRX1558028,SRR3140244
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273299,adjacent normal,SRX1558028,SRR3140245
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273299,adjacent normal,SRX1558028,SRR3140246
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273299,adjacent normal,SRX1558028,SRR3140247
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273299,adjacent normal,SRX1558028,SRR3140248
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273351,primary tumor,SRX1558048,SRR3140341
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273351,primary tumor,SRX1558048,SRR3140342
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273351,primary tumor,SRX1558048,SRR3140343
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273351,primary tumor,SRX1558048,SRR3140344
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273351,primary tumor,SRX1558048,SRR3140345
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273323,PVTT,SRX1558076,SRR3140478
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273323,PVTT,SRX1558076,SRR3140479
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273323,PVTT,SRX1558076,SRR3140480
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273323,PVTT,SRX1558076,SRR3140481
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273323,PVTT,SRX1558076,SRR3140482
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273364,adjacent normal,SRX1558036,SRR3140284
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273364,adjacent normal,SRX1558036,SRR3140285
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273364,adjacent normal,SRX1558036,SRR3140286
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273364,adjacent normal,SRX1558036,SRR3140287
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273364,adjacent normal,SRX1558036,SRR3140288
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273343,primary tumor,SRX1558056,SRR3140382
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273343,primary tumor,SRX1558056,SRR3140383
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273343,primary tumor,SRX1558056,SRR3140384
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273343,primary tumor,SRX1558056,SRR3140385
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273343,primary tumor,SRX1558056,SRR3140386
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273320,PVTT,SRX1558079,SRR3140492
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273320,PVTT,SRX1558079,SRR3140493
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273320,PVTT,SRX1558079,SRR3140494
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273320,PVTT,SRX1558079,SRR3140495
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273360,adjacent normal,SRX1558039,SRR3140299
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273360,adjacent normal,SRX1558039,SRR3140300
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273360,adjacent normal,SRX1558039,SRR3140301
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273360,adjacent normal,SRX1558039,SRR3140302
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273340,primary tumor,SRX1558059,SRR3140396
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273340,primary tumor,SRX1558059,SRR3140397
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273340,primary tumor,SRX1558059,SRR3140398
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273340,primary tumor,SRX1558059,SRR3140399
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273333,PVTT,SRX1558066,SRR3140427
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273333,PVTT,SRX1558066,SRR3140428
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273333,PVTT,SRX1558066,SRR3140429
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273333,PVTT,SRX1558066,SRR3140430
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273333,PVTT,SRX1558066,SRR3140431
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273301,adjacent normal,SRX1558026,SRR3140234
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273301,adjacent normal,SRX1558026,SRR3140235
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273301,adjacent normal,SRX1558026,SRR3140236
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273301,adjacent normal,SRX1558026,SRR3140237
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273301,adjacent normal,SRX1558026,SRR3140238
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273353,primary tumor,SRX1558046,SRR3140331
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273353,primary tumor,SRX1558046,SRR3140332
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273353,primary tumor,SRX1558046,SRR3140333
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273353,primary tumor,SRX1558046,SRR3140334
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273353,primary tumor,SRX1558046,SRR3140335
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273324,PVTT,SRX1558075,SRR3140473
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273324,PVTT,SRX1558075,SRR3140474
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273324,PVTT,SRX1558075,SRR3140475
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273324,PVTT,SRX1558075,SRR3140476
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273324,PVTT,SRX1558075,SRR3140477
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273363,adjacent normal,SRX1558035,SRR3140279
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273363,adjacent normal,SRX1558035,SRR3140280
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273363,adjacent normal,SRX1558035,SRR3140281
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273363,adjacent normal,SRX1558035,SRR3140282
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273363,adjacent normal,SRX1558035,SRR3140283
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273344,primary tumor,SRX1558055,SRR3140377
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273344,primary tumor,SRX1558055,SRR3140378
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273344,primary tumor,SRX1558055,SRR3140379
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273344,primary tumor,SRX1558055,SRR3140380
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273344,primary tumor,SRX1558055,SRR3140381
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273315,PVTT,SRX1558084,SRR3140510
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273315,PVTT,SRX1558084,SRR3140511
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273315,PVTT,SRX1558084,SRR3140512
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273315,PVTT,SRX1558084,SRR3140514
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273315,PVTT,SRX1558084,SRR3140515
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273355,adjacent normal,SRX1558044,SRR3140320
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273355,adjacent normal,SRX1558044,SRR3140321
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273355,adjacent normal,SRX1558044,SRR3140322
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273355,adjacent normal,SRX1558044,SRR3140323
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273355,adjacent normal,SRX1558044,SRR3140324
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273335,primary tumor,SRX1558064,SRR3140417
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273335,primary tumor,SRX1558064,SRR3140418
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273335,primary tumor,SRX1558064,SRR3140419
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273335,primary tumor,SRX1558064,SRR3140420
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273335,primary tumor,SRX1558064,SRR3140421
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273327,PVTT,SRX1558072,SRR3140458
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273327,PVTT,SRX1558072,SRR3140459
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273327,PVTT,SRX1558072,SRR3140460
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273327,PVTT,SRX1558072,SRR3140461
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273327,PVTT,SRX1558072,SRR3140462
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273367,adjacent normal,SRX1558032,SRR3140264
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273367,adjacent normal,SRX1558032,SRR3140265
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273367,adjacent normal,SRX1558032,SRR3140266
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273367,adjacent normal,SRX1558032,SRR3140267
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273367,adjacent normal,SRX1558032,SRR3140268
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273347,primary tumor,SRX1558052,SRR3140362
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273347,primary tumor,SRX1558052,SRR3140363
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273347,primary tumor,SRX1558052,SRR3140364
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273347,primary tumor,SRX1558052,SRR3140365
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273347,primary tumor,SRX1558052,SRR3140366
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273314,PVTT,SRX1558085,SRR3140516
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273314,PVTT,SRX1558085,SRR3140517
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273314,PVTT,SRX1558085,SRR3140518
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273314,PVTT,SRX1558085,SRR3140519
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273314,PVTT,SRX1558085,SRR3140520
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273354,adjacent normal,SRX1558045,SRR3140326
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273354,adjacent normal,SRX1558045,SRR3140327
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273354,adjacent normal,SRX1558045,SRR3140328
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273354,adjacent normal,SRX1558045,SRR3140329
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273354,adjacent normal,SRX1558045,SRR3140330
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273334,primary tumor,SRX1558065,SRR3140422
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273334,primary tumor,SRX1558065,SRR3140423
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273334,primary tumor,SRX1558065,SRR3140424
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273334,primary tumor,SRX1558065,SRR3140425
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273334,primary tumor,SRX1558065,SRR3140426
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273325,PVTT,SRX1558074,SRR3140468
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273325,PVTT,SRX1558074,SRR3140469
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273325,PVTT,SRX1558074,SRR3140470
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273325,PVTT,SRX1558074,SRR3140471
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273325,PVTT,SRX1558074,SRR3140472
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273365,adjacent normal,SRX1558034,SRR3140274
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273365,adjacent normal,SRX1558034,SRR3140275
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273365,adjacent normal,SRX1558034,SRR3140276
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273365,adjacent normal,SRX1558034,SRR3140277
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273365,adjacent normal,SRX1558034,SRR3140278
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273345,primary tumor,SRX1558054,SRR3140372
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273345,primary tumor,SRX1558054,SRR3140373
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273345,primary tumor,SRX1558054,SRR3140374
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273345,primary tumor,SRX1558054,SRR3140375
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273345,primary tumor,SRX1558054,SRR3140376
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273326,PVTT,SRX1558073,SRR3140463
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273326,PVTT,SRX1558073,SRR3140464
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273326,PVTT,SRX1558073,SRR3140465
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273326,PVTT,SRX1558073,SRR3140466
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273326,PVTT,SRX1558073,SRR3140467
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273366,adjacent normal,SRX1558033,SRR3140269
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273366,adjacent normal,SRX1558033,SRR3140270
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273366,adjacent normal,SRX1558033,SRR3140271
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273366,adjacent normal,SRX1558033,SRR3140272
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273366,adjacent normal,SRX1558033,SRR3140273
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273346,primary tumor,SRX1558053,SRR3140367
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273346,primary tumor,SRX1558053,SRR3140368
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273346,primary tumor,SRX1558053,SRR3140369
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273346,primary tumor,SRX1558053,SRR3140370
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273346,primary tumor,SRX1558053,SRR3140371
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273317,PVTT,SRX1558082,SRR3140504
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273357,adjacent normal,SRX1558042,SRR3140311
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273357,adjacent normal,SRX1558042,SRR3140312
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273357,adjacent normal,SRX1558042,SRR3140313
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273357,adjacent normal,SRX1558042,SRR3140314
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273338,primary tumor,SRX1558062,SRR3140408
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273338,primary tumor,SRX1558062,SRR3140409
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273338,primary tumor,SRX1558062,SRR3140410
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273338,primary tumor,SRX1558062,SRR3140411
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273328,PVTT,SRX1558071,SRR3140453
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273328,PVTT,SRX1558071,SRR3140454
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273328,PVTT,SRX1558071,SRR3140455
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273328,PVTT,SRX1558071,SRR3140456
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273328,PVTT,SRX1558071,SRR3140457
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273298,adjacent normal,SRX1558031,SRR3140259
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273298,adjacent normal,SRX1558031,SRR3140260
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273298,adjacent normal,SRX1558031,SRR3140261
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273298,adjacent normal,SRX1558031,SRR3140262
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273298,adjacent normal,SRX1558031,SRR3140263
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273348,primary tumor,SRX1558051,SRR3140357
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273348,primary tumor,SRX1558051,SRR3140358
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273348,primary tumor,SRX1558051,SRR3140359
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273348,primary tumor,SRX1558051,SRR3140360
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273348,primary tumor,SRX1558051,SRR3140361
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273322,PVTT,SRX1558077,SRR3140483
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273322,PVTT,SRX1558077,SRR3140484
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273322,PVTT,SRX1558077,SRR3140485
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273322,PVTT,SRX1558077,SRR3140486
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273322,PVTT,SRX1558077,SRR3140487
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273362,adjacent normal,SRX1558037,SRR3140289
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273362,adjacent normal,SRX1558037,SRR3140290
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273362,adjacent normal,SRX1558037,SRR3140291
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273362,adjacent normal,SRX1558037,SRR3140293
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273362,adjacent normal,SRX1558037,SRR3140294
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273342,primary tumor,SRX1558057,SRR3140387
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273342,primary tumor,SRX1558057,SRR3140388
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273342,primary tumor,SRX1558057,SRR3140389
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273342,primary tumor,SRX1558057,SRR3140390
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273342,primary tumor,SRX1558057,SRR3140391
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273330,PVTT,SRX1558069,SRR3140442
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273330,PVTT,SRX1558069,SRR3140443
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273330,PVTT,SRX1558069,SRR3140444
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273330,PVTT,SRX1558069,SRR3140445
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273330,PVTT,SRX1558069,SRR3140446
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273297,adjacent normal,SRX1558029,SRR3140249
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273297,adjacent normal,SRX1558029,SRR3140250
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273297,adjacent normal,SRX1558029,SRR3140251
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273297,adjacent normal,SRX1558029,SRR3140252
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273297,adjacent normal,SRX1558029,SRR3140253
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273350,primary tumor,SRX1558049,SRR3140346
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273350,primary tumor,SRX1558049,SRR3140347
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273350,primary tumor,SRX1558049,SRR3140348
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273350,primary tumor,SRX1558049,SRR3140349
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273350,primary tumor,SRX1558049,SRR3140350
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273321,PVTT,SRX1558078,SRR3140488
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273321,PVTT,SRX1558078,SRR3140489
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273321,PVTT,SRX1558078,SRR3140490
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273321,PVTT,SRX1558078,SRR3140491
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273361,adjacent normal,SRX1558038,SRR3140295
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273361,adjacent normal,SRX1558038,SRR3140296
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273361,adjacent normal,SRX1558038,SRR3140297
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273361,adjacent normal,SRX1558038,SRR3140298
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273341,primary tumor,SRX1558058,SRR3140392
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273341,primary tumor,SRX1558058,SRR3140393
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273341,primary tumor,SRX1558058,SRR3140394
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273341,primary tumor,SRX1558058,SRR3140395
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273316,PVTT,SRX1558083,SRR3140505
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273316,PVTT,SRX1558083,SRR3140506
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273316,PVTT,SRX1558083,SRR3140507
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273316,PVTT,SRX1558083,SRR3140508
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273316,PVTT,SRX1558083,SRR3140509
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273356,adjacent normal,SRX1558043,SRR3140315
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273356,adjacent normal,SRX1558043,SRR3140316
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273356,adjacent normal,SRX1558043,SRR3140317
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273356,adjacent normal,SRX1558043,SRR3140318
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273356,adjacent normal,SRX1558043,SRR3140319
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273336,primary tumor,SRX1558063,SRR3140412
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273336,primary tumor,SRX1558063,SRR3140413
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273336,primary tumor,SRX1558063,SRR3140414
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273336,primary tumor,SRX1558063,SRR3140415
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273336,primary tumor,SRX1558063,SRR3140416
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273319,PVTT,SRX1558080,SRR3140496
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273319,PVTT,SRX1558080,SRR3140497
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273319,PVTT,SRX1558080,SRR3140498
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273319,PVTT,SRX1558080,SRR3140499
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273359,adjacent normal,SRX1558040,SRR3140303
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273359,adjacent normal,SRX1558040,SRR3140304
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273359,adjacent normal,SRX1558040,SRR3140305
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273359,adjacent normal,SRX1558040,SRR3140306
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273339,primary tumor,SRX1558060,SRR3140400
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273339,primary tumor,SRX1558060,SRR3140401
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273339,primary tumor,SRX1558060,SRR3140402
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273339,primary tumor,SRX1558060,SRR3140403
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273329,PVTT,SRX1558070,SRR3140447
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273329,PVTT,SRX1558070,SRR3140448
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273329,PVTT,SRX1558070,SRR3140449
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273329,PVTT,SRX1558070,SRR3140450
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273329,PVTT,SRX1558070,SRR3140451
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273296,adjacent normal,SRX1558030,SRR3140254
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273296,adjacent normal,SRX1558030,SRR3140255
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273296,adjacent normal,SRX1558030,SRR3140256
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273296,adjacent normal,SRX1558030,SRR3140257
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273296,adjacent normal,SRX1558030,SRR3140258
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273349,primary tumor,SRX1558050,SRR3140351
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273349,primary tumor,SRX1558050,SRR3140352
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273349,primary tumor,SRX1558050,SRR3140354
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273349,primary tumor,SRX1558050,SRR3140355
+SRP069212,RNA-seq analysis of hepatocellular carcinoma with portal vein tumor thrombosis,SRS1273349,primary tumor,SRX1558050,SRR3140356
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937267,,SRX1028709,SRR2026468
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937270,,SRX1028707,SRR2026466
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937266,,SRX1028710,SRR2026469
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937264,,SRX1028712,SRR2026471
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937252,,SRX1028725,SRR2026484
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937262,,SRX1028713,SRR2026472
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937289,,SRX1028685,SRR2026444
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937275,,SRX1028702,SRR2026461
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937274,,SRX1028701,SRR2026460
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937276,,SRX1028700,SRR2026459
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937277,,SRX1028699,SRR2026458
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937261,,SRX1028716,SRR2026475
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937278,,SRX1028698,SRR2026457
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937282,,SRX1028694,SRR2026453
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937283,,SRX1028693,SRR2026452
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937284,,SRX1028692,SRR2026451
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937228,,SRX1028691,SRR2026450
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937247,,SRX1028729,SRR2026488
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937291,,SRX1028682,SRR2026441
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937273,,SRX1028703,SRR2026462
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937292,,SRX1028683,SRR2026442
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937280,,SRX1028696,SRR2026455
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937296,,SRX1028680,SRR2026439
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937254,,SRX1028723,SRR2026482
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937281,,SRX1028695,SRR2026454
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937290,,SRX1028684,SRR2026443
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937253,,SRX1028724,SRR2026483
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937263,,SRX1028715,SRR2026474
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937259,,SRX1028717,SRR2026476
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937285,,SRX1028689,SRR2026448
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937265,,SRX1028711,SRR2026470
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937260,,SRX1028718,SRR2026477
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937257,,SRX1028720,SRR2026479
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937251,,SRX1028728,SRR2026487
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937256,,SRX1028721,SRR2026480
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937250,,SRX1028727,SRR2026486
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937350,,SRX1028714,SRR2026473
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937249,,SRX1028726,SRR2026485
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937269,,SRX1028706,SRR2026465
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937268,,SRX1028708,SRR2026467
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937271,,SRX1028705,SRR2026464
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937272,,SRX1028704,SRR2026463
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937255,,SRX1028722,SRR2026481
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937286,,SRX1028688,SRR2026447
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937279,,SRX1028697,SRR2026456
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937294,,SRX1028681,SRR2026440
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937258,,SRX1028719,SRR2026478
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937287,,SRX1028687,SRR2026446
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937229,,SRX1028690,SRR2026449
+SRP058357,CAGE profiling of ncRNAs in hepatocellular carcinoma reveals a strong activation of retroviral LTR promoters in virus-induced tumors,SRS937288,,SRX1028686,SRR2026445
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589598,HCC7 Recurrent Tumor,SRX512227,SRR1220158
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589597,HCC7 Recurrent Tumor's Adjacent Normal,SRX512226,SRR1220157
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589596,HCC6 Recurrent Tumor,SRX512225,SRR1220156
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589595,HCC6 Recurrent Tumor's Adjacent Normal,SRX512224,SRR1220155
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589612,HCC-C16 Non-recurrent Tumor,SRX512241,SRR1220172
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589611,HCC-C16 Non-recurrent Tumor's Adjacent Normal,SRX512240,SRR1220171
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589624,HCC-C6 Non-recurrent Tumor,SRX512253,SRR1220184
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589623,HCC-C6 Non-recurrent Tumor's Adjacent Normal,SRX512252,SRR1220183
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589588,HCC2 Recurrent Tumor,SRX512217,SRR1220148
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589587,HCC2 Recurrent Tumor's Adjacent Normal,SRX512216,SRR1220147
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589586,HCC10 Recurrent Tumor,SRX512215,SRR1220146
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589585,HCC10 Recurrent Tumor's Adjacent Normal,SRX512214,SRR1220145
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589592,HCC4 Recurrent Tumor,SRX512221,SRR1220152
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589591,HCC4 Recurrent Tumor's Adjacent Normal,SRX512220,SRR1220151
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589604,HCC-C12 Non-recurrent Tumor,SRX512233,SRR1220164
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589603,HCC-C12 Non-recurrent Tumor's Adjacent Normal,SRX512232,SRR1220163
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589616,HCC-C19 Non-recurrent Tumor,SRX512245,SRR1220176
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589614,HCC-C19 Non-recurrent Tumor's Adjacent Normal,SRX512244,SRR1220175
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589608,HCC-C14 Non-recurrent Tumor,SRX512237,SRR1220168
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589607,HCC-C14 Non-recurrent Tumor's Adjacent Normal,SRX512236,SRR1220167
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589584,HCC1 Recurrent Tumor,SRX512213,SRR1220144
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589583,HCC1 Recurrent Tumor's Adjacent Normal,SRX512212,SRR1220143
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589606,HCC-C13 Non-recurrent Tumor,SRX512235,SRR1220166
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589605,HCC-C13 Non-recurrent Tumor's Adjacent Normal,SRX512234,SRR1220165
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589618,HCC-C2 Non-recurrent Tumor,SRX512247,SRR1220178
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589617,HCC-C2 Non-recurrent Tumor's Adjacent Normal,SRX512246,SRR1220177
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589602,HCC-C11 Non-recurrent Tumor,SRX512231,SRR1220162
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589600,HCC-C11 Non-recurrent Tumor's Adjacent Normal,SRX512230,SRR1220161
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589615,HCC-C18 Non-recurrent Tumor,SRX512243,SRR1220174
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589613,HCC-C18 Non-recurrent Tumor's Adjacent Normal,SRX512242,SRR1220173
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589620,HCC-C8 Non-recurrent Tumor,SRX512249,SRR1220180
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589619,HCC-C8 Non-recurrent Tumor's Adjacent Normal,SRX512248,SRR1220179
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589622,HCC-C9 Non-recurrent Tumor,SRX512251,SRR1220182
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589621,HCC-C9 Non-recurrent Tumor's Adjacent Normal,SRX512250,SRR1220181
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589590,HCC3 Recurrent Tumor,SRX512219,SRR1220150
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589589,HCC3 Recurrent Tumor's Adjacent Normal,SRX512218,SRR1220149
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589601,HCC8 Recurrent Tumor,SRX512229,SRR1220160
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589599,HCC8 Recurrent Tumor's Adjacent Normal,SRX512228,SRR1220159
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589594,HCC5 Recurrent Tumor,SRX512223,SRR1220154
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589593,HCC5 Recurrent Tumor's Adjacent Normal,SRX512222,SRR1220153
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589610,HCC-C15 Non-recurrent Tumor,SRX512239,SRR1220170
+SRP040998,mRNA profiling  of Hepatocellular carcinoma (HCC),SRS589609,HCC-C15 Non-recurrent Tumor's Adjacent Normal,SRX512238,SRR1220169
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1046044,,SRX1306859,SRR2562698
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100552,,SRX1306868,SRR2562707
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100551,,SRX1306869,SRR2562708
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100550,,SRX1306870,SRR2562709
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100549,,SRX1306871,SRR2562710
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100548,,SRX1306872,SRR2562711
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100546,,SRX1306873,SRR2562712
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100545,,SRX1306874,SRR2562713
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100547,,SRX1306875,SRR2562714
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100544,,SRX1306876,SRR2562715
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100542,,SRX1306877,SRR2562716
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1046045,,SRX1306860,SRR2562699
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100543,,SRX1306878,SRR2562717
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100541,,SRX1306879,SRR2562718
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100540,,SRX1306880,SRR2562719
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100539,,SRX1306881,SRR2562720
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100538,,SRX1306882,SRR2562721
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100537,,SRX1306883,SRR2562722
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100535,,SRX1306884,SRR2562723
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100536,,SRX1306885,SRR2562724
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100534,,SRX1306886,SRR2562725
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100532,,SRX1306887,SRR2562726
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100559,,SRX1306861,SRR2562700
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100533,,SRX1306888,SRR2562727
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100531,,SRX1306889,SRR2562728
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100530,,SRX1306890,SRR2562729
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100558,,SRX1306862,SRR2562701
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100557,,SRX1306863,SRR2562702
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100556,,SRX1306864,SRR2562703
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100555,,SRX1306865,SRR2562704
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100554,,SRX1306866,SRR2562705
+SRP062885,Transcriptome seuqnencing of hepatocellular carcinoma(HCC) patients associated with Hepatitis B Virus(HBV),SRS1100553,,SRX1306867,SRR2562706
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600074,,SRX530638,SRR1267612
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600076,,SRX530640,SRR1267614
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600080,,SRX530644,SRR1267618
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600069,,SRX530633,SRR1267607
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600067,,SRX530631,SRR1267605
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600086,,SRX530650,SRR1267624
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600082,,SRX530646,SRR1267620
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600078,,SRX530642,SRR1267616
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600061,,SRX530625,SRR1267599
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600081,,SRX530645,SRR1267619
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600060,,SRX530624,SRR1267598
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600058,,SRX530622,SRR1267625
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600062,,SRX530626,SRR1267600
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600085,,SRX530649,SRR1267623
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600075,,SRX530639,SRR1267613
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600079,,SRX530643,SRR1267617
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600070,,SRX530634,SRR1267608
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600065,,SRX530629,SRR1267603
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600073,,SRX530637,SRR1267611
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600077,,SRX530641,SRR1267615
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600064,,SRX530628,SRR1267602
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600068,,SRX530632,SRR1267606
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600084,,SRX530648,SRR1267622
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600066,,SRX530630,SRR1267604
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600063,,SRX530627,SRR1267601
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600072,,SRX530636,SRR1267610
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600083,,SRX530647,SRR1267621
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600071,,SRX530635,SRR1267609
+SRP041605,Detection of a Recurrent DNAJB1-PRKACA Chimeric Transcript in Fibrolamellar Hepatocellular Carcinoma,SRS600059,,SRX530623,SRR1267597
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779741,Hepatocellular Carcinoma,SRX796295,SRR1693467
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779723,Hepatocellular Carcinoma,SRX796277,SRR1693449
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779728,Hepatocellular Carcinoma,SRX796283,SRR1693455
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779725,Hepatocellular Carcinoma,SRX796281,SRR1693453
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779743,Hepatocellular Carcinoma,SRX796299,SRR1693471
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779733,Hepatocellular Carcinoma,SRX796287,SRR1693459
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779738,Hepatocellular Carcinoma,SRX796293,SRR1693465
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779729,Hepatocellular Carcinoma,SRX796285,SRR1693457
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779724,Hepatocellular Carcinoma,SRX796279,SRR1693451
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779734,Hepatocellular Carcinoma,SRX796289,SRR1693461
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779742,Hepatocellular Carcinoma,SRX796297,SRR1693469
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779736,Hepatocellular Carcinoma,SRX796291,SRR1693463
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779740,Hepatocellular Carcinoma,SRX796296,SRR1693468
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779735,Hepatocellular Carcinoma,SRX796290,SRR1693462
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779730,Hepatocellular Carcinoma,SRX796284,SRR1693456
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779744,Hepatocellular Carcinoma,SRX796298,SRR1693470
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779737,Hepatocellular Carcinoma,SRX796292,SRR1693464
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779726,Hepatocellular Carcinoma,SRX796282,SRR1693454
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779745,Hepatocellular Carcinoma,SRX796300,SRR1693472
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779727,Hepatocellular Carcinoma,SRX796280,SRR1693452
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779722,Hepatocellular Carcinoma,SRX796278,SRR1693450
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779739,Hepatocellular Carcinoma,SRX796294,SRR1693466
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779731,Hepatocellular Carcinoma,SRX796286,SRR1693458
+SRP050551,Promoter hypermethylation of TERT is associated with hepatocellular carcinoma in the Han Chinese population,SRS779732,Hepatocellular Carcinoma,SRX796288,SRR1693460
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543903,Liver,SRX3219219,SRR6080229
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543904,Liver,SRX3219220,SRR6080230
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543905,Liver,SRX3219221,SRR6080231
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543897,Liver,SRX3219213,SRR6080223
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543891,Liver,SRX3219207,SRR6080217
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543893,Liver,SRX3219209,SRR6080219
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543895,Liver,SRX3219211,SRR6080221
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543892,Liver,SRX3219208,SRR6080218
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543894,Liver,SRX3219210,SRR6080220
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543896,Liver,SRX3219212,SRR6080222
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543901,Liver,SRX3219217,SRR6080227
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543902,Liver,SRX3219218,SRR6080228
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543906,Liver,SRX3219222,SRR6080232
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543899,Liver,SRX3219215,SRR6080225
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543907,Liver,SRX3219223,SRR6080233
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543898,Liver,SRX3219214,SRR6080224
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543900,Liver,SRX3219216,SRR6080226
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543908,Liver,SRX3219224,SRR6080234
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543889,Liver,SRX3219205,SRR6080215
+SRP118972,Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing,SRS2543890,Liver,SRX3219206,SRR6080216
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087418,"liver, non-tumor",SRX2690225,SRR5395341
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087421,"liver, tumor",SRX2690226,SRR5395342
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087420,"liver, non-tumor",SRX2690227,SRR5395343
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087422,"liver, tumor",SRX2690228,SRR5395344
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087423,"liver, non-tumor",SRX2690229,SRR5395345
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087424,"liver, tumor",SRX2690230,SRR5395346
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087414,"liver, non-tumor",SRX2690219,SRR5395335
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087413,"liver, tumor",SRX2690220,SRR5395336
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087415,"liver, non-tumor",SRX2690221,SRR5395337
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087416,"liver, tumor",SRX2690222,SRR5395338
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087417,"liver, non-tumor",SRX2690223,SRR5395339
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087419,"liver, tumor",SRX2690224,SRR5395340
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087409,"liver, non-tumor",SRX2690213,SRR5395329
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087407,"liver, tumor",SRX2690214,SRR5395330
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087410,"liver, non-tumor",SRX2690215,SRR5395331
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087408,"liver, tumor",SRX2690216,SRR5395332
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087411,"liver, non-tumor",SRX2690217,SRR5395333
+SRP102722,Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma,SRS2087412,"liver, tumor",SRX2690218,SRR5395334
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250972,,SRX1533901,SRR3105539
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250973,,SRX1533902,SRR3105540
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250974,,SRX1533903,SRR3105541
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250975,,SRX1533904,SRR3105542
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250976,,SRX1533905,SRR3105543
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250977,,SRX1533906,SRR3105544
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250982,,SRX1533911,SRR3105549
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250983,,SRX1533912,SRR3105550
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250978,,SRX1533907,SRR3105545
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250979,,SRX1533908,SRR3105546
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250984,,SRX1533913,SRR3105551
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250985,,SRX1533914,SRR3105552
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250970,,SRX1533899,SRR3105537
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250971,,SRX1533900,SRR3105538
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250980,,SRX1533909,SRR3105547
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250981,,SRX1533910,SRR3105548
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250928,,SRX1533857,SRR3105462
+SRP068551,Transcriptome sequencing identified hub genes for hepatocellular carcinoma   by weighted-gene co-expression analysis,SRS1250929,,SRX1533858,SRR3105529
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568213,"liver, HCC tumor",SRX483903,SRR1186604
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568214,"liver, NTL",SRX483904,SRR1186605
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568221,"liver, HCC tumor",SRX483911,SRR1186612
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568222,"liver, NTL",SRX483912,SRR1186613
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568219,"liver, HCC tumor",SRX483909,SRR1186610
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568220,"liver, NTL",SRX483910,SRR1186611
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568209,"liver, HCC tumor",SRX483899,SRR1186600
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568210,"liver, NTL",SRX483900,SRR1186601
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568223,"liver, HCC tumor",SRX483913,SRR1186614
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568224,"liver, NTL",SRX483914,SRR1186615
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568211,"liver, HCC tumor",SRX483901,SRR1186602
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568212,"liver, NTL",SRX483902,SRR1186603
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568217,"liver, HCC tumor",SRX483907,SRR1186608
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568218,"liver, NTL",SRX483908,SRR1186609
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568215,"liver, HCC tumor",SRX483905,SRR1186606
+SRP039694,Promoter methylome and integrative transcriptome profiling identify key epigenetics-regulated genes in human HCCs [expression],SRS568216,"liver, NTL",SRX483906,SRR1186607
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1740302,,SRX1909331,SRR4306377
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1740303,,SRX1909332,SRR4306378
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1741277,,SRX1910304,SRR4307349
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1741278,,SRX1910305,SRR4307350
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1739685,,SRX1908715,SRR4305761
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1739687,,SRX1908716,SRR4305762
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1739884,,SRX1908914,SRR4305960
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1739923,,SRX1908952,SRR4305998
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1739703,,SRX1908732,SRR4305778
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1739704,,SRX1908733,SRR4305779
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1740565,,SRX1909595,SRR4306641
+SRP048907,CSER: Exploring Precision Cancer Medicine for Sarcoma and Rare Cancers,SRS1740567,,SRX1909596,SRR4306642
+SRP058626,Comparative transcriptome analysis reveals that ECM-Receptor Interaction contributes to the venous metastases of hepatocellular carcinoma,SRS943762,Hepatocellular Carcinoma,SRX1036679,SRR2037308
+SRP058626,Comparative transcriptome analysis reveals that ECM-Receptor Interaction contributes to the venous metastases of hepatocellular carcinoma,SRS943789,Hepatocellular Carcinoma,SRX1036652,SRR2037281
+SRP058626,Comparative transcriptome analysis reveals that ECM-Receptor Interaction contributes to the venous metastases of hepatocellular carcinoma,SRS943786,Hepatocellular Carcinoma,SRX1036655,SRR2037284
+SRP058626,Comparative transcriptome analysis reveals that ECM-Receptor Interaction contributes to the venous metastases of hepatocellular carcinoma,SRS943771,Hepatocellular Carcinoma,SRX1036670,SRR2037299
+SRP058626,Comparative transcriptome analysis reveals that ECM-Receptor Interaction contributes to the venous metastases of hepatocellular carcinoma,SRS943783,Hepatocellular Carcinoma,SRX1036658,SRR2037287
+SRP058626,Comparative transcriptome analysis reveals that ECM-Receptor Interaction contributes to the venous metastases of hepatocellular carcinoma,SRS943780,Hepatocellular Carcinoma,SRX1036661,SRR2037290
+SRP058626,Comparative transcriptome analysis reveals that ECM-Receptor Interaction contributes to the venous metastases of hepatocellular carcinoma,SRS943777,Hepatocellular Carcinoma,SRX1036664,SRR2037293
+SRP058626,Comparative transcriptome analysis reveals that ECM-Receptor Interaction contributes to the venous metastases of hepatocellular carcinoma,SRS943774,Hepatocellular Carcinoma,SRX1036667,SRR2037296
+SRP058626,Comparative transcriptome analysis reveals that ECM-Receptor Interaction contributes to the venous metastases of hepatocellular carcinoma,SRS943759,Hepatocellular Carcinoma,SRX1036682,SRR2037311
+SRP058626,Comparative transcriptome analysis reveals that ECM-Receptor Interaction contributes to the venous metastases of hepatocellular carcinoma,SRS943768,Hepatocellular Carcinoma,SRX1036673,SRR2037302
+SRP058626,Comparative transcriptome analysis reveals that ECM-Receptor Interaction contributes to the venous metastases of hepatocellular carcinoma,SRS943765,Hepatocellular Carcinoma,SRX1036676,SRR2037305
+SRP002272,Small RNA Solexa sequencing of human liver samples,SRS059020,HBV(+) Adjacent Tissue,SRX018963,SRR039617
+SRP002272,Small RNA Solexa sequencing of human liver samples,SRS059023,HBV(+) Adjacent Tissue,SRX018966,SRR039620
+SRP002272,Small RNA Solexa sequencing of human liver samples,SRS059025,HCV(+) Adjacent Tissue,SRX018968,SRR039622
+SRP002272,Small RNA Solexa sequencing of human liver samples,SRS059019,HBV(+) Distal Tissue,SRX018962,SRR039616
+SRP002272,Small RNA Solexa sequencing of human liver samples,SRS059028,HBV(-) HCV(-) HCC Tissue,SRX018971,SRR039625
+SRP002272,Small RNA Solexa sequencing of human liver samples,SRS059022,HBV(+) HCC Tissue,SRX018965,SRR039619
+SRP002272,Small RNA Solexa sequencing of human liver samples,SRS059024,HBV(+) HCC Tissue,SRX018967,SRR039621
+SRP002272,Small RNA Solexa sequencing of human liver samples,SRS059026,HCV(+) HCC Tissue,SRX018969,SRR039623
+SRP002272,Small RNA Solexa sequencing of human liver samples,SRS059021,HBV(+) Side Tissue,SRX018964,SRR039618
+SRP076032,"Human liver RNA-seq data corresponding to uninfected non-malignant, HCV infected non-malignant, and HCV+ HCC tissue",SRS1479948,Biopsy of HCV+ HCC tumor,SRX1817205,SRR3621794
+SRP076032,"Human liver RNA-seq data corresponding to uninfected non-malignant, HCV infected non-malignant, and HCV+ HCC tissue",SRS1479954,Biopsy of HCV+ HCC tumor,SRX1817202,SRR3621788
+SRP076032,"Human liver RNA-seq data corresponding to uninfected non-malignant, HCV infected non-malignant, and HCV+ HCC tissue",SRS1479934,Biopsy of HCV+ HCC tumor,SRX1817191,SRR3621768
+SRP076032,"Human liver RNA-seq data corresponding to uninfected non-malignant, HCV infected non-malignant, and HCV+ HCC tissue",SRS1479931,Biopsy of HCV+ HCC tumor,SRX1817188,SRR3621765
+SRP076032,"Human liver RNA-seq data corresponding to uninfected non-malignant, HCV infected non-malignant, and HCV+ HCC tissue",SRS1479943,Biopsy of HCV+ HCC tumor,SRX1817200,SRR3621784
+SRP076032,"Human liver RNA-seq data corresponding to uninfected non-malignant, HCV infected non-malignant, and HCV+ HCC tissue",SRS1479951,Biopsy of HCV+ HCC tumor,SRX1817210,SRR3621804
+SRP076032,"Human liver RNA-seq data corresponding to uninfected non-malignant, HCV infected non-malignant, and HCV+ HCC tissue",SRS1479950,Biopsy of HCV+ HCC tumor,SRX1817208,SRR3621800
+SRP076032,"Human liver RNA-seq data corresponding to uninfected non-malignant, HCV infected non-malignant, and HCV+ HCC tissue",SRS1479929,Biopsy of HCV+ HCC tumor,SRX1817186,SRR3621763
+SRP108560,HCC RNA and small-RNA sequencing,SRS2250649,,SRX2882243,SRR5644089
+SRP108560,HCC RNA and small-RNA sequencing,SRS2250661,,SRX2882250,SRR5644082
+SRP108560,HCC RNA and small-RNA sequencing,SRS2250646,,SRX2882252,SRR5644080
+SRP108560,HCC RNA and small-RNA sequencing,SRS2250659,,SRX2882249,SRR5644083
+SRP108560,HCC RNA and small-RNA sequencing,SRS2250647,,SRX2882253,SRR5644079
+SRP108560,HCC RNA and small-RNA sequencing,SRS2250648,,SRX2882242,SRR5644090
+SRP108560,HCC RNA and small-RNA sequencing,SRS2250660,,SRX2882251,SRR5644081
+SRP108560,HCC RNA and small-RNA sequencing,SRS2250658,,SRX2882248,SRR5644084
+SRP070723,Comparison of HCC cell lines and primary HCCs-RNAseq data,SRS1308051,primary HCC tissue,SRX1598059,SRR3184665
+SRP070723,Comparison of HCC cell lines and primary HCCs-RNAseq data,SRS1308045,primary HCC tissue,SRX1598065,SRR3184671
+SRP070723,Comparison of HCC cell lines and primary HCCs-RNAseq data,SRS1308048,primary HCC tissue,SRX1598062,SRR3184668
+SRP070723,Comparison of HCC cell lines and primary HCCs-RNAseq data,SRS1308063,primary HCC tissue,SRX1598047,SRR3184653
+SRP070723,Comparison of HCC cell lines and primary HCCs-RNAseq data,SRS1308060,primary HCC tissue,SRX1598050,SRR3184656
+SRP070723,Comparison of HCC cell lines and primary HCCs-RNAseq data,SRS1308065,primary HCC tissue,SRX1598044,SRR3184650
+SRP037982,Transcriptomic characterization of Hepatocellular Carcinoma with CTNNB1 mutation,SRS558091,liver tissue,SRX471341,SRR1169863
+SRP037982,Transcriptomic characterization of Hepatocellular Carcinoma with CTNNB1 mutation,SRS558097,liver tissue,SRX471347,SRR1169869
+SRP037982,Transcriptomic characterization of Hepatocellular Carcinoma with CTNNB1 mutation,SRS558093,liver tissue,SRX471343,SRR1169865
+SRP037982,Transcriptomic characterization of Hepatocellular Carcinoma with CTNNB1 mutation,SRS558094,liver tissue,SRX471345,SRR1169867
+SRP008925,Genentech Whole-Genome Sequencing of Four Hepatocellular Carcinoma Patients,SRS283483,,SRX149030,SRR499954
+SRP008925,Genentech Whole-Genome Sequencing of Four Hepatocellular Carcinoma Patients,SRS283480,,SRX149032,SRR499956
+SRP008925,Genentech Whole-Genome Sequencing of Four Hepatocellular Carcinoma Patients,SRS283478,,SRX149026,SRR499951
+SRP008925,Genentech Whole-Genome Sequencing of Four Hepatocellular Carcinoma Patients,SRS283478,,SRX149027,SRR499952
+SRP008925,Genentech Whole-Genome Sequencing of Four Hepatocellular Carcinoma Patients,SRS283478,,SRX149028,SRR499950
+SRP008925,Genentech Whole-Genome Sequencing of Four Hepatocellular Carcinoma Patients,SRS283481,,SRX149034,SRR499958
+SRP075319,RNA-Seq expression profiling of hepatocellular carcinoma and adjacent non-tumor liver tissues,SRS1443236,HCC tissue,SRX1770951,SRR3538913
+SRP075319,RNA-Seq expression profiling of hepatocellular carcinoma and adjacent non-tumor liver tissues,SRS1443233,HCC tissue,SRX1770947,SRR3538909
+SRP075319,RNA-Seq expression profiling of hepatocellular carcinoma and adjacent non-tumor liver tissues,SRS1443234,HCC tissue,SRX1770949,SRR3538911
+SRP009123,Transcriptome sequencing of human hepatocellular carcinoma,SRS269183,"liver tissue, cancerous",SRX103486,SRR358995
+SRP009123,Transcriptome sequencing of human hepatocellular carcinoma,SRS269185,"liver tissue, cancerous",SRX103488,SRR358997
+SRP009123,Transcriptome sequencing of human hepatocellular carcinoma,SRS269187,"liver tissue, cancerous",SRX103490,SRR358999
+SRP069760,RNA Sequencing Facilitates Quantitative Analysis of Transcriptomes in Human Normal and Cancerous Tissues,SRS1279085,Hepatocellular carcinoma,SRX1564809,SRR3151773
+SRP069760,RNA Sequencing Facilitates Quantitative Analysis of Transcriptomes in Human Normal and Cancerous Tissues,SRS1279092,Normal tissue adjacent to hepatocellular carcinoma,SRX1564802,SRR3151766
+SRP052763,Leveraging a Trans-Omics Strategy for Prioritizing Personalized Candidate Mutation-Driver Genes,SRS826579,,SRX852294,SRR1771984
+SRP052763,Leveraging a Trans-Omics Strategy for Prioritizing Personalized Candidate Mutation-Driver Genes,SRS826579,,SRX852294,SRR1771985
+SRP052763,Leveraging a Trans-Omics Strategy for Prioritizing Personalized Candidate Mutation-Driver Genes,SRS825283,,SRX850895,SRR1770388
+SRP052763,Leveraging a Trans-Omics Strategy for Prioritizing Personalized Candidate Mutation-Driver Genes,SRS825283,,SRX850895,SRR1771986
+ERP001344,Viral_discovery,ERS092564,,ERX286287,ERR313139
+ERP001344,Viral_discovery,ERS092565,,ERX286288,ERR313140
+SRP062856,Transcriptome seuqnencing of HCC patients associated with HBV,SRS1045317,,SRX1164571,SRR2185787

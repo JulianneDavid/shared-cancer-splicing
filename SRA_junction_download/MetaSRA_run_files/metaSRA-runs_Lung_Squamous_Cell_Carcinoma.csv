@@ -1,0 +1,12 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP079676,Compared performance of Affymetrix HTA arrays and Illumina RNAseq for the analysis of tumours [RNA-seq],SRS1582211,tumor-SCC,SRX1974021,SRR3949020
+SRP079676,Compared performance of Affymetrix HTA arrays and Illumina RNAseq for the analysis of tumours [RNA-seq],SRS1582215,tumor-SCC,SRX1974027,SRR3949026
+SRP079676,Compared performance of Affymetrix HTA arrays and Illumina RNAseq for the analysis of tumours [RNA-seq],SRS1582208,tumor-SCC,SRX1974017,SRR3949016
+SRP079676,Compared performance of Affymetrix HTA arrays and Illumina RNAseq for the analysis of tumours [RNA-seq],SRS1582209,tumor-SCC,SRX1974019,SRR3949018
+SRP079676,Compared performance of Affymetrix HTA arrays and Illumina RNAseq for the analysis of tumours [RNA-seq],SRS1582220,tumor-SCC,SRX1974029,SRR3949028
+SRP079676,Compared performance of Affymetrix HTA arrays and Illumina RNAseq for the analysis of tumours [RNA-seq],SRS1582221,tumor-SCC,SRX1974031,SRR3949030
+SRP079676,Compared performance of Affymetrix HTA arrays and Illumina RNAseq for the analysis of tumours [RNA-seq],SRS1582216,tumor-SCC,SRX1974025,SRR3949024
+SRP079676,Compared performance of Affymetrix HTA arrays and Illumina RNAseq for the analysis of tumours [RNA-seq],SRS1582214,tumor-SCC,SRX1974023,SRR3949022
+SRP079676,Compared performance of Affymetrix HTA arrays and Illumina RNAseq for the analysis of tumours [RNA-seq],SRS1582205,tumor-SCC,SRX1974015,SRR3949014
+SRP006575,Transcriptional profiling of lncRNAs and novel transcribed regions across a diverse panel of archived human cancers,SRS190721,Lung squamous cell carcinoma,SRX059656,SRR191664
+SRP006575,Transcriptional profiling of lncRNAs and novel transcribed regions across a diverse panel of archived human cancers,SRS190722,Lung squamous cell carcinoma,SRX059657,SRR191665

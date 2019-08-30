@@ -1,0 +1,6 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP119102,RNA-seq for gastric adenocarcinoma,SRS2554297,,SRX3229777,SRR6117046
+SRP119102,RNA-seq for gastric adenocarcinoma,SRS2554299,,SRX3229779,SRR6117044
+SRP119102,RNA-seq for gastric adenocarcinoma,SRS2554301,,SRX3229781,SRR6117042
+SRP119102,RNA-seq for gastric adenocarcinoma,SRS2554303,,SRX3229783,SRR6117040
+SRP119102,RNA-seq for gastric adenocarcinoma,SRS2554295,,SRX3229775,SRR6117048

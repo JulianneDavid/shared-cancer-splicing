@@ -1,0 +1,29 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059585,cervical cancer,SRX019294,SRR040021
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059591,cervical cancer,SRX019300,SRR040027
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059583,cervical cancer,SRX019292,SRR040019
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059595,cervical cancer,SRX019304,SRR040031
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059589,cervical cancer,SRX019298,SRR040025
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059587,cervical cancer,SRX019296,SRR040023
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059579,cervical cancer,SRX019288,SRR040015
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059577,cervical cancer,SRX019286,SRR040013
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059593,cervical cancer,SRX019302,SRR040029
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059599,cervical cancer,SRX019308,SRR040035
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059575,cervical cancer,SRX019284,SRR040011
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059601,cervical cancer,SRX019310,SRR040037
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059605,cervical cancer,SRX019314,SRR040041
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059603,cervical cancer,SRX019312,SRR040039
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059597,cervical cancer,SRX019306,SRR040033
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059573,cervical cancer,SRX019282,SRR040009
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059571,cervical cancer,SRX019280,SRR040007
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059607,cervical cancer,SRX019316,SRR040043
+SRP002326,Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls,SRS059581,cervical cancer,SRX019290,SRR040017
+SRP089727,Sequencing data from SAR lab,SRS1688825,,SRX2162132,SRR4241167
+SRP089727,Sequencing data from SAR lab,SRS1688839,,SRX2162141,SRR4241168
+SRP049453,Homo sapiens Transcriptome or Gene expression,SRS735220,,SRX1744883,SRR3479116
+SRP049453,Homo sapiens Transcriptome or Gene expression,SRS735220,,SRX749241,SRR1636985
+SRP049453,Homo sapiens Transcriptome or Gene expression,SRS735220,,SRX749241,SRR1636986
+SRP049453,Homo sapiens Transcriptome or Gene expression,SRS735220,,SRX749241,SRR3476956
+SRP049453,Homo sapiens Transcriptome or Gene expression,SRS735220,,SRX749316,SRR1637089
+SRP049453,Homo sapiens Transcriptome or Gene expression,SRS735220,,SRX749316,SRR1637090
+SRP049453,Homo sapiens Transcriptome or Gene expression,SRS735220,,SRX749316,SRR3476958

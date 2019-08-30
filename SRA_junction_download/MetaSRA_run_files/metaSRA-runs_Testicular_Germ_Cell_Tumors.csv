@@ -1,0 +1,10 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP063661,"Expression profiles of cultured human epididymis cells reveal the functional diversity of caput, corpus and cauda regions.",SRS1067382,Caput_tissue,SRX1240733,SRR2392505
+SRP063661,"Expression profiles of cultured human epididymis cells reveal the functional diversity of caput, corpus and cauda regions.",SRS1067381,Caput_tissue,SRX1240734,SRR2392506
+SRP063661,"Expression profiles of cultured human epididymis cells reveal the functional diversity of caput, corpus and cauda regions.",SRS1067379,Cauda_tissue,SRX1240737,SRR2392509
+SRP063661,"Expression profiles of cultured human epididymis cells reveal the functional diversity of caput, corpus and cauda regions.",SRS1067377,Cauda_tissue,SRX1240738,SRR2392510
+SRP063661,"Expression profiles of cultured human epididymis cells reveal the functional diversity of caput, corpus and cauda regions.",SRS1067388,Corpus-derived cell culture,SRX1240727,SRR2392499
+SRP063661,"Expression profiles of cultured human epididymis cells reveal the functional diversity of caput, corpus and cauda regions.",SRS1067380,Corpus_tissue,SRX1240735,SRR2392507
+SRP063661,"Expression profiles of cultured human epididymis cells reveal the functional diversity of caput, corpus and cauda regions.",SRS1067387,Corpus-derived cell culture,SRX1240728,SRR2392500
+SRP063661,"Expression profiles of cultured human epididymis cells reveal the functional diversity of caput, corpus and cauda regions.",SRS1067378,Corpus_tissue,SRX1240736,SRR2392508
+SRP063661,"Expression profiles of cultured human epididymis cells reveal the functional diversity of caput, corpus and cauda regions.",SRS1067386,Corpus-derived cell culture,SRX1240729,SRR2392501

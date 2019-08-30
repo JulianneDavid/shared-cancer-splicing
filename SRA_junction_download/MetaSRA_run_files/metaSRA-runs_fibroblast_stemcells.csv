@@ -1,0 +1,11 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP047407,Coding mutations and loss-of-imprinting in human pluripotent cells derived by nuclear transfer and defined factors [RNA-Seq],SRS707600,"Nuclear-transfer embryonic stem cell line derived from neonatal BJ fibroblasts, clone 5",SRX708532,SRR1583687
+SRP047407,Coding mutations and loss-of-imprinting in human pluripotent cells derived by nuclear transfer and defined factors [RNA-Seq],SRS707603,"Nuclear-transfer embryonic stem cell line derived from neonatal BJ fibroblasts, clone 5",SRX708535,SRR1583690
+SRP047407,Coding mutations and loss-of-imprinting in human pluripotent cells derived by nuclear transfer and defined factors [RNA-Seq],SRS707601,"Nuclear-transfer embryonic stem cell line derived from neonatal BJ fibroblasts, clone 6",SRX708533,SRR1583688
+SRP047407,Coding mutations and loss-of-imprinting in human pluripotent cells derived by nuclear transfer and defined factors [RNA-Seq],SRS707604,"Nuclear-transfer embryonic stem cell line derived from neonatal BJ fibroblasts, clone 6",SRX708536,SRR1583691
+SRP047407,Coding mutations and loss-of-imprinting in human pluripotent cells derived by nuclear transfer and defined factors [RNA-Seq],SRS707602,"Nuclear-transfer embryonic stem cell line derived from neonatal BJ fibroblasts, clone 8",SRX708534,SRR1583689
+SRP047407,Coding mutations and loss-of-imprinting in human pluripotent cells derived by nuclear transfer and defined factors [RNA-Seq],SRS707605,"Nuclear-transfer embryonic stem cell line derived from neonatal BJ fibroblasts, clone 8",SRX708537,SRR1583692
+SRP047407,Coding mutations and loss-of-imprinting in human pluripotent cells derived by nuclear transfer and defined factors [RNA-Seq],SRS707606,Nuclear-transfer embryonic stem cell line derived from adult fibroblasts of a type 1 diabetic subject (ID 1018),SRX708538,SRR1583693
+SRP063581,Homo sapiens Transcriptome or Gene expression,SRS1064325,,SRX1222196,SRR2415419
+SRP063581,Homo sapiens Transcriptome or Gene expression,SRS1069812,,SRX1246883,SRR2415571
+SRP058802,NaÃ¯ve iPSCs Generated from ÃŸ-thalassemia Fibroblasts Allow Efficient Gene Correction with CRISPR/Cas9,SRS947944,ESCs,SRX1041541,SRR2043236

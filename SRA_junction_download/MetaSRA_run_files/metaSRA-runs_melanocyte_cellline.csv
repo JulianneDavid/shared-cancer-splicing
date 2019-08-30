@@ -1,0 +1,28 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP048577,BRG1 recruitment by transcription factors MITF and SOX10 defines a specific configuration of regulatory elements in the melanocyte lineage (RNA-seq),SRS714470,Hermes 3A,SRX718690,SRR1594547
+SRP048577,BRG1 recruitment by transcription factors MITF and SOX10 defines a specific configuration of regulatory elements in the melanocyte lineage (RNA-seq),SRS714471,Hermes 3A,SRX718691,SRR1594548
+SRP048577,BRG1 recruitment by transcription factors MITF and SOX10 defines a specific configuration of regulatory elements in the melanocyte lineage (RNA-seq),SRS714472,Hermes 3A,SRX718692,SRR1594549
+SRP048577,BRG1 recruitment by transcription factors MITF and SOX10 defines a specific configuration of regulatory elements in the melanocyte lineage (RNA-seq),SRS714466,Hermes 3A,SRX718687,SRR1594544
+SRP048577,BRG1 recruitment by transcription factors MITF and SOX10 defines a specific configuration of regulatory elements in the melanocyte lineage (RNA-seq),SRS714468,Hermes 3A,SRX718688,SRR1594545
+SRP048577,BRG1 recruitment by transcription factors MITF and SOX10 defines a specific configuration of regulatory elements in the melanocyte lineage (RNA-seq),SRS714469,Hermes 3A,SRX718689,SRR1594546
+SRP048577,BRG1 recruitment by transcription factors MITF and SOX10 defines a specific configuration of regulatory elements in the melanocyte lineage (RNA-seq),SRS714463,Hermes 3A,SRX718684,SRR1594541
+SRP048577,BRG1 recruitment by transcription factors MITF and SOX10 defines a specific configuration of regulatory elements in the melanocyte lineage (RNA-seq),SRS714465,Hermes 3A,SRX718685,SRR1594542
+SRP048577,BRG1 recruitment by transcription factors MITF and SOX10 defines a specific configuration of regulatory elements in the melanocyte lineage (RNA-seq),SRS714467,Hermes 3A,SRX718686,SRR1594543
+SRP011422,Small RNA sequencing of melanoma samples to deduce microRNA expression profiles,SRS300032,"Melanocyte-dark, cultured cells",SRX128904,SRR444056
+SRP011422,Small RNA sequencing of melanoma samples to deduce microRNA expression profiles,SRS300045,"Melanocyte-light, cultured cells",SRX128917,SRR444069
+SRP011422,Small RNA sequencing of melanoma samples to deduce microRNA expression profiles,SRS300023,"Melanocyte-medium, cultured cells",SRX128895,SRR444047
+SRP011422,Small RNA sequencing of melanoma samples to deduce microRNA expression profiles,SRS300031,"Melanocyte-medium, cultured cells",SRX128903,SRR444055
+SRP011422,Small RNA sequencing of melanoma samples to deduce microRNA expression profiles,SRS300046,"Melanocyte-medium, cultured cells",SRX128918,SRR444070
+SRP011422,Small RNA sequencing of melanoma samples to deduce microRNA expression profiles,SRS300038,"Melanocyte-medium, cultured cells",SRX128910,SRR444062
+SRP039354,Genome-wide transcriptome analysis of human epidermal melanocytes,SRS565542,,SRX480688,SRR1182320
+SRP039354,Genome-wide transcriptome analysis of human epidermal melanocytes,SRS565539,,SRX480685,SRR1182316
+SRP039354,Genome-wide transcriptome analysis of human epidermal melanocytes,SRS565540,,SRX480686,SRR1182317
+SRP039354,Genome-wide transcriptome analysis of human epidermal melanocytes,SRS565541,,SRX480687,SRR1182319
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313338,,SRX1603531,SRR3192554
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313349,,SRX1603535,SRR3192558
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313348,,SRX1603536,SRR3192559
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313337,,SRX1603532,SRR3192555
+SRP063573,Chromatin-remodelling complex NURF is essential for differentiation of adult melanocyte stem cells,SRS1064026,Hermes 3A,SRX1220981,SRR2342513
+SRP063573,Chromatin-remodelling complex NURF is essential for differentiation of adult melanocyte stem cells,SRS1064025,Hermes 3A,SRX1220982,SRR2342514
+SRP063573,Chromatin-remodelling complex NURF is essential for differentiation of adult melanocyte stem cells,SRS1064024,Hermes 3A,SRX1220983,SRR2342515
+SRP066619,A zebrafish melanoma model reveals emergence of neural crest identity during melanoma initiation [human cell line RNA-seq],SRS1179140,normal human melanocytes,SRX1451250,SRR2959452

@@ -1,0 +1,30 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630242,Macrophages(BC12),SRX581569,SRR1363145
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630245,Macrophages(BC12),SRX581571,SRR1363147
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630244,Macrophages(BC12),SRX581570,SRR1363146
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630231,Macrophages(BC8),SRX581557,SRR1363133
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630232,Macrophages(BC8),SRX581558,SRR1363134
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630233,Macrophages(BC8),SRX581559,SRR1363135
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630235,Macrophages(BC9),SRX581561,SRR1363137
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630236,Macrophages(BC9),SRX581562,SRR1363138
+SRP043033,GSE58310: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity,SRS630237,Macrophages(BC9),SRX581563,SRR1363139
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937771,Human Kupffer cells,SRX1029307,SRR2027903
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937770,Human Kupffer cells,SRX1029308,SRR2027904
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937769,Human Kupffer cells,SRX1029309,SRR2027905
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937782,Human Kupffer cells,SRX1029302,SRR2027898
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937781,Human Kupffer cells,SRX1029303,SRR2027899
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937780,Human Kupffer cells,SRX1029304,SRR2027900
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937779,Human Kupffer cells,SRX1029305,SRR2027901
+SRP058375,Tumor exosome integrins determine organotropic metastasis,SRS937772,Human Kupffer cells,SRX1029306,SRR2027902
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229902,macrophage,SRX1509588,SRR3068613
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229897,macrophage,SRX1509592,SRR3068617
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229901,macrophage,SRX1509589,SRR3068614
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229899,macrophage,SRX1509593,SRR3068618
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229900,macrophage,SRX1509590,SRR3068615
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229896,macrophage,SRX1509594,SRR3068619
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229898,macrophage,SRX1509591,SRR3068616
+SRP067960,Trascriptome of thyroid cancer-induced macrophages,SRS1229895,macrophage,SRX1509595,SRR3068620
+SRP042031,Modulation of the TNF-induced macrophage response by synovial fibroblasts,SRS608828,primary macrophages,SRX544934,SRR1289651
+SRP042031,Modulation of the TNF-induced macrophage response by synovial fibroblasts,SRS608830,primary macrophages,SRX544936,SRR1289653
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313364,,SRX1603540,SRR3192563
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313365,,SRX1603539,SRR3192562

@@ -1,0 +1,77 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516007,Thyroid tissue,SRX1865238,SRR3703033
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1515992,Thyroid tissue,SRX1865220,SRR3703015
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1515994,Thyroid tissue,SRX1865226,SRR3703021
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516009,Thyroid tissue,SRX1865240,SRR3703035
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1515995,Thyroid tissue,SRX1865224,SRR3703019
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1515989,Thyroid tissue,SRX1865222,SRR3703017
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516012,Thyroid tissue,SRX1865242,SRR3703037
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1515997,Thyroid tissue,SRX1865228,SRR3703023
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1515999,Thyroid tissue,SRX1865230,SRR3703025
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516002,Thyroid tissue,SRX1865234,SRR3703029
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516001,Thyroid tissue,SRX1865232,SRR3703027
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516005,Thyroid tissue,SRX1865236,SRR3703031
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516004,Thyroid tissue,SRX1865235,SRR3703030
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516003,Thyroid tissue,SRX1865233,SRR3703028
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516000,Thyroid tissue,SRX1865231,SRR3703026
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1515993,Thyroid tissue,SRX1865225,SRR3703020
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516008,Thyroid tissue,SRX1865239,SRR3703034
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516010,Thyroid tissue,SRX1865241,SRR3703036
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516011,Thyroid tissue,SRX1865243,SRR3703038
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1515991,Thyroid tissue,SRX1865223,SRR3703018
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1515996,Thyroid tissue,SRX1865227,SRR3703022
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1515990,Thyroid tissue,SRX1865221,SRR3703016
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1515998,Thyroid tissue,SRX1865229,SRR3703024
+SRP076801,Genome-wide expression screening discloses long noncoding RNAs involved in thyroid carcinogenesis,SRS1516006,Thyroid tissue,SRX1865237,SRR3703032
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816256,Thyroid,SRX839532,SRR1754124
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816260,Thyroid,SRX839536,SRR1754128
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816254,Thyroid,SRX839530,SRR1754122
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816255,Thyroid,SRX839531,SRR1754123
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816261,Thyroid,SRX839537,SRR1754129
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816253,Thyroid,SRX839529,SRR1754121
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816259,Thyroid,SRX839535,SRR1754127
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816249,Thyroid,SRX839525,SRR1754117
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816265,Thyroid,SRX839541,SRR1754133
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816266,Thyroid,SRX839542,SRR1754134
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816250,Thyroid,SRX839526,SRR1754118
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816267,Thyroid,SRX839543,SRR1754135
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816264,Thyroid,SRX839540,SRR1754132
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816251,Thyroid,SRX839527,SRR1754119
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816252,Thyroid,SRX839528,SRR1754120
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816270,Thyroid,SRX839546,SRR1754138
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816263,Thyroid,SRX839539,SRR1754131
+SRP052056,RNA-Sequencing of human papillary thyroid carcinomas,SRS816262,Thyroid,SRX839538,SRR1754130
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749139,Normal Thyroid tissue,SRX764781,SRR1658420
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749138,Normal Thyroid tissue,SRX764780,SRR1658419
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749141,Normal Thyroid tissue,SRX764782,SRR1658421
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749137,Normal Thyroid tissue,SRX764779,SRR1658418
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749144,Normal Thyroid tissue,SRX764785,SRR1658424
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749143,Normal Thyroid tissue,SRX764784,SRR1658423
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749142,Normal Thyroid tissue,SRX764783,SRR1658422
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749136,Normal Thyroid tissue,SRX764778,SRR1658417
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749131,Thyroid tumor tissue,SRX764773,SRR1658412
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749132,Thyroid tumor tissue,SRX764772,SRR1658411
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749133,Thyroid tumor tissue,SRX764775,SRR1658414
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749130,Thyroid tumor tissue,SRX764771,SRR1658410
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749135,Thyroid tumor tissue,SRX764777,SRR1658416
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749140,Thyroid tumor tissue,SRX764774,SRR1658413
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749134,Thyroid tumor tissue,SRX764776,SRR1658415
+SRP050087,The miR-146b-3p/PAX8/NIS Regulatory Circuit Modulates the Differentiation Phenotype and Function of Thyroid Cells During Carcinogenesis,SRS749129,Thyroid tumor tissue,SRX764770,SRR1658409
+SRP014020,miRNA high-throughput sequencing of follicular thyroid tumors,SRS348427,follicular thyroid carcinoma cells,SRX345054,SRR965805
+SRP014020,miRNA high-throughput sequencing of follicular thyroid tumors,SRS348424,follicular thyroid carcinoma cells,SRX345051,SRR965802
+SRP014020,miRNA high-throughput sequencing of follicular thyroid tumors,SRS348428,follicular thyroid carcinoma cells,SRX345055,SRR965806
+SRP014020,miRNA high-throughput sequencing of follicular thyroid tumors,SRS348423,follicular thyroid carcinoma cells,SRX345050,SRR965801
+SRP014020,miRNA high-throughput sequencing of follicular thyroid tumors,SRS348431,follicular thyroid carcinoma cells,SRX345058,SRR965809
+SRP014020,miRNA high-throughput sequencing of follicular thyroid tumors,SRS348430,follicular thyroid carcinoma cells,SRX345057,SRR965808
+SRP014020,miRNA high-throughput sequencing of follicular thyroid tumors,SRS348432,follicular thyroid carcinoma cells,SRX345059,SRR965810
+SRP014020,miRNA high-throughput sequencing of follicular thyroid tumors,SRS348429,follicular thyroid carcinoma cells,SRX345056,SRR965807
+SRP014020,miRNA high-throughput sequencing of follicular thyroid tumors,SRS348425,follicular thyroid carcinoma cells,SRX345052,SRR965803
+SRP014020,miRNA high-throughput sequencing of follicular thyroid tumors,SRS348426,follicular thyroid carcinoma cells,SRX345053,SRR965804
+SRP048222,Genome-wide detection of DNase I hypersensitive sites in single cells and FFPE tissue samples,SRS843774,formalin-fixed paraffin-embedded tissue,SRX873897,SRR1799837
+SRP048222,Genome-wide detection of DNase I hypersensitive sites in single cells and FFPE tissue samples,SRS843772,formalin-fixed paraffin-embedded tissue,SRX873899,SRR1799839
+SRP048222,Genome-wide detection of DNase I hypersensitive sites in single cells and FFPE tissue samples,SRS843768,formalin-fixed paraffin-embedded tissue,SRX873901,SRR1799841
+SRP048222,Genome-wide detection of DNase I hypersensitive sites in single cells and FFPE tissue samples,SRS843771,formalin-fixed paraffin-embedded tissue,SRX873902,SRR1799842
+SRP048222,Genome-wide detection of DNase I hypersensitive sites in single cells and FFPE tissue samples,SRS843773,formalin-fixed paraffin-embedded tissue,SRX873898,SRR1799838
+SRP048222,Genome-wide detection of DNase I hypersensitive sites in single cells and FFPE tissue samples,SRS843767,formalin-fixed paraffin-embedded tissue,SRX873904,SRR1799844
+SRP048222,Genome-wide detection of DNase I hypersensitive sites in single cells and FFPE tissue samples,SRS843769,formalin-fixed paraffin-embedded tissue,SRX873900,SRR1799840
+SRP048222,Genome-wide detection of DNase I hypersensitive sites in single cells and FFPE tissue samples,SRS843770,formalin-fixed paraffin-embedded tissue,SRX873903,SRR1799843

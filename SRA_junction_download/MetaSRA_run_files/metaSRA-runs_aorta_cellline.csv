@@ -1,0 +1,34 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313334,,SRX1603515,SRR3192538
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313235,,SRX1603337,SRR3192353
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313236,,SRX1603336,SRR3192352
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313433,,SRX1603631,SRR3192659
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313432,,SRX1603632,SRR3192660
+SRP013565,GSE35585: RIP-seq from ENCODE/SUNY Albany,SRS1313336,,SRX1603514,SRR3192537
+SRP074360,Differentiation of human embryonic stem cells to HOXA+ hemogenic vasculature that resembles the aorta-gonad-mesonephros,SRS1421903,5 week human aorta gonad mesonephros (AGM),SRX1742447,SRR3475781
+SRP074360,Differentiation of human embryonic stem cells to HOXA+ hemogenic vasculature that resembles the aorta-gonad-mesonephros,SRS1421904,5 week human aorta gonad mesonephros (AGM),SRX1742448,SRR3475782
+SRP074360,Differentiation of human embryonic stem cells to HOXA+ hemogenic vasculature that resembles the aorta-gonad-mesonephros,SRS1421905,5 week human aorta gonad mesonephros (AGM),SRX1742449,SRR3475783
+SRP090170,Transcritptome profiling of HASMCs under delta-133p53-overexpression and Ang II treatment,SRS1704220,,SRX2178863,SRR4270615
+SRP090170,Transcritptome profiling of HASMCs under delta-133p53-overexpression and Ang II treatment,SRS1704220,,SRX2178864,SRR4270616
+SRP090170,Transcritptome profiling of HASMCs under delta-133p53-overexpression and Ang II treatment,SRS1704220,,SRX2178865,SRR4270617
+SRP090170,Transcritptome profiling of HASMCs under delta-133p53-overexpression and Ang II treatment,SRS1704222,,SRX2178869,SRR4270621
+SRP090170,Transcritptome profiling of HASMCs under delta-133p53-overexpression and Ang II treatment,SRS1704222,,SRX2178870,SRR4270622
+SRP090170,Transcritptome profiling of HASMCs under delta-133p53-overexpression and Ang II treatment,SRS1704222,,SRX2178871,SRR4270623
+SRP090170,Transcritptome profiling of HASMCs under delta-133p53-overexpression and Ang II treatment,SRS1704221,,SRX2178866,SRR4270618
+SRP090170,Transcritptome profiling of HASMCs under delta-133p53-overexpression and Ang II treatment,SRS1704221,,SRX2178867,SRR4270619
+SRP090170,Transcritptome profiling of HASMCs under delta-133p53-overexpression and Ang II treatment,SRS1704221,,SRX2178868,SRR4270620
+SRP067352,Specification and Diversification of Pericytes and Smooth Muscle Cells from Mesenchymoangioblasts,SRS1757425,Arterial_endothelial_cells,SRX2265870,SRR4447051
+SRP067352,Specification and Diversification of Pericytes and Smooth Muscle Cells from Mesenchymoangioblasts,SRS1757426,Arterial_endothelial_cells,SRX2265871,SRR4447052
+SRP066262,Homo sapiens Transcriptome or Gene expression,SRS1164880,,SRX1433887,SRR2918997
+SRP066262,Homo sapiens Transcriptome or Gene expression,SRS1164880,,SRX1433887,SRR2919004
+SRP066262,Homo sapiens Transcriptome or Gene expression,SRS1164880,,SRX1433887,SRR2919044
+SRP066262,Homo sapiens Transcriptome or Gene expression,SRS1164880,,SRX1433887,SRR2919055
+SRP066262,Homo sapiens Transcriptome or Gene expression,SRS1164880,,SRX1433887,SRR2919086
+SRP066262,Homo sapiens Transcriptome or Gene expression,SRS1164880,,SRX1433887,SRR2919096
+SRP066262,Homo sapiens Transcriptome or Gene expression,SRS1164880,,SRX1433887,SRR2919119
+SRP066262,Homo sapiens Transcriptome or Gene expression,SRS1164880,,SRX1433887,SRR2919136
+SRP066262,Homo sapiens Transcriptome or Gene expression,SRS1164880,,SRX1433887,SRR2919151
+SRP066262,Homo sapiens Transcriptome or Gene expression,SRS1164880,,SRX1433887,SRR2919152
+SRP066262,Homo sapiens Transcriptome or Gene expression,SRS1164880,,SRX1433887,SRR2919154
+SRP066262,Homo sapiens Transcriptome or Gene expression,SRS1164880,,SRX1433887,SRR2919156
+DRP001150,"A promoter level mammalian expression atlas (human, RNA-Seq)",DRS007937,,DRX057106,DRR062865

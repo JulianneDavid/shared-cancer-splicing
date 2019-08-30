@@ -1,0 +1,34 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028330,metastasis of cutaneous melanoma,SRX1136758,SRR2149453
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028328,metastasis of cutaneous melanoma,SRX1136759,SRR2149454
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028327,metastasis of cutaneous melanoma,SRX1136760,SRR2149455
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028335,metastasis of cutaneous melanoma,SRX1136752,SRR2149447
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028334,metastasis of cutaneous melanoma,SRX1136753,SRR2149448
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028332,metastasis of cutaneous melanoma,SRX1136754,SRR2149449
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028340,metastasis of cutaneous melanoma,SRX1136746,SRR2149441
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028341,metastasis of cutaneous melanoma,SRX1136747,SRR2149442
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028339,metastasis of cutaneous melanoma,SRX1136748,SRR2149443
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028325,metastasis of cutaneous melanoma,SRX1136761,SRR2149456
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028326,metastasis of cutaneous melanoma,SRX1136762,SRR2149457
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028324,metastasis of cutaneous melanoma,SRX1136763,SRR2149458
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028333,metastasis of cutaneous melanoma,SRX1136755,SRR2149450
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028331,metastasis of cutaneous melanoma,SRX1136756,SRR2149451
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028329,metastasis of cutaneous melanoma,SRX1136757,SRR2149452
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028338,metastasis of cutaneous melanoma,SRX1136749,SRR2149444
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028336,metastasis of cutaneous melanoma,SRX1136750,SRR2149445
+SRP062172,ChIP-seq and RNA-seq analysis of KMT2D-silenced metastatic melanoma cells,SRS1028337,metastasis of cutaneous melanoma,SRX1136751,SRR2149446
+ERP023890,Intergenic Disease-associated Regions are Abundant in Novel Regulatory Transcripts,ERS1809461,,ERX2081967,ERR2022812
+ERP023890,Intergenic Disease-associated Regions are Abundant in Novel Regulatory Transcripts,ERS1809467,,ERX2081973,ERR2022818
+ERP023890,Intergenic Disease-associated Regions are Abundant in Novel Regulatory Transcripts,ERS1809462,,ERX2081968,ERR2022813
+ERP023890,Intergenic Disease-associated Regions are Abundant in Novel Regulatory Transcripts,ERS1809463,,ERX2081969,ERR2022814
+ERP023890,Intergenic Disease-associated Regions are Abundant in Novel Regulatory Transcripts,ERS1809460,,ERX2081966,ERR2022811
+ERP023890,Intergenic Disease-associated Regions are Abundant in Novel Regulatory Transcripts,ERS1809459,,ERX2081965,ERR2022810
+ERP023890,Intergenic Disease-associated Regions are Abundant in Novel Regulatory Transcripts,ERS1809466,,ERX2081972,ERR2022817
+ERP023890,Intergenic Disease-associated Regions are Abundant in Novel Regulatory Transcripts,ERS1809464,,ERX2081970,ERR2022815
+ERP023890,Intergenic Disease-associated Regions are Abundant in Novel Regulatory Transcripts,ERS1809465,,ERX2081971,ERR2022816
+ERP023890,Intergenic Disease-associated Regions are Abundant in Novel Regulatory Transcripts,ERS1809468,,ERX2081974,ERR2022819
+SRP011422,Small RNA sequencing of melanoma samples to deduce microRNA expression profiles,SRS300020,"Primary cutaneous melanoma (11.5 mm, level V), fresh frozen",SRX128892,SRR444044
+SRP011422,Small RNA sequencing of melanoma samples to deduce microRNA expression profiles,SRS300030,"Primary cutaneous melanoma (2.0 mm, level IV), formalin-fixed paraffin embedded",SRX128902,SRR444054
+SRP011422,Small RNA sequencing of melanoma samples to deduce microRNA expression profiles,SRS300029,"Primary cutaneous melanoma (2.5 mm, level IV), formalin-fixed paraffin embedded",SRX128901,SRR444053
+SRP011422,Small RNA sequencing of melanoma samples to deduce microRNA expression profiles,SRS300028,"Primary cutaneous melanoma (2.8 mm, level IV), formalin-fixed paraffin embedded",SRX128900,SRR444052
+SRP011422,Small RNA sequencing of melanoma samples to deduce microRNA expression profiles,SRS300022,"Primary cutaneous melanoma (4.0 mm, level IV), formalin-fixed paraffin embedded",SRX128894,SRR444046

@@ -1,0 +1,21 @@
+sra_study_id,study_title,sra_sample_id,sample_name,sra_experiment_id,sra_run_id
+SRP118087,Impeding transcription of expanded microsatellite repeats by deactivated Cas9,SRS2524542,Primary human myoblasts,SRX3197463,SRR6050463
+SRP118087,Impeding transcription of expanded microsatellite repeats by deactivated Cas9,SRS2524541,Primary human myoblasts,SRX3197462,SRR6050462
+SRP118087,Impeding transcription of expanded microsatellite repeats by deactivated Cas9,SRS2524543,Primary human myoblasts,SRX3197464,SRR6050464
+SRP118087,Impeding transcription of expanded microsatellite repeats by deactivated Cas9,SRS2524540,Primary human myoblasts,SRX3197461,SRR6050461
+SRP118087,Impeding transcription of expanded microsatellite repeats by deactivated Cas9,SRS2524544,Primary human myoblasts,SRX3197465,SRR6050465
+SRP118087,Impeding transcription of expanded microsatellite repeats by deactivated Cas9,SRS2524539,Primary human myoblasts,SRX3197460,SRR6050460
+SRP118087,Impeding transcription of expanded microsatellite repeats by deactivated Cas9,SRS2524537,Primary human myoblasts,SRX3197458,SRR6050458
+SRP118087,Impeding transcription of expanded microsatellite repeats by deactivated Cas9,SRS2524545,Primary human myoblasts,SRX3197466,SRR6050466
+SRP118087,Impeding transcription of expanded microsatellite repeats by deactivated Cas9,SRS2524538,Primary human myoblasts,SRX3197459,SRR6050459
+SRP118087,Impeding transcription of expanded microsatellite repeats by deactivated Cas9,SRS2524546,Primary human myoblasts,SRX3197467,SRR6050467
+SRP020646,Retroelements and DUX4 Create Primate-specific Promoters for Germline Genes,SRS409786,myoblasts transduced with lentivirus carrying DUX4-fl,SRX262884,SRR823339
+SRP020646,Retroelements and DUX4 Create Primate-specific Promoters for Germline Genes,SRS409787,untreated myoblasts,SRX262885,SRR823340
+SRP020646,Retroelements and DUX4 Create Primate-specific Promoters for Germline Genes,SRS409784,myoblasts transduced with lentivirus carrying DUX4-fl,SRX262882,SRR823337
+SRP020646,Retroelements and DUX4 Create Primate-specific Promoters for Germline Genes,SRS409785,myoblasts transduced with lentivirus carrying GFP,SRX262883,SRR823338
+SRP059957,Gene expression profiling of human and murine in vitro muscle differentiation,SRS975954,human myoblasts,SRX1076995,SRR2082431
+SRP059957,Gene expression profiling of human and murine in vitro muscle differentiation,SRS975953,human myoblasts,SRX1076996,SRR2082432
+SRP059957,Gene expression profiling of human and murine in vitro muscle differentiation,SRS975952,human Duchenne Muscular Dystrophy myoblasts,SRX1077001,SRR2082437
+SRP090916,UPF1 knockdown in differentiating human myoblasts,SRS1730920,skeletal myoblast cell line,SRX2220517,SRR4361752
+SRP090916,UPF1 knockdown in differentiating human myoblasts,SRS1730918,skeletal myoblast cell line,SRX2220516,SRR4361751
+SRP073065,RNA-seq analyses of JMJD3c-MYOD1-induced myogenic cells and human skeletal myotubes,SRS1383560,Skeletal myoblasts,SRX1688905,SRR3354078
