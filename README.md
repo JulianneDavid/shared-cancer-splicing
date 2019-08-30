@@ -58,8 +58,8 @@ where `UTILITIES_DIRECTORY` is where `snaptron-experiments` was previously clone
 
 4. Run each `SAMPLE_TYPE_indiv_chrom_batch_query_script.sh` to collect SRA junctions.
 
-Output will be as follows:
-Non-cancer junction results will be saved in 
+`SRA_JUNCTION_OUTPUT_DIR` will now contain:
+* Non-cancer junction results will be saved in 
 SRA_JUNCTION_OUTPUT_DIRECTORY/SRA_noncancer_rawresults, hereafter referred to as SNAPTRON_NONCANCER_DIRECTORY
 Non-cancer experiment lists will be saved in
 SRA_JUNCTION_OUTPUT_DIRECTORY/SRA_noncancer_exptlists, hereafter referred to as SNAPTRON_NONCANCER_EXPTLIST_DIRECTORY 
