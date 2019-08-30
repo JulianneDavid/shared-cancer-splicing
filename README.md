@@ -50,7 +50,7 @@ Note we also made use of [metaSRA](http://metasra.biostat.wisc.edu/)'s ontology 
 * `FigS1a_non-core-normal_counts_per_sample` (`FILTERED_NTM_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in GTEx or TCGA tissue-matched normal samples) and `FigS1a_non-tissue-matched_counts_per_sample` (`FILTERED_NCN_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in core normals) to generate Figure S1A;
 * (`all_jxs_per_sample_paired_normals`) `ALL_JXS_PER_SAMPLE_DIR` containing all junctions for TCGA SKCM normal samples, TCGA SKCM tumor samples, and GTEx bulk skin normal samples to generate Figure S7.
 
-3. Call [this directory](SRA_junction_download/MetaSRA_queries) `METASRA_QUERY_FILES`. Run
+3. Call [this directory](SRA_junction_download/MetaSRA_run_files) `METASRA_QUERY_FILES`. Run
 
         python3 create_snaptron_queries.py -s METASRA_QUERY_FILES -i RECOUNT_SAMPLE_IDS -o LOGGING_OUTPUT_DIR -p SRA_JUNCTION_OUTPUT_DIR -u UTILITIES_DIR
 
