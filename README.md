@@ -8,6 +8,12 @@ We ran Python scripts with Python 3.6.6, which we installed as part of [Anaconda
 
 We ran R scripts with R 3.6.1 and made use of `Data.table` 1.12.2, `ggplot2` 3.2.1, `gridExtra` 2.3, `RColorBrewer` 1.1-2, and `dplyr` 0.8.3.
 
+We further used [Snaptron](http://snaptron.cs.jhu.edu/) via its `qs` utility. To obtain it, run
+```cd UTILITIES_DIRECTORY
+git clone https://github.com/ChristopherWilks/snaptron-experiments
+```
+.
+
 ### Data
 We downloaded exon-exon junction BEDs for GTEx and TCGA and accompanying metadata from [recount2](https://jhubiostatistics.shinyapps.io/recount/):
 * [GTEx junction IDs](http://duffel.rail.bio/recount/SRP012682/SRP012682.junction_id_with_transcripts.bed.gz) (`GTEX_JUNCTION_BED`)
@@ -29,9 +35,6 @@ Note we also made use of [metaSRA](http://metasra.biostat.wisc.edu/)'s ontology 
 
 ## Execution
 
-1. Clone snaptron-experiments in directory UTILITIES_DIRECTORY from ____github.
-
-——
 Collect TCGA junctions
 
 1. Specify a directory DB_DIRECTORY to hold the junction database
