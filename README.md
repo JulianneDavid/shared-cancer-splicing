@@ -77,7 +77,7 @@ where `UTILITIES_DIRECTORY` is where `snaptron-experiments` was previously clone
 
 `FULL_PIECHART_DIR` will now contain:
 * `unexplained` (`UNEXPLAINED_DIR`) containing unexplained subset of all single-read junctions
-* `developmental` (`DEVELOPMENTAL_DIR`) containing developmentally-occuring subset of all single-read junctions
+* `developmental` (`DEVELOPMENTAL_DIR`) containing developmentally-occurring subset of all single-read junctions
 
 To generate two-sample minimum junction sets (used in Figures S3E and S3F), run:
 
@@ -85,7 +85,7 @@ To generate two-sample minimum junction sets (used in Figures S3E and S3F), run:
 
 `2-SAMPLE_PIECHART_DIR` will now contain:
 * `unexplained` (`UNEXPLAINED_2-SAMPLE_DIR`) containing unexplained subset of all two-sample junctions
-* `developmental` (`DEVELOPMENTAL_2-SAMPLE_DIR`) containing developmentally-occuring subset of all two-sample junctions
+* `developmental` (`DEVELOPMENTAL_2-SAMPLE_DIR`) containing developmentally-occurring subset of all two-sample junctions
 
 6. To perform additional set membership analyses using `set_membership_analysis.py` (for use in Figures S1B and S1C), run:
 
@@ -93,7 +93,7 @@ To generate two-sample minimum junction sets (used in Figures S3E and S3F), run:
 
 `FULL_PIECHART_DIR` will now contain:
 * `unexplained` (`UNEXPLAINED_DIR`) containing unexplained subset of all single-read junctions
-* `developmental` (`DEVELOPMENTAL_DIR`) containing developmentally-occuring subset of all single-read junctions
+* `developmental` (`DEVELOPMENTAL_DIR`) containing developmentally-occurring subset of all single-read junctions
 * `true_TCGA_prevalence_files` (`TCGA_PREVALENCE_DIR`) containing non-core-normal junctions
 
 To tally SRA experiments using `count_unique_SRA_expts.py`, run:
