@@ -599,20 +599,20 @@ def collect_data_for_analyses(batch_num, out_path, now, conn, index_db):
         ann_filter=False, print_counts=False
     )
 
-    # For use in Figs S3 and S4 and set membership annotation
+    # For use in Figs S1E, S1F, S1G, and S1H
     count_and_collect_neojxs(
         batch_num, out_path, now, conn, non_gtex=True, cov_filter=False,
         ann_filter=False, jx_recount_id=False, print_counts=False
     )
 
-    # For use in Figures 2A, 2B, 2C, and S5
+    # For use in Figures 2A, 2B, 2C, and S2A
     prev_dir = os.path.join(out_path, 'non-core-normal_jx_prevalences')
     os.makedirs(prev_dir, exist_ok=True)
     non_normal_jxs_prevs(
         batch_num, prev_dir, now, conn, index_db, all_types=True
     )
 
-    # For use in Figure S7
+    # For use in Figure S2B
     norm_dir = os.path.join(out_path, 'all_jxs_per_sample_paired_normals')
     os.makedirs(norm_dir, exist_ok=True)
     collect_sample_jxs(
@@ -625,7 +625,7 @@ def collect_data_for_analyses(batch_num, out_path, now, conn, index_db):
         'Skin_Cutaneous_Melanoma', norm_dir, now, conn, normal=True
     )
 
-    # For use in Fig S1
+    # For use in Fig S1A
     count_and_collect_neojxs(
         batch_num, out_path, now, conn, non_gtex=True, cov_filter=True,
         ann_filter=True, jx_recount_id=False, addl_flag='FigS1a_',
