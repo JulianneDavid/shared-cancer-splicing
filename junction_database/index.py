@@ -702,7 +702,7 @@ def fill_new_table(tcga_cov, tcga_bed, gtex_cov, gtex_bed, index_db,
     return
 
 
-def main(args, conn, index_db):
+def main(args, now, conn, index_db):
     tcga_c = args.tcga_jx_cov
     tcga_b = args.tcga_jx_bed
     tcga_p = args.tcga_phenotype
