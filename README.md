@@ -47,10 +47,10 @@ Note we also made use of [metaSRA](http://metasra.biostat.wisc.edu/)'s ontology 
 * `all_jxs` (`ALL_JX_DIR`) for use in set membership annotation;
 * `non-core-normal_jxs_per_sample` (`NON_CORE_NORMAL_DIR`) and `non-tissue-matched_jxs_per_sample` (`NON_TISSUE_MATCHED_NORMAL_DIR`) for use in set membership annotation;
 * `non-core-normal_counts_per_sample` (`COUNTS_PER_SAMPLE_DIR`) (junctions not found in core normals) to generate Figure 1B;
-* `non-core-normal_jx_prevalences` (`PREVALENCE_FILE_DIR`) (TCGA cancer junctions not found in core normals with cancer-type prevalence, per cancer type) to generate Figures 2A, 2B, 2C, and S5;
-* `FigS1a_non-core-normal_counts_per_sample` (`FILTERED_NTM_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in GTEx or TCGA tissue-matched normal samples) and `FigS1a_non-tissue-matched_counts_per_sample` (`FILTERED_NCN_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in core normals) to generate Figure S1A;
-* `jx_non-core-normal_jxs_per_sample` (`NON_CORE_NORMAL_JX_COORD_DIR`) for use in Figures S3A, S3B, S4A, and S4B;
-* (`all_jxs_per_sample_paired_normals`) `ALL_JXS_PER_SAMPLE_DIR` containing all junctions for TCGA SKCM normal samples, TCGA SKCM tumor samples, and GTEx bulk skin normal samples to generate Figure S7.
+* `non-core-normal_jx_prevalences` (`PREVALENCE_FILE_DIR`) (TCGA cancer junctions not found in core normals with cancer-type prevalence, per cancer type) to generate Figures 2A, 2B, 2C, and S2A;
+* `FigS1a_non-core-normal_counts_per_sample` (`FILTERED_NCN_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in GTEx or TCGA tissue-matched normal samples) and `FigS1a_non-tissue-matched_counts_per_sample` (`FILTERED_NTM_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in core normals) to generate Figure S1A;
+* `jx_non-core-normal_jxs_per_sample` (`NON_CORE_NORMAL_JX_COORD_DIR`) for use in Figures S1E, S1F, S1G, and S1H;
+* (`all_jxs_per_sample_paired_normals`) `ALL_JXS_PER_SAMPLE_DIR` containing all junctions for TCGA SKCM normal samples, TCGA SKCM tumor samples, and GTEx bulk skin normal samples to generate Figure S2B.
 
 3. Call [this directory](SRA_junction_download/MetaSRA_run_files) `METASRA_QUERY_FILES`. Run:
 
@@ -65,10 +65,6 @@ where `UTILITIES_DIRECTORY` is where `snaptron-experiments` was previously clone
 * `SRA_noncancer_exptlists` (`SNAPTRON_NONCANCER_EXPTLIST_DIR`) for non-cancer experiment lists
 * `SRA_cancer_rawresults` (`SNAPTRON_CANCER_DIR`) for cancer junction results
 * `SRA_cancer_exptlists` (`SNAPTRON_CANCER_EXPTLIST_DIR`) for cancer experiment lists 
-
-Run `jx_indexer.py` in `experiment` mode on junction index to collect junction files for analysis:
-
-        python3 jx_indexer.py -d DB_DIR experiment -o OUTPUT_DIR
         
 5. Run `collect_1-read_TCGA_jxs.py` to collect single-read TCGA junction collection:
 
@@ -83,7 +79,7 @@ Run `jx_indexer.py` in `experiment` mode on junction index to collect junction f
 * `unexplained` (`UNEXPLAINED_DIR`) containing unexplained subset of all single-read junctions
 * `developmental` (`DEVELOPMENTAL_DIR`) containing developmentally-occuring subset of all single-read junctions
 
-To generate two-sample minimum junction sets (used in Figures S8B and S8C), run:
+To generate two-sample minimum junction sets (used in Figures S3E and S3F), run:
 
         python3 set_membership_annotation.py --db-path DB_DIR --snaptron-results SNAPTRON_NONCANCER_DIR -d ALL_JX_DIR -g NON_CORE_NORMAL_DIR -p NON_TISSUE_MATCHED_NORMAL_DIR --gtf-file GENCODE_ANNOTATION_GTF --single-read-jx-json 1_READ_TCGA_JX_JSON --cancer-sra-directory SNAPTRON_CANCER_DIR --cancer-gene-census CANCER_GENE_CENSUS --oncokb-cancer-genes ONCOKB_GENES --min-overall-set-count 2 -o 2-SAMPLE_PIECHART_DIR
 
@@ -130,7 +126,7 @@ Fig 2C:
 
         python3 fig2C_cell_of_origin_heatmap.py  -d PREVALENCE_FILE_DIR -o FIGURE_OUTPUT_DIR --snaptron-results SNAPTRON_NONCANCER_DIR -e SNAPTRON_NONCANCER_EXPTLIST_DIR
 
-Figs 3A, S8:
+Figs 3A, S3A, S3E, and S3F:
 
 (Contact on instructions for regenerating this figure: https://github.com/metamaden)
 
@@ -148,19 +144,19 @@ Fig 3B:
 
 Fig S1A:
 
-        python3 fig1B_ncn_jx_counts_per_sample.py -j FILTERED_NCN_JX_PER_SAMPLE_DIR -p FILTERED_NTM_JX_PER_SAMPLE_DI -d -g THYM CESC UVM DLBC --prepared-sort-order -o FIGURE_OUTPUT_DIR
+        python3 fig1B_S1A_ncn_jx_counts_per_sample.py -j FILTERED_NCN_JX_PER_SAMPLE_DIR -p FILTERED_NTM_JX_PER_SAMPLE_DIR -d -g THYM CESC UVM DLBC --prepared-sort-order -o FIGURE_OUTPUT_DIR
 
-Fig S1B and S1C:
+Figs S1B and S1C:
 
-        python3 figS1BC_S9BC_junction_sharedness.py -d TCGA_PREVALENCE_DIR populated -o FIGURE_OUTPUT_DIR
+        python3 figS1BC_S3CD_junction_sharedness.py -d TCGA_PREVALENCE_DIR -o FIGURE_OUTPUT_DIR
 
-Note: requires contents of “true_TCGA_prevalence_files” directory created by set_membership_analysis.py
+Note: requires contents of `TCGA_PREVALENCE_DIR` created by running set_membership_analysis.py in step 6 above.
 
-Fig S2:
+Fig S1D:
 
-        python3 figS2_set_prevalences_per_cancer.py -s FULL_PIECHART_DIR -o FIGURE_OUTPUT_DIR
+        python3 figS1D_set_prevalences_per_cancer.py -s FULL_PIECHART_DIR -o FIGURE_OUTPUT_DIR
 
-Figs S3, S4:
+Figs S1E, S1F, S1G, and S1H:
 
 (Contact for instructions on regenerating this figure: https://github.com/weederb23)
 
@@ -180,22 +176,22 @@ If run interactively, also presents statistics for junction comparisons between 
 
 This generates `fig_s4a.jpg` and `fig_s4b.jpg`. If run interactively, also presents statistics for jxn comparisons between patients with and without splicing factor mutations across cancers.
 
-Fig S5:
+Fig S1I:
 
-        python3 figS5_S9A_SRA_cancer_shared_prevalence.py --snaptron-results SNAPTRON_CANCER_DIR -e SNAPTRON_CANCER_EXPTLIST_DIR -o FIGURE_OUTPUT_DIR -d PREVALENCE_FILE_DIR
+        python3 figS1I_S3B_SRA_cancer_shared_prevalence.py --snaptron-results SNAPTRON_CANCER_DIR -e SNAPTRON_CANCER_EXPTLIST_DIR -o FIGURE_OUTPUT_DIR -d PREVALENCE_FILE_DIR
 
-Fig S6:
+Fig S2A:
 
-        python3 figS6_full_TCGA_SRA_heatmap.py  -d PREVALENCE_FILE_DIR -o FIGURE_OUTPUT_DIR --snaptron-results SNAPTRON_NONCANCER_DIR -e SNAPTRON_NONCANCER_EXPTLIST_DIR
+        python3 figS2A_full_TCGA_SRA_heatmap.py  -d PREVALENCE_FILE_DIR -o FIGURE_OUTPUT_DIR --snaptron-results SNAPTRON_NONCANCER_DIR -e SNAPTRON_NONCANCER_EXPTLIST_DIR
 
-Fig S7:
+Fig S2B:
 
-        python3 figS7_SKCM_jx_similarity.py --snaptron-results SNAPTRON_NONCANCER_DIR -d ALL_JXS_PER_SAMPLE_DIR -o FIGURE_OUTPUT_DIR
+        python3 figS2B_SKCM_jx_similarity.py --snaptron-results SNAPTRON_NONCANCER_DIR -d ALL_JXS_PER_SAMPLE_DIR -o FIGURE_OUTPUT_DIR
 
-Fig S9A:
+Fig S3B:
 
-        python3 figS5_S9A_SRA_cancer_shared_prevalence.py --snaptron-results SNAPTRON_CANCER_DIR -e SNAPTRON_CANCER_EXPTLIST_DIR -o FIGURE_OUTPUT_DIR -d UNEXPLAINED_PIECHART_DIR --unexplained-junctions
+        python3 figS1I_S3B_SRA_cancer_shared_prevalence.py --snaptron-results SNAPTRON_CANCER_DIR -e SNAPTRON_CANCER_EXPTLIST_DIR -o FIGURE_OUTPUT_DIR -d UNEXPLAINED_PIECHART_DIR --unexplained-junctions
 
-Fig S9B and S9C:
+Fig S3C and S3D:
 
-        python3 figS1BC_S9BC_junction_sharedness.py -d UNEXPLAINED_PIECHART_DIR -o FIGURE_OUTPUT_DIR
+        python3 figS1BC_S3CD_junction_sharedness.py -d UNEXPLAINED_PIECHART_DIR -o FIGURE_OUTPUT_DIR
