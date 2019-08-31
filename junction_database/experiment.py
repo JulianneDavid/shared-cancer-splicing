@@ -398,7 +398,9 @@ def count_and_collect_neojxs(batch_num, out_path, now, db_conn, non_gtex=False,
 
         if print_jxs:
             all_jxs_dir = os.path.join(
-                out_path, '{}{}_all_jxs_per_sample'.format(addl_flag, dir_flag)
+                out_path, '{}{}{}_all_jxs_per_sample'.format(
+                    jx_flag, addl_flag, dir_flag
+                )
             )
             all_neojxs_name = jx_flag + all_neojxs_name
             os.makedirs(all_jxs_dir, exist_ok=True)
@@ -587,14 +589,19 @@ def collect_data_for_analyses(batch_num, out_path, now, conn, index_db):
     os.makedirs(all_jxs_dir, exist_ok=True)
     collect_all_jxs(batch_num, all_jxs_dir, now, conn)
 
+    # For use in set membership annotation:
+    count_and_collect_neojxs(
+        batch_num, out_path, now, conn, non_gtex=True, cov_filter=False,
+        ann_filter=False
+    )
+    count_and_collect_neojxs(
+        batch_num, out_path, now, conn, non_gtex=False, cov_filter=False,
+        ann_filter=False, print_counts=False
+    )
+
     # For use in Figs S3 and S4 and set membership annotation
     count_and_collect_neojxs(
         batch_num, out_path, now, conn, non_gtex=True, cov_filter=False,
-        ann_filter=False, jx_recount_id=False
-    )
-    # For use in set membership annotation
-    count_and_collect_neojxs(
-        batch_num, out_path, now, conn, non_gtex=False, cov_filter=False,
         ann_filter=False, jx_recount_id=False, print_counts=False
     )
 
