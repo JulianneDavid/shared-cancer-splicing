@@ -45,10 +45,11 @@ Note we also made use of [metaSRA](http://metasra.biostat.wisc.edu/)'s ontology 
 
 `OUTPUT_DIR` will now contain:
 * `all_jxs` (`ALL_JX_DIR`) for use in set membership annotation;
-* `non-core-normal_jxs_per_sample` (`NON_CORE_NORMAL_DIR`) and `non-tissue-matched_jxs_per_sample` (`NON_TISSUE_MATCHED_NORMAL_DIR`) for use in set membership annotation and Figures S3A, S3B, S4A, and S4B;
+* `non-core-normal_jxs_per_sample` (`NON_CORE_NORMAL_DIR`) and `non-tissue-matched_jxs_per_sample` (`NON_TISSUE_MATCHED_NORMAL_DIR`) for use in set membership annotation;
 * `non-core-normal_counts_per_sample` (`COUNTS_PER_SAMPLE_DIR`) (junctions not found in core normals) to generate Figure 1B;
 * `non-core-normal_jx_prevalences` (`PREVALENCE_FILE_DIR`) (TCGA cancer junctions not found in core normals with cancer-type prevalence, per cancer type) to generate Figures 2A, 2B, 2C, and S5;
 * `FigS1a_non-core-normal_counts_per_sample` (`FILTERED_NTM_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in GTEx or TCGA tissue-matched normal samples) and `FigS1a_non-tissue-matched_counts_per_sample` (`FILTERED_NCN_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in core normals) to generate Figure S1A;
+* `jx_non-core-normal_jxs_per_sample` (`NON_CORE_NORMAL_JX_COORD_DIR`) for use in Figures S3A, S3B, S4A, and S4B;
 * (`all_jxs_per_sample_paired_normals`) `ALL_JXS_PER_SAMPLE_DIR` containing all junctions for TCGA SKCM normal samples, TCGA SKCM tumor samples, and GTEx bulk skin normal samples to generate Figure S7.
 
 3. Call [this directory](SRA_junction_download/MetaSRA_run_files) `METASRA_QUERY_FILES`. Run:
@@ -165,7 +166,7 @@ Figs S3, S4:
 
 1. Download the TCGA mutation files from http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/ for each cancer type and move into the sub-directory ./TCGA_mut_files/, where ./ is the location of "SF_mutation_script.R" and "SF_sharedness_plots.R"
 
-2. Copy files from NON_CORE_NORMAL_DIRECTORY to a new directory within ./ called "non_core_jxns/". Rename files from full cancer names to match TCGA cancer codes.
+2. Copy files from NON_CORE_NORMAL_JX_COORD_DIR to a new directory within ./ called "non_core_jxns/". Rename files from full cancer names to match TCGA cancer codes.
 
 3. Copy files from [PIECHART DIRECTORY] to a new directory within ./ called "non_core_jxn_annotations/". Rename files from full cancer names to match TCGA cancer codes.
 
