@@ -13,48 +13,6 @@ from utilities.utilities import _JX_SAMP_TABLE, _CANCER_TYPES_PRIMARY
 from utilities.utilities import _JX_ANN_TABLE, _MATCHED_NORMALS
 
 
-def count_total_jxs(out_path, now, db_conn):
-    """
-
-    :param out_path:
-    :param now:
-    :param db_conn:
-    :return:
-    """
-    logging.info('starting count_total_jxs function')
-    sample_count_query = (
-        "SELECT samp_count, COUNT (jx_id) jx_count "
-        "FROM (SELECT jx_id, COUNT({js}.recount_id) samp_count "
-        "FROM {js} INNER JOIN {sp} ON {js}.recount_id == {sp}.recount_id "
-        "AND {sp}.tumor_normal==0 GROUP BY jx_id) GROUP BY samp_count;"
-        "".format(js=_JX_SAMP_TABLE, sp=_PHEN_TABLE)
-    )
-    jxs_per_samp_count = pd.read_sql_query(sample_count_query, db_conn)
-    file_name = 'jx_counts_per_sample_count_{}.txt'.format(now)
-    file_path = os.path.join(out_path, file_name)
-    with open(file_path, 'w') as output:
-        jxs_per_samp_count.to_csv(output, index=False)
-
-    jx_count_query = (
-        'SELECT COUNT (DISTINCT jx_id) tumor_jx_count '
-        'FROM {js} INNER JOIN {sp} '
-        'ON {js}.recount_id == {sp}.recount_id AND {sp}.tumor_normal == 0;'
-        ''.format(js=_JX_SAMP_TABLE, sp=_PHEN_TABLE)
-    )
-    total_cancer_jxs = pd.read_sql_query(jx_count_query, db_conn)
-    total_cancer_jxs = total_cancer_jxs['tumor_jx_count'][0]
-
-    file_name = 'total_tcga_tumor_jxs.txt'
-    file_path = os.path.join(out_path, file_name)
-    with open(file_path, 'a') as output:
-        output.write(
-            'total number of junctions occurring in TCGA tumor samples: {}\n'
-            ''.format(total_cancer_jxs)
-        )
-    logging.info('total jx count ending\n')
-    return
-
-
 def count_samples(out_path, now, db_conn, can_set='TCGA'):
     """
 
@@ -102,8 +60,8 @@ def count_samples(out_path, now, db_conn, can_set='TCGA'):
     file_path = os.path.join(out_path, file_name)
     with open(file_path, 'w') as output:
         new_df.to_csv(output, index=False)
-    print('ending count samples function\n')
-    logging.info('ending count samples function\n')
+
+    logging.info('count samples function complete')
     return
 
 
@@ -119,7 +77,6 @@ def collect_all_jxs(batch_num, out_path, now, db_conn):
 
     returns None
     """
-    print('\nstarting collect all jxs function')
     logging.info('starting collect all jxs function')
     all_cancers = list(
         set(_TCGA_CANCER_TYPES).union(set(_CANCER_TYPES_PRIMARY))
@@ -134,8 +91,6 @@ def collect_all_jxs(batch_num, out_path, now, db_conn):
 
     for cancer in collect_list:
         logging.info('collecting all jxs for {}:'.format(cancer))
-        print('\ncollecting info for {}:'.format(cancer))
-
         if cancer in _CANCER_TYPES_PRIMARY:
             cancer_col_name = 'primary_type'
         else:
@@ -149,7 +104,7 @@ def collect_all_jxs(batch_num, out_path, now, db_conn):
         count = count['COUNT (*)'][0]
         logging.info('{} samples'.format(count))
         if count == 0:
-            logging.info('no samples, continuing\n')
+            logging.info('no samples, continuing')
             continue
         per_col = cancer + _PER
         all_jxs_name = '{}_all_jxs_{}.csv'.format(cancer, now)
@@ -176,8 +131,7 @@ def collect_all_jxs(batch_num, out_path, now, db_conn):
         with open(all_jxs_file, 'w') as output:
             query_result.to_csv(output, index=False)
 
-    print('\nending collect all jxs function\n')
-    logging.info('ending collect all jxs function\n')
+    logging.info('collect all jxs function complete')
     return
 
 
@@ -349,7 +303,7 @@ def count_and_collect_neojxs(batch_num, out_path, now, db_conn, non_gtex=False,
 
     logging.info('counting total number of unique neojxs in TCGA:')
     if ann_filter:
-        ann_addition = ' AND {ja}.annotation < 3'
+        ann_addition = ' AND {ja}.annotation < 3'.format(ja=_JX_ANN_TABLE)
     else:
         ann_addition = ''
 
@@ -425,12 +379,12 @@ def count_and_collect_neojxs(batch_num, out_path, now, db_conn, non_gtex=False,
             normals = ', '.join(match)
 
         jx_per_samp_name = (
-            '{}{}_neojx_counts_per_sample_{}_{}_{}cov_{}ann_filter.txt'
-            ''.format(jx_flag, cancer, now, out_flag, cov_flag, ann_flag)
+            '{}_neojx_counts_per_sample_{}_{}_{}cov_{}ann_filter.txt'
+            ''.format(cancer, now, out_flag, cov_flag, ann_flag)
         )
         all_neojxs_name = (
-            '{}{}_all_neojxs_{}_{}_{}cov_{}ann_filter.txt'
-            ''.format(jx_flag, cancer, now, out_flag, cov_flag, ann_flag)
+            '{}_all_neojxs_{}_{}_{}cov_{}ann_filter.txt'
+            ''.format(cancer, now, out_flag, cov_flag, ann_flag)
         )
 
         sql_count_query = create_nonnormal_jx_query(
@@ -438,15 +392,15 @@ def count_and_collect_neojxs(batch_num, out_path, now, db_conn, non_gtex=False,
         )
         logging.info('timestamp is: {}'.format(now))
         logging.info(sql_count_query)
-        print(sql_count_query)
         neojx_count = pd.read_sql_query(sql_count_query, db_conn)
-        print(neojx_count, '\n')
+        logging.info('{} neojunctions'.format(neojx_count))
         neojx_count.drop(['norm_jxs'], inplace=True, axis=1)
 
         if print_jxs:
             all_jxs_dir = os.path.join(
                 out_path, '{}{}_all_jxs_per_sample'.format(addl_flag, dir_flag)
             )
+            all_neojxs_name = jx_flag + all_neojxs_name
             os.makedirs(all_jxs_dir, exist_ok=True)
             all_neojxs_file = os.path.join(all_jxs_dir, all_neojxs_name)
             with open(all_neojxs_file, 'w') as output:
@@ -512,8 +466,7 @@ def count_and_collect_neojxs(batch_num, out_path, now, db_conn, non_gtex=False,
             output.write(
                 '\ntotal unique neojxs in TCGA: {}\n'.format(len(all_neojxs))
             )
-    print('\nending count neojxs both function\n')
-    logging.info('ending count neojxs both function\n')
+    logging.info('count neojxs both complete')
     return
 
 
@@ -531,7 +484,7 @@ def non_normal_jxs_prevs(batch_num, out_path, now, db_conn, index_db,
     :param ann_filter:
     :return:
     """
-    print('\nstarting non-normal jx collection')
+    logging.info('starting non-normal jx collection')
 
     norm_temp_command = (
         'CREATE TEMP TABLE normal AS SELECT DISTINCT jx_id FROM {} '
@@ -570,7 +523,7 @@ def non_normal_jxs_prevs(batch_num, out_path, now, db_conn, index_db,
         count = count['COUNT (*)'][0]
         if count == 0:
             continue
-        print('\ncollecting info for {}:'.format(cancer))
+        logging.info('collecting info for {}:'.format(cancer))
 
         if ann_filter:
             ann_addition = ' AND {ja}.annotation < 3'
