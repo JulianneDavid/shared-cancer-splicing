@@ -1,4 +1,4 @@
-import junction_database.index as index
+import index
 import numpy as np
 import unittest
 
