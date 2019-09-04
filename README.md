@@ -160,7 +160,7 @@ Figs S1E, S1F, S1G, and S1H:
 
 (Contact for instructions on regenerating this figure: https://github.com/weederb23)
 
-1. Download the TCGA mutation files from http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/ for each cancer type and move into the sub-directory ./TCGA_mut_files/, where ./ is the location of "SF_mutation_script.R" and "SF_sharedness_plots.R"
+1. Download the TCGA mutation files from http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/ for each cancer type and move into the sub-directory ./TCGA_mut_files/, where ./ is the location of "SF_mutation_script.R" and "SF_sharedness_plots.R". For full list of the direct file paths for mutation call file downloads see "mutation_call_file_list.txt"
 
 2. Copy files from NON_CORE_NORMAL_JX_COORD_DIR to a new directory within ./ called "non_core_jxns/". Rename files from full cancer names to match TCGA cancer codes.
 
