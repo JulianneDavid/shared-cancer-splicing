@@ -168,13 +168,13 @@ Figs S1E, S1F, S1G, and S1H:
 
 4. Run `Rscript SF_mutation_script.R`.
 
-This generates `fig_s3a.jpg`, `fig_s3b.jpg` and `shared_jxn_df.txt`. `shared_jxn_df.txt` is used downstream for `SF_sharedness_plots.R`.
+This generates `fig_s1e.jpg`, `fig_s1f.jpg` and `shared_jxn_df.txt`. `shared_jxn_df.txt` is used downstream for `SF_sharedness_plots.R`.
 
 If run interactively, also presents statistics for junction comparisons between patients with and without splicing factor mutations across cancers.
 
 5. Run `SF_sharedness_plots.R`.
 
-This generates `fig_s4a.jpg` and `fig_s4b.jpg`. If run interactively, also presents statistics for jxn comparisons between patients with and without splicing factor mutations across cancers.
+This generates `fig_s1g.jpg` and `fig_s1h.jpg`. If run interactively, also presents statistics for jxn comparisons between patients with and without splicing factor mutations across cancers.
 
 Fig S1I:
 
