@@ -243,7 +243,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--single-read-jx-json', required=True,
         help='Give the json file containing the list of single-read TCGA jxs, '
-             'created by paper1_select_1-read_jxs.py.'
+             'created by select_1-read_jxs.py.'
     )
     parser.add_argument(
         '--cancer-sra-directory',
