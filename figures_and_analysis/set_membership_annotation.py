@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-set membership_annotation.py
+set_membership_annotation.py
 
 Python 3 code for annotating a junction list with presence in annotation,
 gene boundaries, antisense transcripts, and presence in various adult, stem
