@@ -756,7 +756,8 @@ def logscale_heatmap(ax, df_to_plot, base_cmap=cm.Blues, min_val=0, max_val=0,
     return hm_mesh
 
 
-def heatmap_colorbar(plot_mesh, bar_label, log_plot, cbar_fontsize):
+def heatmap_colorbar(plot_mesh, bar_label, log_plot, cbar_fontsize, fraction,
+                     pad, cbar_labels):
     """
 
     :param plot_mesh:
@@ -765,7 +766,7 @@ def heatmap_colorbar(plot_mesh, bar_label, log_plot, cbar_fontsize):
     :return:
     """
     cbar = plt.colorbar(
-        plot_mesh, fraction=0.046, pad=0.032,
+        plot_mesh, fraction=fraction, pad=pad,
         format=ticker.FuncFormatter(
             lambda y, _: '{}%'.format('{:g}'.format(100*y))
         )
@@ -774,8 +775,20 @@ def heatmap_colorbar(plot_mesh, bar_label, log_plot, cbar_fontsize):
         0.55, 0.1, bar_label, fontsize=cbar_fontsize, rotation=90, ha='center',
         va='center', transform=cbar.ax.transAxes, color='black'
     )
-    new_labels = ['0.1%', '1%', '10%', '100%']
-    cbar.ax.set_yticklabels(new_labels)
+    if not cbar_labels:
+        cbar_ticklabels = cbar.ax.get_yticklabels()
+        num_ticks = len(cbar_ticklabels)
+        cbar_labels = []
+        for i, label in enumerate(cbar_ticklabels):
+            text = label.get_text()
+            if i == num_ticks - 1 or text.endswith('1'):
+                cbar_labels.append(label)
+            elif text.endswith('1%') or text.startswith('1'):
+                cbar_labels.append(label)
+            else:
+                cbar_labels.append('')
+
+    cbar.ax.set_yticklabels(cbar_labels)
     if log_plot:
         cbar.ax.tick_params(labelsize=4, width=1, length=3, pad=0.75)
 
@@ -839,8 +852,9 @@ def add_bottom_colorbar(ax, colorbar, plot_df, pad_dist, xlabel_fontsize):
 def masked_double_heatmap(df_to_plot, cols_to_mask, fig_file, colorbar={},
                           masked_cmap=cm.Blues, other_cmap=cm.Greens,
                           title='', vline_pos=[], log_plot=True,
-                          other_cbar_label='', size=None, pad_dist=0,
-                          xlabel_fontsize=5):
+                          other_cbar_label='', size=None, bottom_pad=0,
+                          xlabel_fontsize=5, cbar_fraction=0.046,
+                          cbar_pad=0.032, cbar_labels=[], cbar_font_adder=1.5):
     """
 
     :param df_to_plot:
@@ -854,14 +868,18 @@ def masked_double_heatmap(df_to_plot, cols_to_mask, fig_file, colorbar={},
     :param log_plot:
     :param other_cbar_label:
     :param size:
-    :param pad_dist:
+    :param bottom_pad:
     :param xlabel_fontsize:
+    :param cbar_fraction:
+    :param cbar_pad:
+    :param cbar_labels:
+    :param cbar_font_adder:
     :return:
     """
     plt.rcParams.update({'figure.autolayout': True})
     if size:
         plt.rcParams['figure.figsize'] = size
-        cbar_fontsize = min(size) + 1.5
+        cbar_fontsize = min(size) + cbar_font_adder
     else:
         cbar_fontsize = 8
 
@@ -902,18 +920,24 @@ def masked_double_heatmap(df_to_plot, cols_to_mask, fig_file, colorbar={},
         ax.vlines(vline_pos, *ax.get_ylim())
 
     bar_label = '                           TCGA cancer type prevalence'
-    heatmap_colorbar(masked_mesh, bar_label, log_plot, cbar_fontsize)
+    heatmap_colorbar(
+        masked_mesh, bar_label, log_plot, cbar_fontsize, cbar_fraction,
+        cbar_pad, cbar_labels
+    )
 
     if cols_to_mask != df_to_plot.columns.values.tolist():
         bar_label = '                      ' + other_cbar_label
-        heatmap_colorbar(other_mesh, bar_label, log_plot, cbar_fontsize)
+        heatmap_colorbar(
+            other_mesh, bar_label, log_plot, cbar_fontsize, cbar_fraction,
+            cbar_pad, cbar_labels
+        )
 
     ax.set_xticks(np.arange(0, df_to_plot.shape[1], 1), minor=True)
     ax.grid(axis='x', ls='-', color='white', which='minor')
 
     if colorbar:
         add_bottom_colorbar(
-            ax, colorbar, df_to_plot, pad_dist, xlabel_fontsize
+            ax, colorbar, df_to_plot, bottom_pad, xlabel_fontsize
         )
     else:
         ax.set(

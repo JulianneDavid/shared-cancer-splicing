@@ -109,10 +109,10 @@ def cluster_jxs_together(db_jx_df, expt_jx_dict, out_path, count_dict,
     sra_master = sra_master.dropna(thresh=null_thresh, axis=1).fillna(0)
 
     xlabelset = [
-        'PAAD', 'ilh_pc',
-        'THYM', 'thym_pc', 'thym_tis',
-        'LIHC', 'hep_pc', 'ec_pc',
-        'SKCM', 'mel_cl', 'mel_pc',
+        'PAAD', 'pancreatic islet primary cell',
+        'THYM', 'thymus primary cell', 'thymus tissue',
+        'LIHC', 'hepatocyte primary cell', 'epithelial primary cell',
+        'SKCM', 'melanocyte cell line', 'melanocyte primary cell',
     ]
     full_merge = cluster_by_tcga(sra_master, full_df, metric, method)
     merge_df = full_merge[xlabelset]
@@ -133,12 +133,15 @@ def cluster_jxs_together(db_jx_df, expt_jx_dict, out_path, count_dict,
     fontcolors = None
     colorbar_dict = {
         'ranges': label_ranges, 'colors': colors, 'labels': texts,
-        'fontcolors': fontcolors, 'height_percent': '1.75%'
+        'fontcolors': fontcolors, 'height_percent': '2%'
     }
 
     masked_double_heatmap(
         merge_df, tcga_master_cols, fig_file, colorbar=colorbar_dict,
-        other_cbar_label='SRA cell type prevalence'
+        other_cbar_label='SRA cell type prevalence', size=(2.5, 4.5),
+        bottom_pad=-3.5, xlabel_fontsize=5, cbar_fraction=0.1,
+        cbar_pad=0.077, cbar_labels=['1%', '10%', '50%'],
+        cbar_font_adder=3
     )
     logging.info('saving figure at: {}'.format(fig_file))
     return
@@ -204,7 +207,9 @@ if __name__ == '__main__':
     meta_sra_expt_counts = {}
     snaptron_jxs = {}
     sra_sets =[
-        'mel_cl', 'mel_pc', 'ec_pc', 'hep_pc', 'thym_pc', 'thym_tis', 'ilh_pc'
+        'melanocyte cell line', 'melanocyte primary cell',
+        'epithelial primary cell', 'hepatocyte primary cell',
+        'thymus primary cell', 'thymus tissue', 'pancreatic islet primary cell'
     ]
     sra_threshold = 0.01
     snap_glob = os.path.join(snap_dir, '*rawresults*.txt')
