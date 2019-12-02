@@ -234,43 +234,49 @@ _MATCHED_NORMALS = {
 }
 
 _SRA_FET = {
-    'neonate_cellline': 'nn_cl', 'neonate_primarycell': 'nn_pc',
-    'neonate_tissue': 'nn_tis',
+    'neonate_cellline': 'neonate cellline',
+    'neonate_primarycell': 'neonate primary cell',
+    'neonate_tissue': 'neonate tissue',
 }
 
 _SRA_ZYG = {
-    'zygote_primarycell': 'zyg_pc',
+    'zygote_primarycell': 'zygote primary cell',
 }
 
 _SRA_OO = {
-    'oocyte_primarycell': 'ooc_pc'
+    'oocyte_primarycell': 'oocyte primary cell'
 }
 
 _SRA_PLC = {
-    'placenta_cellline': 'plc_cl', 'placenta_primarycell': 'plc_pc',
-    'placenta_tissue': 'plc_tis'
+    'placenta_cellline': 'placenta cell line',
+    'placenta_primarycell': 'placenta primary cell',
+    'placenta_tissue': 'placenta tissue'
 }
 
 _SRA_EMB_ECT = {
-    'ectoderm_cellline': 'ect_cl'
+    'ectoderm_cellline': 'ectoderm cell line'
 }
 
 _SRA_EMB_EMB = {
-    'embryo_cellline': 'emb_cl', 'embryo_primarycell': 'emb_pc',
-    'embryo_stemcells': 'emb_sc', 'embryo_tissue': 'emb_tis'
+    'embryo_cellline': 'embryo cell line',
+    'embryo_primarycell': 'embryo primary cell',
+    'embryo_stemcells': 'embryo stem cells',
+    'embryo_tissue': 'embryo tissue'
 }
 
 _SRA_EMB_LATE = {
-    'lateembryo_cellline': 'le_cl', 'lateembryo_primarycell': 'le_pc',
-    'lateembryo_tissue': 'le_tis'
+    'lateembryo_cellline': 'late embryo cell line',
+    'lateembryo_primarycell': 'late embryo primary cell',
+    'lateembryo_tissue': 'late embryo tissue'
 }
 
 _SRA_EMB_MES = {
-    'mesenchyme_primarycells': 'mes_pc'
+    'mesenchyme_primarycells': 'mesenchyme primary cells'
 }
 
 _SRA_EMB_MYO = {
-    'myoblast_cellline': 'myb_cl', 'myoblast_primarycell': 'myb_pc'
+    'myoblast_cellline': 'myoblast cell line',
+    'myoblast_primarycell': 'myoblast primary cell'
 }
 
 _SRA_EMB_ALL = _SRA_EMB_EMB.copy()
@@ -286,46 +292,62 @@ _SRA_DEV.update(_SRA_PLC)
 _SRA_DEV.update(_SRA_ZYG)
 
 _SRA_STEMCELLS = {
-    'inducedpluripotentstemcell_cellline': 'ips_cl',
-    'pluripotentstemcell_cellline': 'pps_cl',
-    'pluripotentstemcell_stemcells': 'pps_sc',
-    'somaticstemcell_stemcells': 'ssc_sc',
-    'mesenchymalstemcell_stemcells': 'msc_sc',
-    'hematopoietic_stemcells': 'hpc_sc',
-    'glialcell_stemcells': 'gc_sc',
-    'astrocyte_stemcells': 'ast_sc',
-    'epithelialcell_stemcells': 'ec_sc',
-    'fibroblast_stemcells': 'fb_sc',
-    'mesenchyme_stemcells': 'mes_sc'
-
+    'inducedpluripotentstemcell_cellline': 'iPS cell line',
+    'pluripotentstemcell_cellline': 'pluripotent stem cell line',
+    'pluripotentstemcell_stemcells': 'pluripotent stem cells',
+    'somaticstemcell_stemcells': 'somatic stem cells',
+    'mesenchymalstemcell_stemcells': 'mesenchymal stem cells',
+    'hematopoietic_stemcells': 'hematopoietic stem cell stem cells',
+    'glialcell_stemcells': 'glial cell stem cells',
+    'astrocyte_stemcells': 'astrocyte stem cells',
+    'epithelialcell_stemcells': 'epithelial cell stem cells',
+    'fibroblast_stemcells': 'fibroblast stem cells',
+    'mesenchyme_stemcells': 'mesenchyme stem cells'
 }
 
 _SRA_ADULT = {
-    'melanocyte_cellline': 'mel_cl', 'aorta_cellline': 'aor_cl',
-    'aorta_tissue': 'aor_tis', 'astrocyte_cellline': 'ast_cl',
-    'astrocyte_primarycell': 'ast_pc',
-    'biliarytree_all': 'bt_all', 'bone_cellline': 'bone_cl',
-    'bone_primarycell': 'bone_pc', 'bone_tissue': 'bone_tis',
-    'epithelialcell_cellline': 'ec_cl',
-    'epithelialcell_primarycell': 'ec_pc',
-    'eye_cellline': 'eye_cl', 'eye_primarycell': 'eye_pc',
-    'eye_tissue': 'eye_tis', 'fallopiantube_cellline': 'ft_cl',
-    'fallopiantube_tissue': 'ft_tis', 'fibroblast_cellline': 'fb_cl',
-    'fibroblast_primarycell': 'fb_pc',
-    'gallbladder_primarycell': 'gb_pc', 'glialcell_cellline': 'gc_cl',
-    'glialcell_primarycell': 'gc_pc', 'hematopoietic_cellline': 'hpc_cl',
-    'hematopoietic_primarycell': 'hpc_pc', 'hepatocyte_cellline': 'hep_cl',
-    'hepatocyte_primarycell': 'hep_pc', 'isletoflangerhans_cellline': 'ilh_cl',
-    'isletoflangerhans_primarycell': 'ilh_pc', 'leukocyte_cellline': 'lk_cl',
-    'leukocyte_primarycell': 'lk_pc', 'lymphocyte_cellline': 'lym_cl',
-    'lymphocyte_primarycell': 'lym_pc',
-    'macrophage_cellline': 'mph_cl', 'macrophage_primarycell': 'mph_pc',
-    'melanocyte_primarycell': 'mel_pc', 'mesothelium_all': 'meso_all',
-    'myeloidcell_cellline': 'myl_cl',
-    'myeloidcell_primarycell': 'myl_pc',
-    'oligodendrocyte_primarycell': 'odc_pc', 'platelet_cellline': 'plt_cl',
-    'platelet_primarycell': 'plt_pc', 'thymus_primarycell': 'thym_pc',
-    'thymus_tissue': 'thym_tis'
+    'melanocyte_cellline': 'melanocyte cell line',
+    'aorta_cellline': 'aorta cell line',
+    'aorta_tissue': 'aorta tissue',
+    'astrocyte_cellline': 'astrocyte cell line',
+    'astrocyte_primarycell': 'astrocyte primary cell',
+    'biliarytree_all': 'biliary tree',
+    'bone_cellline': 'bone cell line',
+    'bone_primarycell': 'bone primary cell',
+    'bone_tissue': 'bone tissue',
+    'epithelialcell_cellline': 'epithelial cell line',
+    'epithelialcell_primarycell': 'epithelial primary cell',
+    'eye_cellline': 'eye cell line',
+    'eye_primarycell': 'eye primary cell',
+    'eye_tissue': 'eye tissue',
+    'fallopiantube_cellline': 'fallopian tube cell line',
+    'fallopiantube_tissue': 'fallopian tube tissue',
+    'fibroblast_cellline': 'fibroblast cell line',
+    'fibroblast_primarycell': 'fibroblast primary cell',
+    'gallbladder_primarycell': 'gall bladder primary cell',
+    'glialcell_cellline': 'glial cell line',
+    'glialcell_primarycell': 'glial primary cell',
+    'hematopoietic_cellline': 'hematopoietic cell line',
+    'hematopoietic_primarycell': 'hematopoietic primary cell',
+    'hepatocyte_cellline': 'hepatocyte cell line',
+    'hepatocyte_primarycell': 'hepatocyte primary cell',
+    'isletoflangerhans_cellline': 'pancreatic islet cell line',
+    'isletoflangerhans_primarycell': 'pancreatic islet primary cell',
+    'leukocyte_cellline': 'leukocyte cell line',
+    'leukocyte_primarycell': 'leukocyte primary cell',
+    'lymphocyte_cellline': 'lymphocyte cell line',
+    'lymphocyte_primarycell': 'lymphocyte primary cell',
+    'macrophage_cellline': 'macrophage cell line',
+    'macrophage_primarycell': 'macrophage primary cell',
+    'melanocyte_primarycell': 'melanocyte primary cell',
+    'mesothelium_all': 'mesothelium',
+    'myeloidcell_cellline': 'myeloid cell line',
+    'myeloidcell_primarycell': 'myeloid primary cell',
+    'oligodendrocyte_primarycell': 'oligodendrocyte primary cell',
+    'platelet_cellline': 'platelet cell line',
+    'platelet_primarycell': 'platelet primary cell',
+    'thymus_primarycell': 'thymus primary cell',
+    'thymus_tissue': 'thymus tissue'
 }
 
 _SRA_ABBR = _SRA_ADULT.copy()
@@ -743,7 +765,7 @@ def heatmap_colorbar(plot_mesh, bar_label, log_plot, cbar_fontsize):
     :return:
     """
     cbar = plt.colorbar(
-        plot_mesh, fraction=0.046, pad=0.04,
+        plot_mesh, fraction=0.046, pad=0.032,
         format=ticker.FuncFormatter(
             lambda y, _: '{}%'.format('{:g}'.format(100*y))
         )
@@ -752,30 +774,22 @@ def heatmap_colorbar(plot_mesh, bar_label, log_plot, cbar_fontsize):
         0.55, 0.1, bar_label, fontsize=cbar_fontsize, rotation=90, ha='center',
         va='center', transform=cbar.ax.transAxes, color='black'
     )
-    cbar_ticklabels = cbar.ax.get_yticklabels()
-    num_ticks = len(cbar_ticklabels)
-    new_labels = []
-    for i, label in enumerate(cbar_ticklabels):
-        text = label.get_text()
-        if i == num_ticks - 1 or text.endswith('1'):
-            new_labels.append(label)
-        elif text.endswith('1%') or text.startswith('1'):
-            new_labels.append(label)
-        else:
-            new_labels.append('')
-
+    new_labels = ['0.1%', '1%', '10%', '100%']
     cbar.ax.set_yticklabels(new_labels)
     if log_plot:
-        cbar.ax.tick_params(labelsize=5, width=1, length=4)
+        cbar.ax.tick_params(labelsize=4, width=1, length=3, pad=0.75)
+
     return
 
 
-def add_bottom_colorbar(ax, colorbar, plot_df):
+def add_bottom_colorbar(ax, colorbar, plot_df, pad_dist, xlabel_fontsize):
     """
 
     :param ax:
     :param colorbar:
     :param plot_df:
+    :param pad_dist:
+    :param xlabel_fontsize:
     :return:
     """
     label_ranges = colorbar['ranges']
@@ -814,8 +828,10 @@ def add_bottom_colorbar(ax, colorbar, plot_df):
         xticklabels=plot_df.columns.values.tolist(),
         yticklabels=[]
     )
+    if pad_dist:
+        axb.tick_params(axis='x', pad=pad_dist)
     plt.setp(
-        axb.xaxis.get_majorticklabels(), rotation=90, fontsize=5
+        axb.xaxis.get_majorticklabels(), rotation=90, fontsize=xlabel_fontsize
     )
     return
 
@@ -823,7 +839,8 @@ def add_bottom_colorbar(ax, colorbar, plot_df):
 def masked_double_heatmap(df_to_plot, cols_to_mask, fig_file, colorbar={},
                           masked_cmap=cm.Blues, other_cmap=cm.Greens,
                           title='', vline_pos=[], log_plot=True,
-                          other_cbar_label='', size=None):
+                          other_cbar_label='', size=None, pad_dist=0,
+                          xlabel_fontsize=5):
     """
 
     :param df_to_plot:
@@ -835,12 +852,16 @@ def masked_double_heatmap(df_to_plot, cols_to_mask, fig_file, colorbar={},
     :param title:
     :param vline_pos:
     :param log_plot:
+    :param other_cbar_label:
+    :param size:
+    :param pad_dist:
+    :param xlabel_fontsize:
     :return:
     """
     plt.rcParams.update({'figure.autolayout': True})
     if size:
         plt.rcParams['figure.figsize'] = size
-        cbar_fontsize = min(size)
+        cbar_fontsize = min(size) + 1.5
     else:
         cbar_fontsize = 8
 
@@ -855,9 +876,7 @@ def masked_double_heatmap(df_to_plot, cols_to_mask, fig_file, colorbar={},
         ((df_to_plot == df_to_plot) | df_to_plot.isnull())
         & (df_to_plot.columns.isin(cols_to_mask))
     )
-    other_mesh = ax.pcolormesh(
-        white_df, cmap='binary'
-    )
+    ax.pcolormesh(white_df, cmap='binary')
 
     if log_plot:
         masked.replace(to_replace=0, value=np.nan, inplace=True)
@@ -893,7 +912,9 @@ def masked_double_heatmap(df_to_plot, cols_to_mask, fig_file, colorbar={},
     ax.grid(axis='x', ls='-', color='white', which='minor')
 
     if colorbar:
-        add_bottom_colorbar(ax, colorbar, df_to_plot)
+        add_bottom_colorbar(
+            ax, colorbar, df_to_plot, pad_dist, xlabel_fontsize
+        )
     else:
         ax.set(
             xticks=np.arange(0.5, df_to_plot.shape[1], 1),

@@ -95,19 +95,23 @@ def cluster_jxs_together(db_jx_df, expt_jx_dict, out_path, count_dict,
     method = 'ward'
 
     xlabelset = [
-        'THCA', 'MESO', 'LUAD', 'msc_sc', 'COAD', 'READ', 'PAAD',
-        'ilh_pc', 'UCEC', 'ECAD', 'BRCA', 'ACC', 'plc_tis', 'emb_tis',
-        'UCS', 'LIHC', 'hep_pc', 'ec_pc', 'CHOL', 'THYM', 'thym_pc',
-        'thym_tis', 'hpc_cl', 'lk_cl', 'lym_cl', 'lym_pc', 'DLBC',
-        'PRAD', 'KIRC', 'KIRP', 'KICH', 'ssc_sc', 'TGCT', 'ips_cl',
-        'pps_cl', 'emb_sc', 'zyg_pc', 'emb_pc', 'LAML',
-        'UVM', 'SKCM', 'mel_cl', 'nn_cl',
-        'SARC', 'LMS', 'UPLS', 'MFS',
-        'PCPG', 'PGG', 'PCHC',
-        'GBM', 'LGG', 'OAC', 'ODG', 'AC',
-        'CESC', 'CSC', 'HNSC', 'BLCA', 'LUSC',
-        'STAD', 'ESAD', 'ec_cl', 'ESCA', 'ESSC', 'emb_cl', 'OV',
-
+        'THCA', 'MESO', 'LUAD', 'mesenchymal stem cells',
+        'COAD', 'READ', 'PAAD', 'pancreatic islet primary cell',
+        'UCEC', 'ECAD', 'BRCA', 'ACC', 'placenta tissue',
+        'embryo tissue', 'UCS', 'LIHC', 'hepatocyte primary cell',
+        'epithelial primary cell', 'CHOL', 'THYM',
+        'thymus primary cell', 'thymus tissue',
+        'hematopoietic cell line', 'leukocyte cell line',
+        'lymphocyte cell line', 'lymphocyte primary cell', 'DLBC',
+        'PRAD', 'KIRC', 'KIRP', 'KICH',
+        'somatic stem cells', 'TGCT', 'iPS cell line',
+        'pluripotent stem cell line', 'embryo stem cells',
+        'zygote primary cell', 'embryo primary cell', 'LAML',
+        'UVM', 'SKCM', 'melanocyte cell line', 'neonate cellline',
+        'SARC', 'LMS', 'UPLS', 'MFS', 'PCPG', 'PGG', 'PCHC', 'GBM',
+        'LGG', 'OAC', 'ODG', 'AC', 'CESC', 'CSC', 'HNSC', 'BLCA',
+        'LUSC', 'STAD', 'ESAD', 'epithelial cell line', 'ESCA',
+        'ESSC', 'embryo cell line', 'OV'
     ]
     full_cluster = sns.clustermap(
         full_df.drop('jx', axis=1), method=method, metric=metric,
@@ -122,7 +126,7 @@ def cluster_jxs_together(db_jx_df, expt_jx_dict, out_path, count_dict,
     full_merge = full_merge.drop('jx', axis=1)
     merge_df = full_merge[xlabelset]
     logging.info('total junction top_x is: {}'.format(len(merge_df)))
-    fig_name = ('figS6_full_TCGA_SRA_heatmap_{}.pdf'.format(now))
+    fig_name = ('figS2A_full_TCGA_SRA_heatmap_{}.pdf'.format(now))
     fig_file = os.path.join(out_path, fig_name)
     logging.info('saving figure at: {}'.format(fig_file))
 
