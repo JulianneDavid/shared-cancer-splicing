@@ -1409,7 +1409,8 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
                                 fig_size=(3.0, 5.0), logscale=True,
                                 y_label='cohort prevalence', percent=True,
                                 right_lim_shift=2, back_cols={}, font_cols={},
-                                tab_fontsize=5.5, intab_fontsize=0):
+                                tabrow_fontsize=5.5, intab_fontsize=0,
+                                tabcol_fontsize=5.5):
     """
 
     :param data_dict:
@@ -1548,17 +1549,17 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
 
     for (row, col), cell in the_table.get_celld().items():
         if (row == 0):
-            cell.set_text_props(
-                fontproperties=FontProperties(weight='bold', size=tab_fontsize)
-            )
+            cell.set_text_props(fontproperties=FontProperties(
+                weight='bold', size=tabcol_fontsize
+            ))
             if len(columns[0]) > 5:
                 cell.set_height(cell.get_height() * 1.5)
             if col in whitefont_cols:
                 cell._text.set_color('white')
         if col == -1:
-            cell.set_text_props(
-                fontproperties=FontProperties(weight='bold', size=tab_fontsize)
-            )
+            cell.set_text_props(fontproperties=FontProperties(
+                weight='bold', size=tabrow_fontsize
+            ))
             cell._text.set_color(plot_dict['row font color'][row - 1])
 
     ax2.yaxis.grid(False)
