@@ -114,12 +114,13 @@ def barplots_with_table(data_dict, plot_dict, out_path, now, flag=None):
         cellLoc='center', colColours=col_cols, rowColours=row_label_cols,
         bbox=[0, -0.09, 1, .075]
     )
+    the_table.auto_set_font_size(False)
     the_table.set_fontsize(5)
 
     for (row, col), cell in the_table.get_celld().items():
         if (row == 0):
             cell.set_text_props(
-                fontproperties=FontProperties(weight='bold', size=6.5)
+                fontproperties=FontProperties(weight='bold', size=7.5)
             )
             if len(columns[0]) > 5:
                 cell.set_height(cell.get_height() * 1.5)
