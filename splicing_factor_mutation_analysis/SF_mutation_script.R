@@ -256,7 +256,7 @@ p_muts_by_cancer <- ggplot(SF_by_cancer, aes(x = cancer, y=SF_percentages*100))+
 # p_muts_by_cancer
 
 # combine the two graphs
-fig_s1e <- grid.arrange(p_jxns_by_cancer_sep,p_muts_by_cancer+scale_y_reverse(limits=c(100,0)), ncol = 1)
+fig_s1f <- grid.arrange(p_jxns_by_cancer_sep,p_muts_by_cancer+scale_y_reverse(limits=c(100,0)), ncol = 1)
 ggsave(filename = "fig_s1e.jpg", plot = fig_s1e, device = "jpeg", width = 8, height = 4, units = "in")
 
 # look at statistical significant interaction terms
@@ -289,7 +289,7 @@ p_est_muts_by_cancer <- ggplot(SF_by_cancer, aes(x = cancer, y=established_SF_pe
 # p_est_muts_by_cancer
 
 # combine the two graphs
-fig_s1f <- grid.arrange(p_jxns_by_cancer_est_sep,p_est_muts_by_cancer+scale_y_reverse(limits=c(100,0)), ncol = 1)
+fig_s1g <- grid.arrange(p_jxns_by_cancer_est_sep,p_est_muts_by_cancer+scale_y_reverse(limits=c(100,0)), ncol = 1)
 ggsave(filename = "fig_s1f.jpg", plot = fig_s1f, device = "jpeg", width = 8, height = 4, units = "in")
 
 # look at statistical significance
