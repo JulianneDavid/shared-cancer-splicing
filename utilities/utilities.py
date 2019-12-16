@@ -1408,7 +1408,8 @@ def extract_splice_sites(gtf_file):
 def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
                                 fig_size=(3.0, 5.0), logscale=True,
                                 y_label='cohort prevalence', percent=True,
-                                right_lim_shift=2):
+                                right_lim_shift=2, back_cols={}, font_cols={},
+                                tab_fontsize=5.5, intab_fontsize=0):
     """
 
     :param data_dict:
@@ -1445,13 +1446,18 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
 
     for abbr, values in data_dict.items():
         columns.append(abbr)
-        try:
-            col_cols.append('xkcd:{}'.format(_CANCER_COLORS[abbr]))
-        except KeyError:
-            for can_abbr in _CANCER_COLORS.keys():
-                if can_abbr in abbr:
-                    col_cols.append('xkcd:{}'.format(_CANCER_COLORS[can_abbr]))
-                    break
+        if back_cols:
+            col_cols.append(back_cols[abbr])
+        else:
+            try:
+                col_cols.append('xkcd:{}'.format(_CANCER_COLORS[abbr]))
+            except KeyError:
+                for can_abbr in _CANCER_COLORS.keys():
+                    if can_abbr in abbr:
+                        col_cols.append(
+                            'xkcd:{}'.format(_CANCER_COLORS[can_abbr])
+                        )
+                        break
 
         table_data = values['table_data']
         for full_table_set, curr_table_val in zip(table_vals, table_data):
@@ -1517,13 +1523,16 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
     rows = plot_dict['row labels']
     whitefont_cols = []
     for i, abbr in enumerate(columns):
-        try:
-            font_color = _FONT_COLORS[abbr]
-        except KeyError:
-            for can_abbr in _FONT_COLORS.keys():
-                if can_abbr in abbr:
-                    font_color = _FONT_COLORS[can_abbr]
-                    break
+        if font_cols:
+            font_color = font_cols[abbr]
+        else:
+            try:
+                font_color = _FONT_COLORS[abbr]
+            except KeyError:
+                for can_abbr in _FONT_COLORS.keys():
+                    if can_abbr in abbr:
+                        font_color = _FONT_COLORS[can_abbr]
+                        break
 
         if font_color == 'white':
             whitefont_cols.append(i)
@@ -1533,12 +1542,14 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
         cellText=table_vals, rowLabels=rows, colLabels=columns, loc='bottom',
         cellLoc='center', colColours=col_cols, rowColours=row_label_cols
     )
-    the_table.set_fontsize(5)
+    if intab_fontsize:
+        the_table.auto_set_font_size(False)
+        the_table.set_fontsize(intab_fontsize)
 
     for (row, col), cell in the_table.get_celld().items():
         if (row == 0):
             cell.set_text_props(
-                fontproperties=FontProperties(weight='bold', size=5.5)
+                fontproperties=FontProperties(weight='bold', size=tab_fontsize)
             )
             if len(columns[0]) > 5:
                 cell.set_height(cell.get_height() * 1.5)
@@ -1546,7 +1557,7 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
                 cell._text.set_color('white')
         if col == -1:
             cell.set_text_props(
-                fontproperties=FontProperties(weight='bold', size=5.5)
+                fontproperties=FontProperties(weight='bold', size=tab_fontsize)
             )
             cell._text.set_color(plot_dict['row font color'][row - 1])
 

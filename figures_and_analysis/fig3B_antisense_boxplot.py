@@ -167,7 +167,7 @@ def antisense_boxplot(jx_dir, out_path, now):
     grouped_boxplots_with_table(
         data_dict, plot_info_dict, fig_file, logscale=False,
         y_label='antisense junctions (%)', percent=False,
-        right_lim_shift=3
+        right_lim_shift=3, fig_size=(3, 5), intab_fontsize=7, tab_fontsize=8
     )
     return
 
