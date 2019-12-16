@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-fig1B_S1A_ncn_jx_counts_per_sample.py
+fig1B_S1B_ncn_jx_counts_per_sample.py
 
 Python 3 code for creating sorted strip plots of non-core-normal cancer
 junction counts per cancer sample per cancer type.

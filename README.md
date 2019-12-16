@@ -48,8 +48,8 @@ Note we also made use of [metaSRA](http://metasra.biostat.wisc.edu/)'s ontology 
 * `non-core-normal_jxs_per_sample` (`NON_CORE_NORMAL_DIR`) and `non-tissue-matched_jxs_per_sample` (`NON_TISSUE_MATCHED_NORMAL_DIR`) for use in set membership annotation;
 * `non-core-normal_counts_per_sample` (`COUNTS_PER_SAMPLE_DIR`) (junctions not found in core normals) to generate Figure 1B;
 * `non-core-normal_jx_prevalences` (`PREVALENCE_FILE_DIR`) (TCGA cancer junctions not found in core normals with cancer-type prevalence, per cancer type) to generate Figures 2A, 2B, 2C, and S2A;
-* `FigS1a_non-core-normal_counts_per_sample` (`FILTERED_NCN_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in GTEx or TCGA tissue-matched normal samples) and `FigS1a_non-tissue-matched_counts_per_sample` (`FILTERED_NTM_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in core normals) to generate Figure S1A;
-* `jx_non-core-normal_jxs_per_sample` (`NON_CORE_NORMAL_JX_COORD_DIR`) for use in Figures S1E, S1F, S1G, and S1H;
+* `FigS1B_non-core-normal_counts_per_sample` (`FILTERED_NCN_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in GTEx or TCGA tissue-matched normal samples) and `FigS1B_non-tissue-matched_counts_per_sample` (`FILTERED_NTM_JX_PER_SAMPLE_DIR`) (coverage- and annotation-filtered junctions not found in core normals) to generate Figure S1B;
+* `jx_non-core-normal_jxs_per_sample` (`NON_CORE_NORMAL_JX_COORD_DIR`) for use in Figures S1F, S1G, S1H, and S1I;
 * (`all_jxs_per_sample_paired_normals`) `ALL_JXS_PER_SAMPLE_DIR` containing all junctions for TCGA SKCM normal samples, TCGA SKCM tumor samples, and GTEx bulk skin normal samples to generate Figure S2B.
 
 3. Call [this directory](SRA_junction_download/MetaSRA_run_files) `METASRA_QUERY_FILES`. Run:
@@ -87,7 +87,7 @@ To generate two-sample minimum junction sets (used in Figures S3E and S3F), run:
 * `unexplained` (`UNEXPLAINED_2-SAMPLE_DIR`) containing unexplained subset of all two-sample junctions
 * `developmental` (`DEVELOPMENTAL_2-SAMPLE_DIR`) containing developmentally-occurring subset of all two-sample junctions
 
-6. To perform additional set membership analyses using `set_membership_analysis.py` (for use in Figures S1B and S1C), run:
+6. To perform additional set membership analyses using `set_membership_analysis.py` (for use in Figures S1C and S1D), run:
 
         python3 set_membership_analysis.py -o OUTPUT_DIR -s FULL_PIECHART_DIR
 
@@ -142,21 +142,21 @@ Fig 3B:
 
         python3 fig3B_antisense_boxplot.py -o FIGURE_OUTPUT_DIR -s FULL_PIECHART_DIR
 
-Fig S1A:
+Fig S1B:
 
-        python3 fig1B_S1A_ncn_jx_counts_per_sample.py -j FILTERED_NCN_JX_PER_SAMPLE_DIR -p FILTERED_NTM_JX_PER_SAMPLE_DIR -d -g THYM CESC UVM DLBC --prepared-sort-order -o FIGURE_OUTPUT_DIR
+        python3 fig1B_S1B_ncn_jx_counts_per_sample.py -j FILTERED_NCN_JX_PER_SAMPLE_DIR -p FILTERED_NTM_JX_PER_SAMPLE_DIR -d -g THYM CESC UVM DLBC --prepared-sort-order -o FIGURE_OUTPUT_DIR
 
-Figs S1B and S1C:
+Figs S1C and S1D:
 
-        python3 figS1BC_S3CD_junction_sharedness.py -d TCGA_PREVALENCE_DIR -o FIGURE_OUTPUT_DIR
+        python3 figS1CD_S3CD_junction_sharedness.py -d TCGA_PREVALENCE_DIR -o FIGURE_OUTPUT_DIR
 
 Note: requires contents of `TCGA_PREVALENCE_DIR` created by running set_membership_analysis.py in step 6 above.
 
-Fig S1D:
+Fig S1E:
 
-        python3 figS1D_set_prevalences_per_cancer.py -s FULL_PIECHART_DIR -o FIGURE_OUTPUT_DIR
+        python3 figS1E_set_prevalences_per_cancer.py -s FULL_PIECHART_DIR -o FIGURE_OUTPUT_DIR
 
-Figs S1E, S1F, S1G, and S1H:
+Figs S1F, S1G, S1H, and S1I:
 
 (Contact for instructions on regenerating this figure: https://github.com/weederb23)
 
@@ -174,11 +174,11 @@ If run interactively, also presents statistics for junction comparisons between 
 
 5. Run `SF_sharedness_plots.R`.
 
-This generates `fig_s1g.jpg` and `fig_s1h.jpg`. If run interactively, also presents statistics for jxn comparisons between patients with and without splicing factor mutations across cancers.
+This generates `fig_s1h.jpg` and `fig_s1i.jpg`. If run interactively, also presents statistics for jxn comparisons between patients with and without splicing factor mutations across cancers.
 
-Fig S1I:
+Fig S1J:
 
-        python3 figS1I_S3B_SRA_cancer_shared_prevalence.py --snaptron-results SNAPTRON_CANCER_DIR -e SNAPTRON_CANCER_EXPTLIST_DIR -o FIGURE_OUTPUT_DIR -d PREVALENCE_FILE_DIR
+        python3 figS1J_S3B_SRA_cancer_shared_prevalence.py --snaptron-results SNAPTRON_CANCER_DIR -e SNAPTRON_CANCER_EXPTLIST_DIR -o FIGURE_OUTPUT_DIR -d PREVALENCE_FILE_DIR
 
 Fig S2A:
 
@@ -190,8 +190,8 @@ Fig S2B:
 
 Fig S3B:
 
-        python3 figS1I_S3B_SRA_cancer_shared_prevalence.py --snaptron-results SNAPTRON_CANCER_DIR -e SNAPTRON_CANCER_EXPTLIST_DIR -o FIGURE_OUTPUT_DIR -d UNEXPLAINED_PIECHART_DIR --unexplained-junctions
+        python3 figS1J_S3B_SRA_cancer_shared_prevalence.py --snaptron-results SNAPTRON_CANCER_DIR -e SNAPTRON_CANCER_EXPTLIST_DIR -o FIGURE_OUTPUT_DIR -d UNEXPLAINED_PIECHART_DIR --unexplained-junctions
 
 Fig S3C and S3D:
 
-        python3 figS1BC_S3CD_junction_sharedness.py -d UNEXPLAINED_PIECHART_DIR -o FIGURE_OUTPUT_DIR
+        python3 figS1CD_S3CD_junction_sharedness.py -d UNEXPLAINED_PIECHART_DIR -o FIGURE_OUTPUT_DIR
