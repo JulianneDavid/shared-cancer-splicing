@@ -120,4 +120,8 @@ if __name__ == '__main__':
     fig_name = 'fig1C_alltcga_set_prevalence_boxplot_{}.pdf'.format(now)
     fig_file = os.path.join(out_path, fig_name)
     logging.info('saving figure at {}'.format(fig_file))
-    grouped_boxplots_with_table(grouped_data_dict, plot_info_dict, fig_file)
+    grouped_boxplots_with_table(
+        grouped_data_dict, plot_info_dict, fig_file, intab_fontsize=7,
+        tabrow_fontsize=6, tabcol_fontsize=8
+    )
+    
