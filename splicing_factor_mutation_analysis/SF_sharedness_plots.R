@@ -91,7 +91,7 @@ p1 <- ggplot(jxn_plot_df, aes(x=log(OR_all), y=sharedness*100, color= pval_all <
         axis.title=element_text(size=14,face="bold"))
   
 p1_grid <- p1 +facet_wrap(~Disease, ncol = 4)
-ggsave(filename = "fig_s1h.jpg", plot = p1_grid, device = "jpeg", width = 8, height = 8, units = "in")
+ggsave(filename = "fig_s1h.pdf", plot = p1_grid, device = "pdf", width = 178, height = 178, units = "mm")
 
 
 # plot sharedness by cancer for Kahles et al. prev. identified classification
@@ -109,7 +109,7 @@ p2 <- ggplot(jxn_plot_df, aes(x=log(OR_est), y=sharedness*100, color= pval_est <
 
 p2_grid <- p2 +facet_wrap(~Disease, ncol = 4)
 
-ggsave(filename = "fig_s1i.jpg", plot = p2_grid, device = "jpeg", width = 8, height = 8, units = "in")
+ggsave(filename = "fig_s1i.pdf", plot = p2_grid, device = "pdf", width = 178, height = 178, units = "in")
 
 # print out list of junctions with FDR < 0.1
 # jxn_plot_df[which(jxn_plot_df$pval_est < .1),]
