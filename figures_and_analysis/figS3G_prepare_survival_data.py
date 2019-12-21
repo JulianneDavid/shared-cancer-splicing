@@ -79,7 +79,7 @@ if __name__ == '__main__':
     )
     parser.add_argument(
         '--db-path', '-d', default='./',
-        help='give the path for storing the created sql database.'
+        help='give the path for the created sql database.'
     )
     parser.add_argument(
         '--TCGA-phenotype-file', '-P',
