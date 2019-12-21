@@ -143,6 +143,10 @@ Fig 3B:
 
         python3 fig3B_antisense_boxplot.py -o FIGURE_OUTPUT_DIR -s FULL_PIECHART_DIR
 
+Fig S1A:
+
+        python3 figS1A_junction_burden_vs_TMB.py -o FIGURE_OUTPUT_DIR -j COUNTS_PER_SAMPLE_DIR -s RECOUNT_SAMPLE_IDS -p TCGA_PHEN -t TCGA_TMB
+
 Fig S1B:
 
         python3 fig1B_S1B_ncn_jx_counts_per_sample.py -j FILTERED_NCN_JX_PER_SAMPLE_DIR -p FILTERED_NTM_JX_PER_SAMPLE_DIR -d -g THYM CESC UVM DLBC --prepared-sort-order -o FIGURE_OUTPUT_DIR
