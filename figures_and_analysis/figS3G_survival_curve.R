@@ -1,5 +1,7 @@
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
+# run this as:
+# Rscript fig3G_survival_curve.R [directory where survival data is stored]
 
 library(ggplot2)
 library(survival)
