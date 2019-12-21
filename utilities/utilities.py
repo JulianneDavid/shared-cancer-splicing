@@ -4,6 +4,7 @@ from intervaltree import IntervalTree
 import logging
 from math import floor
 import matplotlib
+from matplotlib import style
 import matplotlib.cm as cm
 import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
@@ -15,6 +16,7 @@ import numpy as np
 import os
 import pandas as pd
 import re
+from scipy import stats
 import seaborn as sns; sns.set(color_codes=True)
 
 _ID = '_IDs'
@@ -1576,4 +1578,71 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
 
     fig = plt.gcf()
     fig.savefig(fig_file, bbox_inches='tight', pad_inches=.1)
+    return
+
+def simple_scatter_with_regression(scatter_df, out_path, fig_name, x_label,
+                                   y_label, logplot=False, xlim=0, ylim=0,
+                                   print_stats=False):
+    """
+
+    :param scatter_df:
+    :param out_path:
+    :param fig_name:
+    :param x_label:
+    :param y_label:
+    :param logplot:
+    :param xlim:
+    :param ylim:
+    :param raster:
+    :return:
+    """
+    x = scatter_df.sort_values(by=['x'])['x']
+    y = scatter_df.sort_values(by=['x'])['y']
+    slope, intercept, r_value, p_value, std_err = stats.linregress(x, y)
+    line = slope * x + intercept
+    if print_stats:
+        print('linear regression stats:')
+        print(slope, intercept, r_value, p_value, std_err)
+    line_label = (
+        'y = {}x + {}\nR = {}'
+        ''.format(round(slope, 3), round(intercept, 3), round(r_value, 2))
+    )
+    plt.rcParams.update({'figure.autolayout': True})
+    plt.rcParams['figure.figsize'] = 5.0, 5.0
+    style.use('seaborn-whitegrid')
+
+    if 'size' in scatter_df.columns.values:
+        plt.scatter(
+            x='x', y='y', c='color', data=scatter_df, s='size',
+            edgecolors='xkcd:light grey', linewidths=0.05, label=None
+        )
+    else:
+        plt.scatter(
+            x='x', y='y', c='color', data=scatter_df, s=5,
+            edgecolors='xkcd:light grey', linewidths=0.05, label=None
+        )
+
+    plt.plot(
+        x, line, c='xkcd:dark grey', linewidth=0.8, label=line_label,
+        rasterized=True
+    )
+    plt.legend(fontsize='small', frameon=True)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    ax = plt.gca()
+    if logplot:
+        plt.yscale('log')
+        plt.xscale('log')
+
+    if ylim:
+        ax.set_ylim(ymin=ylim[0], ymax=ylim[1])
+
+    if xlim:
+        ax.set_xlim(xmin=xlim[0], xmax=xlim[1])
+
+    fig = plt.gcf()
+    fig_file = os.path.join(out_path, fig_name)
+    print(fig_file)
+    fig.savefig(fig_file)
+    plt.clf()
     return
