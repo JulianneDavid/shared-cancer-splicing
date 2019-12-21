@@ -23,7 +23,7 @@ surv_plot <- ggsurvplot(surv_model,
                         xlab="Time (days from diagnosis)")
 
 # adjust size as needed, also accepts PDF
-ggsave("OV_msln_survival_plot.jpg",
+ggsave("figS3G_OV_msln_survival_plot.jpg",
        plot = print(surv_plot),
        device = "jpeg",
        units = "in",
