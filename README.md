@@ -6,7 +6,7 @@ Code here reproduces analyses and figures from "Putatively cancer-specific alter
 ### Software
 We ran Python scripts with Python 3.6.6, which we installed as part of [Anaconda](https://www.anaconda.com/) 5.2.0. We made use of the third-party modules `intervaltree` 2.1.0 and `seaborn` 0.9.0.
 
-We ran R scripts with R 3.6.1 and made use of `Data.table` 1.12.2, `ggplot2` 3.2.1, `gridExtra` 2.3, `RColorBrewer` 1.1-2, and `dplyr` 0.8.3.
+We ran R scripts with R 3.6.1 and made use of `Data.table` 1.12.2, `ggplot2` 3.2.1, `gridExtra` 2.3, `RColorBrewer` 1.1-2, `dplyr` 0.8.3, `survminer` 0.4.6, `survival` 2.44-1.1, `ggpubr` 0.2.4, and `magrittr` 1.5.
 
 We further used [Snaptron](http://snaptron.cs.jhu.edu/) via its `qs` utility. To obtain it, run
 ```cd UTILITIES_DIRECTORY
