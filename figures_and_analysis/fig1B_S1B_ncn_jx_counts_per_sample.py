@@ -25,7 +25,7 @@ except ModuleNotFoundError:
     sys.path.append(
         os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
     )
-    from utilities.utilities import _TCGA_ABBR, _CANCER_COLORS
+    from utilities.utilities import _TCGA_ABBR, _CANCER_COLORS, mm2inch
 
 
 _SORT_ORDER = [
@@ -161,8 +161,7 @@ def sorted_stripplot(prepped_df, out_path, gray, now):
     Returns none
     """
     plt.rcParams.update({'figure.autolayout': True})
-    plt.rcParams['figure.figsize'] = 7.0, 3.0
-    plt.rcParams['figure.figsize'] = 7.0, 2.75
+    plt.rcParams['figure.figsize'] = mm2inch((178, 69.8))
     sns.set_context("paper")
     sns.set_style("whitegrid")
 
@@ -203,15 +202,12 @@ def sorted_stripplot(prepped_df, out_path, gray, now):
     ax.yaxis.set_major_formatter(
         ticker.FuncFormatter(lambda y, _: '{:,g}'.format(y))
     )
-    ylabel_text = (
-        'junctions/sample (#)'
-    )
-    plt.ylabel(ylabel_text, fontsize=8)
+    ylabel_text = ('junctions/sample (#)')
+    plt.ylabel(ylabel_text, fontsize=7)
+    plt.setp(ax.yaxis.get_majorticklabels(), fontsize=5, color='black')
     fig = plt.gcf()
     fig_file = os.path.join(out_path, fig_name)
-    print('saving figure at:')
-    print(fig_file)
-    fig.savefig(fig_file)
+    fig.savefig(fig_file, dpi=300)
     plt.close()
     return
 
