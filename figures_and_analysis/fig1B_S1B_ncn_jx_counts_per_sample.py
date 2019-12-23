@@ -128,7 +128,7 @@ def double_sorted_stripplot(top_df, bottom_df, out_path, grayed, now):
         for gray_range in gray_ranges2:
             plt.axvspan(gray_range[0], gray_range[1], color='gray', alpha=0.1)
 
-    fig_name = 'figS1A_ncnjx_count_double_sorted_stripplot_{}.pdf'.format(now)
+    fig_name = 'figS1B_ncnjx_count_double_sorted_stripplot_{}.pdf'.format(now)
 
     plt.xlabel('')
     plt.xticks(x_locs, x_labels)
