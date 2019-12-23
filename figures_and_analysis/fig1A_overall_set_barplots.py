@@ -31,17 +31,12 @@ except ModuleNotFoundError:
     )
     from utilities.utilities import _TCGA_ABBR
 
-from utilities.utilities import _PER, _CANCER_COLORS, _FONT_COLORS
+from utilities.utilities import _PER, _CANCER_COLORS, _FONT_COLORS, mm2inch
 
 
-def barplots_with_table(data_dict, plot_dict, out_path, now, flag=None):
+def barplots_with_table(data_dict, plot_dict, out_path, now, figsize):
     plt.rcParams.update({'figure.autolayout': True})
-    if flag == 'all':
-        plt.rcParams['figure.figsize'] = 7.0, 5.0
-    elif flag == 'unexpl':
-        plt.rcParams['figure.figsize'] = 4.68, 4.0
-    else:
-        plt.rcParams['figure.figsize'] = 13.0, 4.0
+    plt.rcParams['figure.figsize'] = mm2inch(figsize)
 
     sns.set_context("paper")
     sns.set_style("whitegrid")
@@ -77,19 +72,18 @@ def barplots_with_table(data_dict, plot_dict, out_path, now, flag=None):
 
     edge_buffer = .7
     ax.set_xlim(left=ind_l[0] - edge_buffer, right=ind_r[-1] + edge_buffer)
-
     plt.yscale('log')
-    plt.ylabel('relative abundance (%)', fontsize=10)
+    plt.ylabel('relative abundance (%)', fontsize=7)
     ax.yaxis.set_major_formatter(
         ticker.FuncFormatter(lambda y, _: '{:g}'.format(y))
     )
     plt.setp(
-        ax.yaxis.get_majorticklabels(), fontsize=8, color='black'
+        ax.yaxis.get_majorticklabels(), fontsize=5, color='black'
     )
     columns = data_dict['abbr']
 
     # Add Table
-    rows = ['null']
+    rows = ['']
     whitefont_cols = []
     col_cols = []
     for i, abbr in enumerate(columns):
@@ -120,7 +114,7 @@ def barplots_with_table(data_dict, plot_dict, out_path, now, flag=None):
     for (row, col), cell in the_table.get_celld().items():
         if (row == 0):
             cell.set_text_props(
-                fontproperties=FontProperties(weight='bold', size=7.5)
+                fontproperties=FontProperties(weight='bold', size=3.75)
             )
             if len(columns[0]) > 5:
                 cell.set_height(cell.get_height() * 1.5)
@@ -128,11 +122,9 @@ def barplots_with_table(data_dict, plot_dict, out_path, now, flag=None):
                 cell._text.set_color('white')
         else:
             cell.set_height(0)
-        if col == -1:
-            cell.set_text_props(
-                fontproperties=FontProperties(weight='bold', size=6.5)
-            )
-            cell._text.set_color('white')
+        if (col == -1):
+            cell.set_width(0)
+            cell.set_height(0)
 
     ax2.yaxis.grid(False)
     ax2.spines['left'].set_visible(False)
@@ -150,7 +142,7 @@ def barplots_with_table(data_dict, plot_dict, out_path, now, flag=None):
     fig_name = 'fig1A_grouped_barplots_{}.pdf'.format(now)
     fig_file = os.path.join(out_path, fig_name)
     logging.info('saving figure at {}'.format(fig_file))
-    fig.savefig(fig_file)
+    fig.savefig(fig_file, dpi=300)
     plt.close()
     return
 
@@ -234,4 +226,7 @@ if __name__ == '__main__':
         with open(json_file, 'w') as output:
             json.dump([grouped_data_dict, plot_info_dict], output)
 
-    barplots_with_table(grouped_data_dict, plot_info_dict, out_path, now)
+    barplots_with_table(
+        grouped_data_dict, plot_info_dict, out_path, now,
+        figsize=(178, 54.8)
+    )
