@@ -149,7 +149,7 @@ Fig S1A:
 
 Fig S1B:
 
-        python3 fig1B_S1B_ncn_jx_counts_per_sample.py -j FILTERED_NCN_JX_PER_SAMPLE_DIR -p FILTERED_NTM_JX_PER_SAMPLE_DIR -d -g THYM CESC UVM DLBC --prepared-sort-order -o FIGURE_OUTPUT_DIR
+        python3 fig1B_S1B_ncn_jx_counts_per_sample.py -d -j FILTERED_NCN_JX_PER_SAMPLE_DIR -p FILTERED_NTM_JX_PER_SAMPLE_DIR -d -g THYM CESC UVM DLBC --prepared-sort-order -o FIGURE_OUTPUT_DIR
 
 Figs S1C and S1D:
 
