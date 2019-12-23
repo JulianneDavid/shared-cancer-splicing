@@ -12,7 +12,9 @@ junctions with only a single TCGA read.
 import argparse
 from datetime import datetime
 import logging
+from numpy import std
 import os
+from statistics import mean
 import sys
 try:
     from utilities.utilities import get_jx_prev_filename, jx_df_from_file
@@ -38,16 +40,16 @@ def analyze_sets(jx_dir, out_path, now):
     gtex_set = set()
     non_gtex_set = set()
     single_count_dict = {}
-    percent_unexplained_sum = []
-    percent_developmental_sum = []
-    percent_stemcell_sum = []
-    percent_otheradult_sum = []
-    percent_antisense_sum = []
-    percent_non_tis_in_gtex_sum = []
+    unexplained_list = []
+    developmental_list = []
+    in_stemcell_list = []
+    in_otheradult_list = []
+    antisense_list = []
+    non_tis_in_gtex_list = []
     percent_shared_sum = []
     percent_non_gtex_sum = []
-    percent_in_gtex_sum = []
-    percent_cancer_loci_sum = []
+    in_gtex_list = []
+    in_cancerloci_list = []
     all_shared_set = set()
     distinguishing_shared = set()
     over_threshold = set()
@@ -63,7 +65,7 @@ def analyze_sets(jx_dir, out_path, now):
         can_count += 1
         jx_df = jx_df_from_file(
             jx_file, 0, 1, True, glob_form=prev_glob, sample=False,
-            top_x=False, drop_ann=False
+            top_x=False, drop_ann=False, cancer=cancer
         )
         per_col = cancer + _PER
         min_sharedness = jx_df[per_col].min()
@@ -91,23 +93,23 @@ def analyze_sets(jx_dir, out_path, now):
         ]
         non_gtex_count = len(nongtex)
 
-        percent_unexplained_sum.append(len(unexpl) / non_gtex_count)
+        unexplained_list.append(len(unexpl) / non_gtex_count)
 
         non_gtex_count = len(nongtex)
         dev_df = nongtex[nongtex.sra_developmental == 1]
-        percent_developmental_sum.append(len(dev_df) / non_gtex_count)
+        developmental_list.append(len(dev_df) / non_gtex_count)
         sc_df = nongtex[nongtex.sra_stemcells == 1]
-        percent_stemcell_sum.append(len(sc_df) / non_gtex_count)
+        in_stemcell_list.append(len(sc_df) / non_gtex_count)
         oth_adult_df = nongtex[nongtex.sra_adult == 1]
-        percent_otheradult_sum.append(len(oth_adult_df) / non_gtex_count)
+        in_otheradult_list.append(len(oth_adult_df) / non_gtex_count)
         anti_df = unexpl[unexpl.antisense == 1]
-        percent_antisense_sum.append(len(anti_df) / len(unexpl))
+        antisense_list.append(len(anti_df) / len(unexpl))
         num_gtex_nonmatch = len(neojxs[neojxs.gtex == 1])
-        percent_non_tis_in_gtex_sum.append(num_gtex_nonmatch / len(neojxs))
+        non_tis_in_gtex_list.append(num_gtex_nonmatch / len(neojxs))
         percent_non_gtex_sum.append(len(nongtex) / len(jx_df))
-        percent_in_gtex_sum.append(len(all_gtex) / len(jx_df))
+        in_gtex_list.append(len(all_gtex) / len(jx_df))
         can_locus_df = unexpl[unexpl.cancer_locus == 1]
-        percent_cancer_loci_sum.append(len(can_locus_df) / len(unexpl))
+        in_cancerloci_list.append(len(can_locus_df) / len(unexpl))
 
         shared_nongtex = nongtex[nongtex[per_col] > min_sharedness]
         percent_shared_sum.append(len(shared_nongtex) / len(nongtex))
@@ -133,81 +135,95 @@ def analyze_sets(jx_dir, out_path, now):
         if count == 1:
             total_single_sample_jxs += 1
 
-    logging.info('summary:')
+    logging.info('abstract:')
     logging.info(
-        '{}% of non-tissue matched junctions, on average per cancer type, are '
-        'present in other GTEx and TCGA normal samples.'
-        ''.format(sum(percent_non_tis_in_gtex_sum) / can_count)
+        'averaging across cancer types, {:.1%} of exon-exon junctions '
+        'thought to be cancer-specific based on comparison with '
+        'tissue-matched samples (σ = {:.1%}) are in fact present in other '
+        'adult non-cancer tissues throughout the body'
+        ''.format(mean(non_tis_in_gtex_list), std(non_tis_in_gtex_list))
     )
     logging.info(
-        '{}% of non-core-normal junctions are shared by multiple samples '
-        'within a cancer type; {}% of these are unique to one cancer type'
-        ''.format(
+        '{:.1%} of junctions not present in any GTEx or TCGA normal tissues '
+        'are shared by multiple samples within at least one cancer type '
+        'cohort, and {:.1%} of these distinguish between different cancer '
+        'types'.format(
             len(all_shared_set) / len(non_gtex_set),
             len(distinguishing_shared) / len(all_shared_set)
         )
     )
     logging.info(
-        '{}% of non-core-normal junctions on average per cancer type are in '
-        'developmental samples'
-        ''.format(sum(percent_developmental_sum) / can_count)
+        'many of these junctions not found in GTEx or TCGA normal tissues '
+        '({:.1%} on average, σ = {:.1%}) are also found in embryological '
+        'and other developmentally associated cells'
+        ''.format(mean(developmental_list), std(developmental_list))
     )
     logging.info('result section 1:')
     logging.info(
-        '{}% of non-tissue matched junctions, on average per cancer type, are '
-        'present in other GTEx and TCGA normal samples.'
-        ''.format(sum(percent_non_tis_in_gtex_sum) / can_count)
+        'We found that on average, across cancer types, {:.1%} of junctions '
+        'potentially thought to be cancer-specific based on comparison only '
+        'with tissue-matched samples (σ = {:.1%}) are in fact present in '
+        'other adult non-cancer tissues and cell types throughout the body.'
+        ''.format(mean(non_tis_in_gtex_list), std(non_tis_in_gtex_list))
     )
     logging.info(
-        '{}% of cancer junctions are in core normals'
-        ''.format(sum(percent_in_gtex_sum) / can_count)
+        'Across cancer types, an average of {:.1%} of all junctions found in '
+        'cancer samples (σ = {:.1%}) are also present in one or more adult '
+        'normal samples from GTEx or TCGA [“core normals”]'
+        ''.format(mean(in_gtex_list), std(in_gtex_list))
     )
     logging.info(
-        '{}% of non-core normal junctions are from individual samples only'
-        '{}% are shared by >{}% of samples of at least one cancer type'
-        ''.format(
+        'We observed that over half ({:.1%}) of these junctions are confined '
+        'to individual samples, although a small but significant subset '
+        '({:.2%}) is shared across at least 5% of samples in at least one '
+        'cancer-type cohort'.format(
             total_single_sample_jxs / len(non_gtex_set),
-            len(over_threshold) / len(non_gtex_set),
-            shared_threshold * 100
+            len(over_threshold) / len(non_gtex_set), shared_threshold * 100
         )
     )
     logging.info(
-        '{}% of non-core normal junctions are shared between multiple cancer '
-        'types; {} junctions are in >{}% of samples of more than 1 TCGA cancer '
-        'type'.format(
+        'We also noted that {:.1%} of novel junctions are shared between '
+        'multiple cancer types, with a total of {} junctions present in at '
+        'least {:,} of samples each across two or more TCGA cancer cohorts'
+        ''.format(
             len(multi_cancer_any) / len(non_gtex_set),
-            len(multi_cancer_over_thresh),
-            shared_threshold * 100
+            len(multi_cancer_over_thresh), shared_threshold * 100
         )
     )
     logging.info('results section 3:')
     logging.info('On average per cancer type:')
     logging.info(
-        '{}% of non-core-normal junctions are in SRA developmental samples'
-        ''.format(sum(percent_developmental_sum) / can_count)
+        '{:.1%} of these cancer junctions (σ = {:.1%}) occur in SRA '
+        'developmental cell or tissue samples.'
+        ''.format(mean(developmental_list), std(developmental_list))
     )
     logging.info(
-        '{}% of non-core-normal junctions are in SRA non-cancer adult samples'
-        ''.format(sum(percent_otheradult_sum) / can_count)
+        'We also considered samples from SRA normal stem cell samples and '
+        'from selected SRA normal adult tissues and cell types: {:.1%} '
+        '(σ = {:.1%}) and {:.1%} (σ = {:.1%}) of cancer junctions not '
+        'found in core normals occur in stem cell and selected adult tissues'
+        ''.format(
+            mean(in_stemcell_list), std(in_stemcell_list),
+            mean(in_otheradult_list), std(in_otheradult_list)
+        )
     )
     logging.info(
-        '{}% of non-core-normal junctions are in SRA stem cell samples'
-        ''.format(sum(percent_stemcell_sum) / can_count)
+        'The remaining significant majority of these cancer junctions not '
+        'found in core normals were also not present found in any non-cancer '
+        'SRA tissue or cell type studied ({:.1%} on average per cancer type '
+        'cohort (σ = {:.1%})'
+        ''.format(mean(unexplained_list), std(unexplained_list))
     )
     logging.info(
-        '{}% of junctions on average per cancer are unexplained (not found in '
-        'any of the target tissue or cell types)'
-        ''.format(sum(percent_unexplained_sum) / can_count)
+        'Among all otherwise unexplained junctions, an average of {:.2%} '
+        '(σ = {:.2%}) across cancer types are associated with known '
+        'cancer-predisposing or cancer-relevant loci.'
+        ''.format(mean(in_cancerloci_list), std(in_cancerloci_list))
     )
     logging.info(
-        'Of the unexplained junctions: {} on average per cancer type are '
-        'associated with cancer genes'
-        ''.format(sum(percent_cancer_loci_sum) / can_count)
-    )
-    logging.info(
-        'Of unexplained junctions: {}% on average per cancer type are in '
-        'antisense transcripts'
-        ''.format(sum(percent_antisense_sum) / can_count)
+        'Further, an elevated proportion of otherwise unexplained junctions '
+        '(on average, {:.1%}, σ = {:.1%}) occur in likely antisense '
+        'transcripts'.format(mean(antisense_list), std(antisense_list))
     )
     return
 
