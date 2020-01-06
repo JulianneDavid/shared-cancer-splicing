@@ -160,7 +160,8 @@ _FONT_COLORS = {
     'pan cancer': 'black',
     'SKCM-to-normal\nsamplewise shared junctions': 'black',
     'MESO-to-normal\nsamplewise shared junctions': 'white',
-    'pan cancer\njunction counts per group (#)': 'black',
+    'median junction count\nacross cancer types': 'black',
+    'total junctions across cancers\n(median cohort prevalence, IQR)': 'black'
 }
 
 _CANCER_COLORS = {
@@ -178,7 +179,9 @@ _CANCER_COLORS = {
     'pan cancer': 'off white',
     'SKCM-to-normal\nsamplewise shared junctions': 'yellowish green',
     'MESO-to-normal\nsamplewise shared junctions': 'royal purple',
-    'pan cancer\njunction counts per group (#)': 'off white',
+    'median junction count\nacross cancer types': 'off white',
+    'total junctions across cancers\n(median cohort prevalence, IQR)':
+        'off white'
 
 }
 
@@ -1369,7 +1372,7 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
                                 y_label='cohort prevalence', percent=True,
                                 right_lim_shift=2, back_cols={}, font_cols={},
                                 tabrow_fontsize=5.5, intab_fontsize=0,
-                                tabcol_fontsize=5.5):
+                                tabcol_fontsize=5.5, expand_rows=1):
     """
 
     :param data_dict:
@@ -1382,10 +1385,7 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
     sns.set_context("paper")
     sns.set_style("whitegrid")
     sns.set(style="ticks")
-
-    f, (ax, ax2) = plt.subplots(
-        nrows=2, ncols=1, gridspec_kw={'height_ratios': [3, 1]}
-    )
+    f, (ax) = plt.subplots(nrows=1, ncols=1)
     plt.sca(ax)
     light_cols = plot_dict['light colors']
     dark_cols = plot_dict['dark colors']
@@ -1507,7 +1507,7 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
         the_table.set_fontsize(intab_fontsize)
 
     for (row, col), cell in the_table.get_celld().items():
-        if (row == 0):
+        if row == 0:
             cell.set_text_props(fontproperties=FontProperties(
                 weight='bold', size=tabcol_fontsize
             ))
@@ -1520,19 +1520,10 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
                 weight='bold', size=tabrow_fontsize
             ))
             cell._text.set_color(plot_dict['row font color'][row - 1])
+        if row != 0:
+            cell.set_height(cell.get_height() * expand_rows)
 
-    ax2.yaxis.grid(False)
-    ax2.spines['left'].set_visible(False)
-    ax2.spines['bottom'].set_visible(False)
-    ax2.spines['right'].set_visible(False)
-    ax2.spines['top'].set_visible(False)
-    ax2.patch.set_alpha(0)
-
-    plt.sca(ax2)
-    plt.plot([])
-    plt.xticks([], [])
-    plt.yticks([], [])
-
+    plt.subplots_adjust(left=0.2, bottom=0.2)
     fig = plt.gcf()
     fig.savefig(fig_file, bbox_inches='tight', pad_inches=.1)
     return
