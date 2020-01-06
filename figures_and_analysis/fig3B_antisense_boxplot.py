@@ -24,6 +24,7 @@ except ModuleNotFoundError:
     )
     from utilities.utilities import get_jx_prev_filename, jx_df_from_file
 from utilities.utilities import _TCGA_ABBR, grouped_boxplots_with_table
+from utilities.utilities import mm2inch
 
 
 def antisense_boxplot(jx_dir, out_path, now):
@@ -34,7 +35,7 @@ def antisense_boxplot(jx_dir, out_path, now):
     :return:
     """
     all_cancers = list(_TCGA_ABBR.keys())
-    main_header = 'pan cancer\njunction counts per group (#)'
+    main_header = 'median junction count\nacross cancer types'
     data_dict = {main_header: {'data': [[], [], [], [], []]}}
     gtex_total = 0
     adult_total = 0
@@ -53,7 +54,7 @@ def antisense_boxplot(jx_dir, out_path, now):
         can_count += 1
         jx_df = jx_df_from_file(
             jx_file, 0, 1, True, glob_form=prev_glob, sample=False,
-            top_x=False, drop_ann=False
+            top_x=False, drop_ann=False, cancer=cancer
         )
         gtex = jx_df[(jx_df.gtex == 1)]
         adult = jx_df[(jx_df.gtex == 0) & (jx_df.sra_adult == 1)]
@@ -75,15 +76,15 @@ def antisense_boxplot(jx_dir, out_path, now):
         ]
 
         gtex_antisense = gtex[gtex.antisense == 1]
-        gtex_antiratio = len(gtex_antisense) / len(gtex)
+        gtex_antiratio = 100 * len(gtex_antisense) / len(gtex)
         adult_antisense = adult[adult.antisense == 1]
-        adult_anti_ratio = len(adult_antisense) / len(adult)
+        adult_anti_ratio = 100 * len(adult_antisense) / len(adult)
         dev_antisense = dev[dev.antisense == 1]
-        dev_anti_ratio = len(dev_antisense) / len(dev)
+        dev_anti_ratio = 100 * len(dev_antisense) / len(dev)
         sc_antisense = sc[sc.antisense == 1]
-        sc_ratio = len(sc_antisense) / len(sc)
+        sc_ratio = 100 * len(sc_antisense) / len(sc)
         un_antisense = un[un.antisense == 1]
-        un_ratio = len(un_antisense) / len(un)
+        un_ratio = 100 * len(un_antisense) / len(un)
 
         gtex_total += len(gtex)
         adult_total += len(adult)
@@ -122,7 +123,6 @@ def antisense_boxplot(jx_dir, out_path, now):
 
     # Assemble boxplot
     plt.rcParams.update({'figure.autolayout': True})
-    plt.rcParams['figure.figsize'] = 7.0, 2.9
     sns.set_context("paper")
     sns.set_style("whitegrid")
 
@@ -131,8 +131,8 @@ def antisense_boxplot(jx_dir, out_path, now):
     table_data = []
     for column in counts_df.columns.values.tolist():
         table_data.append(
-            'median: {:,}; IQR: {:,}-{:,}'.format(
-                round(counts_df[column].median()),
+            '{:,}\n(IQR: {:,}-{:,})'.format(
+                int(round(counts_df[column].median())),
                 int(counts_df[column].quantile([0.25])[0.25]),
                 int(counts_df[column].quantile([0.75])[0.75])
             )
@@ -164,10 +164,14 @@ def antisense_boxplot(jx_dir, out_path, now):
     fig_name = 'fig3B_antisense_ratios_boxplot_{}.pdf'.format(now)
     fig_file = os.path.join(out_path, fig_name)
     logging.info('saving figure at {}'.format(fig_file))
+    # fig_size = mm2inch(84, 140)
+    # fig_size = mm2inch(84, 110)
+    fig_size = mm2inch(60, 70)
     grouped_boxplots_with_table(
         data_dict, plot_info_dict, fig_file, logscale=False,
-        y_label='antisense junctions (%)', percent=False,
-        right_lim_shift=3, fig_size=(3, 5), intab_fontsize=7, tab_fontsize=8
+        y_label='antisense junctions (%)', percent=False, right_lim_shift=3,
+        fig_size=fig_size, intab_fontsize=7, tabrow_fontsize=7,
+        tabcol_fontsize=7, expand_rows=1.4
     )
     return
 
