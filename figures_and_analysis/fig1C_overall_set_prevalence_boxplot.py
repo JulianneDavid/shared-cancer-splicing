@@ -13,6 +13,8 @@ from datetime import datetime
 import glob
 import logging
 from matplotlib import use; use('pdf')
+from numpy import median
+from numpy import percentile as perc
 import os
 import pandas as pd
 from scipy import stats
@@ -24,7 +26,7 @@ except ModuleNotFoundError:
         os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
     )
     from utilities.utilities import _TCGA_ABBR, _PER
-from utilities.utilities import grouped_boxplots_with_table
+from utilities.utilities import grouped_boxplots_with_table, mm2inch
 
 
 if __name__ == '__main__':
@@ -57,9 +59,12 @@ if __name__ == '__main__':
     logging.basicConfig(filename=log_file, level=log_mode)
     logging.info('input is: {}'.format(' '.join(sys.argv)))
 
-    data_label_dict = {}
-    grouped_data_dict = {
-        'pan cancer': {
+    table_counts = [0, 0, 0]
+    header = (
+        'total junctions across cancers\n(median cohort prevalence, IQR)'
+    )
+    grouped_data = {
+        header: {
             'data': [[], [], []], 'table_data': [0, 0, 0]
         }
     }
@@ -86,17 +91,25 @@ if __name__ == '__main__':
         ][per_col].tolist()
         non_gtex = jx_df[jx_df['gtex'] == 0][per_col].tolist()
 
-        grouped_data_dict['pan cancer']['data'][0].extend(in_paired)
-        grouped_data_dict['pan cancer']['data'][1].extend(in_gtex)
-        grouped_data_dict['pan cancer']['data'][2].extend(non_gtex)
+        grouped_data[header]['data'][0].extend(in_paired)
+        grouped_data[header]['data'][1].extend(in_gtex)
+        grouped_data[header]['data'][2].extend(non_gtex)
 
-        grouped_data_dict['pan cancer']['table_data'][0] += len(in_paired)
-        grouped_data_dict['pan cancer']['table_data'][1] += len(in_gtex)
-        grouped_data_dict['pan cancer']['table_data'][2] += len(non_gtex)
-
+        table_counts[0] += len(in_paired)
+        table_counts[1] += len(in_gtex)
+        table_counts[2] += len(non_gtex)
         gtex_for_stats.extend(in_paired)
         gtex_for_stats.extend(in_gtex)
         non_gtex_for_stats.extend(non_gtex)
+
+    for entry in range(3):
+        data_list = grouped_data[header]['data'][entry]
+        grouped_data[header]['table_data'][entry] = (
+            '{:,}\n({:.1f}%, {:.1f}-{:.1f}%)'.format(
+                table_counts[entry], median(data_list) * 100,
+                perc(data_list, 25) * 100, perc(data_list, 75) * 100
+            )
+        )
 
     stat, pval = stats.kruskal(
         gtex_for_stats, non_gtex_for_stats
@@ -108,7 +121,6 @@ if __name__ == '__main__':
     plot_info_dict['light colors'] = [
         'xkcd:bright sky blue', 'xkcd:kermit green', 'xkcd:saffron'
     ]
-
     plot_info_dict['dark colors'] = plot_info_dict['light colors']
     plot_info_dict['legend'] = [
         'tissue-matched\nnormal junctions', 'core normal\njunctions',
@@ -120,8 +132,9 @@ if __name__ == '__main__':
     fig_name = 'fig1C_alltcga_set_prevalence_boxplot_{}.pdf'.format(now)
     fig_file = os.path.join(out_path, fig_name)
     logging.info('saving figure at {}'.format(fig_file))
+    fig_size = mm2inch(68, 70)
     grouped_boxplots_with_table(
-        grouped_data_dict, plot_info_dict, fig_file, intab_fontsize=7,
-        tabrow_fontsize=6, tabcol_fontsize=8
+        grouped_data, plot_info_dict, fig_file, intab_fontsize=7,
+        tabrow_fontsize=7, tabcol_fontsize=7, expand_rows=1.5,
+        fig_size=fig_size
     )
-    
