@@ -34,26 +34,6 @@ _ID_TYPE_MAP = {
     'case': 'TCGA_case_ID'
 }
 
-_ONT_PREFIXES = ('EFO', 'DOID', 'CL', 'UBERON', 'CVCL')
-
-_TRANSLATION_DICT = {
-    "GCT": "A", "GCG": "A", "GCA": "A", "GCC": "A", "GGT": "G", "GGC": "G",
-    "GGA": "G", "GGG": "G", "ATT": "I", "ATC": "I", "ATA": "I", "CTT": "L",
-    "CTC": "L", "CTA": "L", "CTG": "L", "TTA": "L", "TTG": "L", "CCT": "P",
-    "CCC": "P", "CCA": "P", "CCG": "P", "GTT": "V", "GTC": "V", "GTA": "V",
-    "GTG": "V", "TTT": "F", "TTC": "F", "TGG": "W", "TAT": "Y", "TAC": "Y",
-    "GAT": "D", "GAC": "D", "GAA": "E", "GAG": "E", "CGT": "R", "CGC": "R",
-    "CGA": "R", "CGG": "R", "AGA": "R", "AGG": "R", "CAT": "H", "CAC": "H",
-    "AAA": "K", "AAG": "K", "TCT": "S", "TCC": "S", "TCA": "S", "TCG": "S",
-    "AGT": "S", "AGC": "S", "ACT": "T", "ACC": "T", "ACA": "T", "ACG": "T",
-    "TGT": "C", "TGC": "C", "ATG": "M", "AAT": "N", "AAC": "N", "CAA": "Q",
-    "CAG": "Q", "TAA": "*", "TAG": "*", "TGA": "*"
-    }
-
-_SUPPORTED_NUCLEOTIDES = ['G', 'C', 'A', 'T']
-
-_START_CODON = 'ATG'
-
 _CHR_REGIONS = [
     'chr1:1-248956422', 'chr2:1-242193529', 'chr3:1-198295559',
     'chr4:1-190214555', 'chr5:1-181538259', 'chr6:1-170805979',
@@ -194,12 +174,6 @@ _TISSUE_TYPES = [
     ]
 
 _ALL_TISSUE_CHOICES = _TISSUE_TYPES + _ALL_CANCERS
-
-_ACCEPTABLE_CHROMS = {
-    'chr1', 'chr2', 'chr3', 'chr4', 'chr5', 'chr6', 'chr7', 'chr8', 'chr9',
-    'chr10', 'chr11', 'chr12', 'chr13', 'chr14', 'chr15', 'chr16', 'chr17',
-    'chr18', 'chr19', 'chr20', 'chr21', 'chr22', 'chrM', 'chrX', 'chrY'
-}
 
 _MATCHED_NORMALS = {
     'Acute_Myeloid_Leukemia': ['Blood'],
