@@ -134,8 +134,6 @@ def double_sorted_stripplot(top_df, bottom_df, out_path, grayed, now):
     plt.xticks(x_locs, x_labels)
     plt.setp(ax2.get_xticklabels(), rotation=90, fontsize=6)
     plt.yscale('log')
-    ax1.set_ylim(ymin=0)
-    ax2.set_ylim(ymin=0)
 
     ax1.xaxis.grid(False)
     ax2.xaxis.grid(False)
@@ -197,7 +195,6 @@ def sorted_stripplot(prepped_df, out_path, gray, now):
     plt.xticks(x_locs, x_labels)
     plt.setp(ax.get_xticklabels(), rotation=90, fontsize=6)
     plt.yscale('log')
-    ax.set_ylim(ymin=0)
     ax.xaxis.grid(False)
     ax.yaxis.set_major_formatter(
         ticker.FuncFormatter(lambda y, _: '{:,g}'.format(y))
