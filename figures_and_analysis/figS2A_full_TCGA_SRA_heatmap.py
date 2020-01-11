@@ -148,8 +148,7 @@ def cluster_jxs_together(db_jx_df, expt_jx_dict, out_path, count_dict,
     masked_double_heatmap(
         merge_df, tcga_master_cols, fig_file, colorbar=colorbar_dict,
         other_cbar_label='SRA cell type prevalence', size=(5, 4),
-        bottom_pad=-3.5, xlabel_fontsize=4,
-        cbar_labels=['0.1%', '1%', '10%', '100%']
+        bottom_pad=-3.5, xlabel_fontsize=4, cbarticks=[.001, .01, .1, 1]
     )
     return
 

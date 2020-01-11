@@ -24,7 +24,7 @@ except ModuleNotFoundError:
     )
     from utilities.utilities import jx_dir_to_df, masked_double_heatmap
 from utilities.utilities import _ALL_ABBR, _CANCER_COLORS, _FONT_COLORS
-
+from utilities.utilities import mm2inch
 
 def cluster_subtype_jxs(db_jx_df, out_path, now):
     """
@@ -87,11 +87,14 @@ def cluster_subtype_jxs(db_jx_df, out_path, now):
         'fontcolors': fontcolors
     }
     vline_pos = [4, 7, 14, 18]
+    fig_size = mm2inch(89, 80)
     masked_double_heatmap(
         merge_df, tcga_master_cols, fig_file, masked_cmap=cm.Greys,
-        other_cmap=cm.Blues, colorbar=colorbar_dict,
-        vline_pos=vline_pos,
-        other_cbar_label='cancer subtype prevalence'
+        other_cmap=cm.Blues, colorbar=colorbar_dict, size=fig_size,
+        vline_pos=vline_pos, cbarticks=[.01, .1, 1],
+        other_cbar_label='cancer subtype prevalence', cbar_font_adder=2,
+        xlabel_fontsize=5, bottom_pad=-3.5, cbar_fraction=0.1,
+        cbar_pad=0.01
     )
     logging.info('saving figure at: {}'.format(fig_file))
     return

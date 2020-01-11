@@ -693,7 +693,7 @@ def logscale_heatmap(ax, df_to_plot, base_cmap=cm.Blues, min_val=0, max_val=0,
 
 
 def heatmap_colorbar(plot_mesh, bar_label, log_plot, cbar_fontsize, fraction,
-                     pad, cbar_labels):
+                     pad, cbarticks):
     """
 
     :param plot_mesh:
@@ -711,7 +711,11 @@ def heatmap_colorbar(plot_mesh, bar_label, log_plot, cbar_fontsize, fraction,
         0.55, 0.1, bar_label, fontsize=cbar_fontsize, rotation=90, ha='center',
         va='center', transform=cbar.ax.transAxes, color='black'
     )
-    if not cbar_labels:
+    if cbarticks:
+        cbar_labels = ['{:g}%'.format(tick * 100) for tick in cbarticks]
+        cbar.set_ticks(cbarticks)
+        cbar.set_ticklabels(cbar_labels)
+    else:
         cbar_ticklabels = cbar.ax.get_yticklabels()
         num_ticks = len(cbar_ticklabels)
         cbar_labels = []
@@ -723,8 +727,8 @@ def heatmap_colorbar(plot_mesh, bar_label, log_plot, cbar_fontsize, fraction,
                 cbar_labels.append(label)
             else:
                 cbar_labels.append('')
+        cbar.ax.set_yticklabels(cbar_labels)
 
-    cbar.ax.set_yticklabels(cbar_labels)
     if log_plot:
         cbar.ax.tick_params(labelsize=4, width=1, length=3, pad=0.75)
 
@@ -766,7 +770,7 @@ def add_bottom_colorbar(ax, colorbar, plot_df, pad_dist, xlabel_fontsize):
     if texts:
         # Label the boxes
         textkw = dict(
-            ha="center", va="center", fontsize=5.75, weight='heavy'
+            ha="center", va="center", fontsize=4.3, weight='heavy'
         )
         for (k, l), label in zip(label_ranges, texts):
             fontcolor = colorbar['fontcolors'][label]
@@ -790,7 +794,7 @@ def masked_double_heatmap(df_to_plot, cols_to_mask, fig_file, colorbar={},
                           title='', vline_pos=[], log_plot=True,
                           other_cbar_label='', size=None, bottom_pad=0,
                           xlabel_fontsize=5, cbar_fraction=0.046,
-                          cbar_pad=0.032, cbar_labels=[], cbar_font_adder=1.5):
+                          cbar_pad=0.032, cbar_font_adder=1.5, cbarticks=[]):
     """
 
     :param df_to_plot:
@@ -858,14 +862,14 @@ def masked_double_heatmap(df_to_plot, cols_to_mask, fig_file, colorbar={},
     bar_label = '                           TCGA cancer type prevalence'
     heatmap_colorbar(
         masked_mesh, bar_label, log_plot, cbar_fontsize, cbar_fraction,
-        cbar_pad, cbar_labels
+        cbar_pad, cbarticks
     )
 
     if cols_to_mask != df_to_plot.columns.values.tolist():
         bar_label = '                      ' + other_cbar_label
         heatmap_colorbar(
             other_mesh, bar_label, log_plot, cbar_fontsize, cbar_fraction,
-            cbar_pad, cbar_labels
+            cbar_pad, cbarticks
         )
 
     ax.set_xticks(np.arange(0, df_to_plot.shape[1], 1), minor=True)

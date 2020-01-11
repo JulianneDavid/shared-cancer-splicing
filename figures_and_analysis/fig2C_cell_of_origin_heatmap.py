@@ -27,7 +27,7 @@ except ModuleNotFoundError:
 from utilities.utilities import _SRA_ABBR, _FULL_HEATMAP_COLORS
 from utilities.utilities import collect_mutual_jxs, masked_double_heatmap
 from utilities.utilities import jx_dir_to_df, snaptron_results_to_jxs
-from utilities.utilities import collect_metasra_count
+from utilities.utilities import collect_metasra_count, mm2inch
 
 
 def cluster_by_tcga(sra_df, tcga_df, metric, method):
@@ -135,12 +135,12 @@ def cluster_jxs_together(db_jx_df, expt_jx_dict, out_path, count_dict,
         'ranges': label_ranges, 'colors': colors, 'labels': texts,
         'fontcolors': fontcolors, 'height_percent': '2%'
     }
-
+    fig_size = mm2inch(63.5, 114.3)
     masked_double_heatmap(
         merge_df, tcga_master_cols, fig_file, colorbar=colorbar_dict,
-        other_cbar_label='SRA cell type prevalence', size=(2.5, 4.5),
+        other_cbar_label='SRA cell type prevalence', size=fig_size,
         bottom_pad=-3.5, xlabel_fontsize=5, cbar_fraction=0.1,
-        cbar_pad=0.077, cbar_labels=['1%', '10%', '50%'],
+        cbar_pad=0.077, cbarticks=[.01, .1, .5],
         cbar_font_adder=3
     )
     logging.info('saving figure at: {}'.format(fig_file))

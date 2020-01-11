@@ -25,10 +25,10 @@ except ModuleNotFoundError:
     sys.path.append(
         os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
     )
-    from utilities.utilities import  masked_double_heatmap, jx_dir_to_df
+    from utilities.utilities import masked_double_heatmap, jx_dir_to_df
 
 from utilities.utilities import _CANCER_COLORS,_ALL_ABBR, _TCGA_CANCER_TYPES
-
+from utilities.utilities import mm2inch
 
 def cluster_tcga_jxs(db_jx_df, out_path, now):
     """
@@ -92,9 +92,11 @@ def cluster_tcga_jxs(db_jx_df, out_path, now):
         'fontcolors': fontcolors, 'height_percent': '2.0%'
     }
 
+    fig_size = mm2inch(89, 84)
     masked_double_heatmap(
-        merge_df, merge_df.columns.values.tolist(), fig_file,
-        colorbar=colorbar_dict
+        merge_df, merge_df.columns.values.tolist(), fig_file, size=fig_size,
+        colorbar=colorbar_dict, cbarticks = [0.001, .01, .1, .8],
+        cbar_font_adder=2, xlabel_fontsize=4, bottom_pad=-3.5
     )
     logging.info('saving figure at {}'.format(fig_file))
     return
