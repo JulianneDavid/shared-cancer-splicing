@@ -41,14 +41,24 @@ for(s in 1:length(subsetseq)){
 lr <- make.ggset.final(setsizes.data = wholeset, subsetsizes.data = subset, 
                        setsize.grplabels = c("Unexplained", "Other Adult", "Developmental", "Stem Cells", "Placenta"),
                        hl.name = "unexplained", ugrp = "", 
-                       setsizeplot.dims = unit(c(1.4, -2.6, 0.09, 0.1), 'cm'),
+                       setsizeplot.dims = unit(c(1.4, -2.6, 0.005, 0.1), 'cm'),
                        setsizeplot.ybreaks = setseq,
                        setsizeplot.ylab = setsizeplot.ylab,
-                       subsetplot.dims = unit(c(0.1, 2.68, -1.65, 1.11), 'cm'),
+                       subsetplot.dims = unit(c(0.1, 2.8, -1.65, 0.7), 'cm'),
                        subsetplot.ybreaks = subsetseq,
                        subsetplot.ylab =  subsetplot.ylab,
-                       upsetplot.dims = unit(c(1.5, 1, 1, 1), 'cm'))
+                       upsetplot.dims = unit(c(1.5, 1, 1.1, 1), 'cm'),
+                       subtextsize = 15, sstextsize = 15, ssxaxistextsize = 12)
 save(lr, file="gglist_mainfig.rda")
+
+plotname = "upset_mainfig_inctxt.pdf"
+pdf(plotname, 10, 6.5)
+grid.arrange(blank,
+             lr$sets_plot + labs(y = "Mean Size (% all junctions)"), 
+             lr$subsets_plot + labs(y = "Intersect (% all junctions)"), 
+             lr$upset_plot, 
+             layout_matrix=matrix(c(1,2,rep(c(3,4),3)),nrow=2))
+dev.off()
 
 # store the new plot
 plotname = "upset_mainfig.jpg"

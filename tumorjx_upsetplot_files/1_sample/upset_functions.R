@@ -251,7 +251,10 @@ make.ggset.final <- function(setsizes.data, subsetsizes.data,
                                                   "1e-5%"),
                              subsetplot.ybreaks = c(2,1,0,-1), 
                              subsetplot.ylab = c("1e2%","1e1%","1%","1e-1%"),
-                             subset.barcolor = "limegreen"){
+                             subset.barcolor = "limegreen",
+                             subtextsize = 20, 
+                             sstextsize = 20,
+                             ssxaxistextsize = 20){
   # make.ggset.final
   # Description: Define and return ggplot2 plot objects for jx sets
   # Arguments:
@@ -324,7 +327,8 @@ make.ggset.final <- function(setsizes.data, subsetsizes.data,
             axis.text.x = element_blank(),
             plot.margin = subsetplot.dims,
             panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-            panel.background = element_blank(), axis.line = element_line(colour = "black")) +
+            panel.background = element_blank(), axis.line = element_line(colour = "black"),
+            text = element_text(size = subtextsize)) +
       scale_y_continuous(breaks = subsetplot.ybreaks,
                          labels = subsetplot.ylab,
                          limits = c(min(subsetplot.ybreaks), max(subsetplot.ybreaks)))
@@ -389,7 +393,9 @@ make.ggset.final <- function(setsizes.data, subsetsizes.data,
             panel.grid.major = element_blank(), 
             panel.grid.minor = element_blank(),
             panel.background = element_blank(), 
-            axis.line = element_line(colour = "black"))
+            axis.line = element_line(colour = "black"),
+            text = element_text(size = sstextsize),
+            axis.text.x = element_text(size = ssxaxistextsize))
     
   }
   
