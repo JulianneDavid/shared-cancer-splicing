@@ -1345,12 +1345,12 @@ def extract_splice_sites(gtf_file):
     return annotations
 
 
-def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
+def grouped_boxplots_with_table(data_dict, plot_dict, fig_file, raster=False,
                                 fig_size=(3.0, 5.0), logscale=True,
                                 y_label='cohort prevalence', percent=True,
                                 right_lim_shift=2, back_cols={}, font_cols={},
                                 tabrow_fontsize=5.5, intab_fontsize=0,
-                                tabcol_fontsize=5.5, expand_rows=1):
+                                tabcol_fontsize=5.5, expand_rows=1, dpi=300):
     """
 
     :param data_dict:
@@ -1414,12 +1414,12 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
             plt.setp(
                 fly, color=light_cols[i], markerfacecolor=light_cols[i],
                 marker='.', markersize=4.0, linestyle='none', linewidth=0.15,
-                markeredgecolor=dark_cols[i]
+                markeredgecolor=dark_cols[i], rasterized=raster
             )
             plt.setp(
-                med, color=dark_cols[i], linewidth=1.5
+                med, color=dark_cols[i], linewidth=1.5, rasterized=raster
             )
-            plt.setp(box, facecolor='white')
+            plt.setp(box, facecolor='white', rasterized=raster)
 
         label_locs.append(curr_label_loc)
 
@@ -1503,7 +1503,7 @@ def grouped_boxplots_with_table(data_dict, plot_dict, fig_file,
 
     plt.subplots_adjust(left=0.2, bottom=0.2)
     fig = plt.gcf()
-    fig.savefig(fig_file, bbox_inches='tight', pad_inches=.1)
+    fig.savefig(fig_file, bbox_inches='tight', pad_inches=.1, dpi=dpi)
     return
 
 

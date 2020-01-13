@@ -136,5 +136,5 @@ if __name__ == '__main__':
     grouped_boxplots_with_table(
         grouped_data, plot_info_dict, fig_file, intab_fontsize=7,
         tabrow_fontsize=7, tabcol_fontsize=7, expand_rows=1.5,
-        fig_size=fig_size
+        fig_size=fig_size, raster=True, dpi=1200
     )
