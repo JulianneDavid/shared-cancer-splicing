@@ -1,5 +1,5 @@
 # shared-cancer-splicing
-Code here reproduces analyses and figures from "Putatively cancer-specific alternative splicing is shared across patients and present in developmental and other non-cancer cells," by David et al.
+Reproduces analyses and figures from ["Putatively cancer-specific exon–exon junctions are shared across patients and present in developmental and other non-cancer cells"](https://academic.oup.com/narcancer/article/2/1/zcaa001/5717177) by David et al.
 
 ## Requirements
 
