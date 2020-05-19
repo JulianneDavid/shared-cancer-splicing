@@ -203,5 +203,5 @@ Fig S3C and S3D:
 
 Fig S3G:
         
-        python3 figS3G_survival_curve.R -d DB_DIR -o FIGURE_OUTPUT_DIR -P TCGA_PHEN       
+        python3 figS3G_prepare_survival_data.py -d DB_DIR -o FIGURE_OUTPUT_DIR -P TCGA_PHEN       
         Rscript figS3G_survival_curve.R FIGURE_OUTPUT_DIR
