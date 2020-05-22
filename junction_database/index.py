@@ -638,14 +638,24 @@ def fill_new_table(tcga_cov, tcga_bed, gtex_cov, gtex_bed, index_db,
     )
     conn.commit()
     print('all junctions added to db!  adding db indexes.')
-    fill_int = time.time()
+    return
+
+
+def index_new_database(index_db, conn):
+    fill_start = time.time()
+    fill_int = fill_start
     jx_ann_index = (
         'CREATE INDEX jx_ann_id_index ON {}(jx_id);'.format(_JX_ANN_TABLE)
     )
     try:
         index_db.execute(jx_ann_index)
     except sql.OperationalError:
-        print('jx_ann_index operational error')
+        print(
+            'jx_ann_index operational error: database is complete but index '
+            'was not successfully created.  Please set your temporary '
+            'directory to one with >20GB available space and re-run in '
+            '"index only" mode.'
+        )
         pass
     conn.commit()
     fill_2000 = time.time()
@@ -661,7 +671,12 @@ def fill_new_table(tcga_cov, tcga_bed, gtex_cov, gtex_bed, index_db,
     try:
         index_db.execute(jx_ann_index2)
     except sql.OperationalError:
-        print('jx ann_index2 operational error')
+        print(
+            'jx ann_index2 operational error: database is complete but index '
+            'was not successfully created.  Please set your temporary '
+            'directory to one with >20GB available space and re-run in '
+            '"index only" mode.'
+        )
         pass
     conn.commit()
     fill_2000 = time.time()
@@ -677,7 +692,12 @@ def fill_new_table(tcga_cov, tcga_bed, gtex_cov, gtex_bed, index_db,
     try:
         index_db.execute(jx_samp_index)
     except sql.OperationalError:
-        print('jxsampleindex operational error')
+        print(
+            'jxsampleindex operational error: database is complete but index '
+            'was not successfully created.  Please set your temporary '
+            'directory to one with >20GB available space and re-run in '
+            '"index only" mode.'
+        )
         pass
     conn.commit()
     fill_2000 = time.time()
@@ -692,7 +712,12 @@ def fill_new_table(tcga_cov, tcga_bed, gtex_cov, gtex_bed, index_db,
     try:
         index_db.execute(jx_samp_index2)
     except sql.OperationalError:
-        print('jxsamp2 operational error')
+        print(
+            'jxsamp2 operational error: database is complete but index was '
+            'not successfully created.  Please set your temporary directory '
+            'to one with >20GB available space and re-run in "index only" '
+            'mode.'
+        )
         pass
     conn.commit()
     fill_2000 = time.time()
@@ -711,19 +736,23 @@ def main(args, now, conn, index_db):
     gtex_p = args.gtex_phenotype
     id_file = args.sample_id_file
     gtf_path = args.gtf_file
+    index_only = args.index_only
 
-    results = parse_phenotypes(gtex_p, tcga_p, id_file)
-    tissues, cancers, id_decoder, auc_decoder, stage_decoder = results
-    create_phenotype_table(tcga_p, gtex_p, id_file, index_db, conn)
-    coding_regions = gtf_to_cds(gtf_path)
-    print('coding regions discovered')
-    CDS_interval_tree = cds_to_tree(coding_regions)
-    print('CDS tree created')
-    jx_annotations = extract_splice_sites(gtf_path)
-    print('splice sites extracted')
-    id_name_dict = make_id_name_dict(gtf_path)
+    if not index_only:
+        results = parse_phenotypes(gtex_p, tcga_p, id_file)
+        tissues, cancers, id_decoder, auc_decoder, stage_decoder = results
+        create_phenotype_table(tcga_p, gtex_p, id_file, index_db, conn)
+        coding_regions = gtf_to_cds(gtf_path)
+        print('coding regions discovered')
+        CDS_interval_tree = cds_to_tree(coding_regions)
+        print('CDS tree created')
+        jx_annotations = extract_splice_sites(gtf_path)
+        print('splice sites extracted')
+        id_name_dict = make_id_name_dict(gtf_path)
 
-    fill_new_table(
-        tcga_c, tcga_b, gtex_c, gtex_b, index_db, CDS_interval_tree,
-        jx_annotations, id_name_dict, auc_decoder, conn
-    )
+        fill_new_table(
+            tcga_c, tcga_b, gtex_c, gtex_b, index_db, CDS_interval_tree,
+            jx_annotations, id_name_dict, auc_decoder, conn
+        )
+
+    index_new_database(index_db, conn)

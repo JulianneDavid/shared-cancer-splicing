@@ -83,6 +83,12 @@ index_parser.add_argument(
     '--gtf-file', '-g', required=True,
     help='gtf file containing GENCODE annotation.'
 )
+index_parser.add_argument(
+    '--index-only', '-i', action='store_true',
+    help='select this option if database was successfully created but still '
+         'needs to be indexed due to not having enough temporary file storage '
+         'on the previous run.'
+)
 experiment_parser.add_argument(
     '--output-path', '-o', default='./',
     help='Give the path to store neojx experiment output.'

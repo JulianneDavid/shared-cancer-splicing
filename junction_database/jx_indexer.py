@@ -33,7 +33,13 @@ if __name__ == '__main__':
     testing = args.testing
 
     db_name = os.path.join(db_path, 'new_jx_index.db')
-    if args.subparser_name == 'index' and os.path.exists(db_name):
+
+    db_recreation_conditions = (
+        args.subparser_name == 'index'
+        and os.path.exists(db_name)
+        and not args.index_only
+    )
+    if db_recreation_conditions:
         options = ['y', 'n']
         user_check = input(
             '\nThe database file already exists. Would you like to erase the '

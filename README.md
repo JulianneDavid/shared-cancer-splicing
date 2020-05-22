@@ -40,6 +40,8 @@ Note we also made use of [metaSRA](http://metasra.biostat.wisc.edu/)'s ontology 
 
         python3 jx_indexer.py -d DB_DIR index -c GTEx_JUNCTION_COVERAGE -C TCGA_JUNCTION_COVERAGE -b GTEx_JUNCTION_BED -B TCGA_JUNCTION_BED -p GTEx_PHEN -P TCGA_PHEN -s RECOUNT_SAMPLE_IDS -g GENCODE_ANNOTATION_GTF
 
+    Note: steps 1 and 2 require significant temporary file space to execute. Please ensure that your system has ~20GB available space in the directory where temporary files are stored, or [assign temp file storage to a new directory](https://sqlite.org/tempfiles.html#tempdir). If your temporary directory does not have enough available space, you will be directed to re-run step 1 in "index-only" mode, the same command as above but with the addition of the "-i" flag. This is NOT neccessary if your first index mode (step 1) run was successful.
+
 2. Run `jx_indexer.py` in `experiment` mode on junction index to collect junction files for analysis:
 
         python3 jx_indexer.py -d DB_DIR experiment -o OUTPUT_DIR
