@@ -389,6 +389,13 @@ def create_phenotype_table(cancer_phens, tissue_phens, id_file, index_db,
 
     full_df = pd.concat([tcga_phen, gtex_phen], ignore_index=True).fillna('')
 
+    cols = ["TCGA_id", "case_id", "gender", "gleason", "hepatitis_status",
+            "hnsc_location", "hpv_status", "meso_subtype", "primary_type",
+            "project", "project_type_label", "recount_id", "sample_origin",
+            "seminoma", "stage", "tumor_normal", "ucs_subtype",
+            "universal_id", "vital_status"]
+    full_df = full_df[cols]
+
     for ind, row in full_df.iterrows():
         # jx_info = list(map(str, jx_info + cds_cols))
 
